@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>施工法複習</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== 導覽列 ===== -->
+  <nav id="navbar">
+    <div id="chapter-tabs">
+      <!-- 章節按鈕由 app.js 動態插入 -->
+    </div>
+    <div id="nav-actions">
+      <button class="nav-btn" id="btn-records">答題記錄</button>
+      <button class="nav-btn" id="btn-settings">⚙️ 設定</button>
+    </div>
+  </nav>
+
+  <!-- ===== 主內容區 ===== -->
+  <main id="main-content">
+
+    <!-- 章節頁面 -->
+    <section id="chapter-view" class="view active">
+      <div id="chapter-header">
+        <h2 id="chapter-title"></h2>
+        <div id="chapter-header-actions">
+          <button id="btn-chapter-quiz" class="btn-primary">🎯 開始本章測驗</button>
+        </div>
+      </div>
+      <div id="chapter-progress-bar"></div>
+      <div id="cards-container">
+        <!-- 卡片由 app.js 動態插入 -->
+      </div>
+    </section>
+
+    <!-- 答題記錄頁面 -->
+    <section id="records-view" class="view">
+      <h2>答題記錄</h2>
+      <div id="records-container">
+        <!-- 記錄由 app.js 動態插入 -->
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== 測驗 Modal ===== -->
+  <div id="quiz-modal" class="modal hidden">
+    <div class="modal-box">
+      <button class="modal-close" id="quiz-modal-close">✕</button>
+      <h3 id="quiz-modal-title">📋 測驗</h3>
+      <div id="quiz-question-area">
+        <p id="quiz-question-text"></p>
+        <div id="quiz-loading" class="loading-indicator hidden">
+          <span class="spinner"></span> AI 出題中...
+        </div>
+      </div>
+      <textarea id="quiz-answer-input" placeholder="請輸入你的答案..." rows="8"></textarea>
+      <button id="btn-submit-quiz" class="btn-primary">提交答案</button>
+      <div id="quiz-result" class="hidden">
+        <hr />
+        <div id="quiz-grading-loading" class="loading-indicator hidden">
+          <span class="spinner"></span> AI 批改中...
+        </div>
+        <div id="quiz-result-content"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== 設定 Modal ===== -->
+  <div id="settings-modal" class="modal hidden">
+    <div class="modal-box">
+      <button class="modal-close" id="settings-modal-close">✕</button>
+      <h3>⚙️ 設定</h3>
+      <label>
+        API Endpoint
+        <input type="text" id="setting-endpoint" placeholder="https://cc.zhihuiapi.top" />
+      </label>
+      <label>
+        API Key
+        <input type="password" id="setting-apikey" placeholder="sk-..." />
+      </label>
+      <button id="btn-save-settings" class="btn-primary">儲存</button>
+      <p id="settings-saved-msg" class="hidden success-msg">✅ 已儲存</p>
+    </div>
+  </div>
+
+  <!-- ===== 筆記 Modal ===== -->
+  <div id="note-modal" class="modal hidden">
+    <div class="modal-box">
+      <button class="modal-close" id="note-modal-close">✕</button>
+      <h3 id="note-modal-title">📝 筆記</h3>
+      <textarea id="note-modal-input" placeholder="在此輸入你的筆記..." rows="8"></textarea>
+      <div class="note-modal-actions">
+        <button id="btn-save-note-modal" class="btn-primary">儲存筆記</button>
+        <button id="btn-ai-mnemonic-modal" class="btn-secondary">✨ AI 幫我想口訣</button>
+      </div>
+      <div id="note-modal-mnemonic" class="hidden">
+        <hr />
+        <div id="note-modal-mnemonic-loading" class="loading-indicator hidden">
+          <span class="spinner"></span> AI 生成中...
+        </div>
+        <div id="note-modal-mnemonic-content"></div>
+      </div>
+      <p id="note-modal-saved-msg" class="hidden success-msg">✅ 已儲存</p>
+    </div>
+  </div>
+
+  <!-- ===== 複習 Modal ===== -->
+  <div id="review-modal" class="modal hidden">
+    <div class="modal-box modal-box-wide">
+      <button class="modal-close" id="review-modal-close">✕</button>
+      <h3 id="review-modal-title">📖 複習</h3>
+      <div id="review-questions"></div>
+      <div id="review-footer" class="hidden">
+        <button id="btn-submit-review" class="btn-primary">提交答案</button>
+      </div>
+      <div id="review-result" class="hidden">
+        <hr />
+        <div id="review-result-content"></div>
+        <div class="review-result-actions">
+          <button id="btn-review-reset" class="btn-secondary">🔄 重新作答</button>
+          <button id="btn-review-done" class="btn-primary">關閉</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== 卡片模板（隱藏，由 JS clone 使用）===== -->
+  <template id="card-template">
+    <article class="card" data-id="">
+      <h3 class="card-name"></h3>
+      <div class="card-progress"></div>
+      <p class="card-content"></p>
+      <div class="card-actions">
+        <button class="btn-status btn-mastered">✅ 熟練</button>
+        <button class="btn-status btn-review">🔁 待加強</button>
+        <button class="btn-note">📝 筆記</button>
+        <button class="btn-review-card">📖 複習</button>
+        <button class="btn-quiz-card">🎯 測驗</button>
+      </div>
+    </article>
+  </template>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
