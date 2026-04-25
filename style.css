@@ -1148,3 +1148,91 @@ hr {
   padding: 48px 0;
   opacity: 0.7;
 }
+
+/* =============================================
+   手機 RWD
+   ============================================= */
+@media (max-width: 768px) {
+
+  /* 導覽列改兩行 */
+  #navbar {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 8px 12px;
+    gap: 8px;
+  }
+
+  #chapter-tabs {
+    order: 1;
+    width: 100%;
+    flex: none;
+  }
+
+  #nav-actions {
+    order: 2;
+    width: 100%;
+    justify-content: flex-end;
+  }
+
+  /* 主內容往下推（導覽列變高了）*/
+  #main-content {
+    margin-top: 0;
+    padding-top: calc(56px + 44px); /* 原本高度 + 第二行高度 */
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  /* 卡片單欄 */
+  .cards-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Modal 全寬 */
+  .modal-box {
+    width: 95vw;
+    max-height: 88vh;
+    overflow-y: auto;
+  }
+}
+
+/* =============================================
+   手機 hover 殘留修正
+   （手機沒有真正的 hover，點擊後樣式會卡住）
+   ============================================= */
+@media (hover: none) {
+
+  /* 星星：只用 .starred class 控制，取消 hover 顏色 */
+  .btn-star:hover {
+    color: #d1d5db;
+    transform: none;
+  }
+  .btn-star.starred:hover {
+    color: #facc15;
+  }
+
+  /* 熟練按鈕：只有 .active 才顯示綠色 */
+  .btn-mastered:hover:not(.active) {
+    border-color: var(--border);
+    color: var(--text-secondary);
+    background: transparent;
+  }
+
+  /* 待加強按鈕：只有 .active 才顯示橘色 */
+  .btn-review:hover:not(.active) {
+    border-color: var(--border);
+    color: var(--text-secondary);
+    background: transparent;
+  }
+
+  /* 其他按鈕 hover 也重置 */
+  .btn-note:hover,
+  .btn-review-card:hover,
+  .btn-quiz-card:hover,
+  .tab-btn:hover:not(.active),
+  .nav-btn:hover,
+  .filter-btn:hover:not(.active) {
+    border-color: var(--border);
+    color: var(--text-secondary);
+    background: transparent;
+  }
+}
