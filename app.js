@@ -163,16 +163,16 @@ function renderChapter(chapterData) {
   chapterTitle.textContent = `${chapterData.chapter} ${chapterData.title}`;
   cardsContainer.innerHTML = "";
   renderChapterProgress(chapterData);
-  renderFilterBar();       // ← 篩選列
-  renderCards(chapterData); // ← 卡片（依目前 filter）
+  renderFilterBar();   // ← 篩選列（建好後不再清除）
+  renderCards(chapterData);
 }
 
-/** 只重新渲染卡片區（篩選切換時用） */
+/** 只重新渲染卡片區（篩選切換時用，不動篩選列） */
 function renderCards(chapterData) {
-  // 清除舊卡片但保留篩選列
-  const filterBar = document.getElementById("card-filter-bar");
-  cardsContainer.innerHTML = "";
-  if (filterBar) cardsContainer.appendChild(filterBar);
+  // 移除舊的 section-group 和 filter-empty，保留篩選列
+  Array.from(cardsContainer.children).forEach(el => {
+    if (!el.matches("#card-filter-bar")) el.remove();
+  });
 
   const sections = chapterData.sections ?? [{ id: "_", title: null, cards: chapterData.cards }];
   let totalVisible = 0;
