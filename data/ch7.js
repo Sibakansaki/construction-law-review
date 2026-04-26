@@ -199,7 +199,6 @@ export default {
           "isExamFocus": true,
           "examYears": [],
           "examHint": "新頒作業指引，常考I型梁翻落風險原因、設計及施工防範措施",
-          "neverTested": true,
           "quiz": [
             {
               "question": "預力I型梁吊放後翻落的主要風險原因，下列何者正確？",

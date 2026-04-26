@@ -160,7 +160,6 @@ export default {
           "isExamFocus": true,
           "examYears": [],
           "examHint": "常考井式基礎施工步驟及竹削工法特點與適用場合",
-          "neverTested": true,
           "quiz": [
             {
               "question": "井式基礎的施工順序，下列何者正確？",
@@ -544,7 +543,6 @@ export default {
           "isExamFocus": true,
           "examYears": [],
           "examHint": "",
-          "neverTested": true,
           "quiz": [
             {
               "question": "節塊推進工法的施工週期，下列何者正確？",

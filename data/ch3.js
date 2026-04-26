@@ -106,7 +106,6 @@ export default {
           "isExamFocus": true,
           "examYears": [],
           "examHint": "",
-          "neverTested": true,
           "quiz": [
             {
               "question": "地錨工法的三要素為何？",
@@ -436,7 +435,6 @@ export default {
           "isExamFocus": true,
           "examYears": ["108年司法特考"],
           "examHint": "SMW工法施工步驟及特性為考題重點",
-          "neverTested": true,
           "quiz": [
             {
               "question": "PIP工法（預壘樁）的正確施工步驟為何？",
@@ -765,7 +763,6 @@ export default {
           "isExamFocus": true,
           "examYears": [],
           "examHint": "",
-          "neverTested": true,
           "quiz": [
             {
               "question": "逆打工法工作縫直接法的特徵，下列何者正確？",

@@ -384,7 +384,6 @@ export default {
           "isExamFocus": true,
           "examYears": ["102年基特四等"],
           "examHint": "常考H-C工法之構造特色與梁柱材料說明",
-          "neverTested": true,
           "quiz": [
             {
               "question": "H-C工法的梁柱材料，下列何者正確？",
@@ -624,7 +623,6 @@ export default {
           "isExamFocus": true,
           "examYears": ["107年地方特考"],
           "examHint": "常考良好焊接條件與電銲工資格要求",
-          "neverTested": true,
           "quiz": [
             {
               "question": "電銲工需重新接受資格檢定的條件，下列何者正確？",

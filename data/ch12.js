@@ -59,7 +59,6 @@ export default {
           "isExamFocus": true,
           "examYears": [],
           "examHint": "",
-          "neverTested": true,
           "quiz": [
             {
               "question": "生態保育四項策略的優先順序，下列何者正確？",
@@ -296,7 +295,6 @@ export default {
           "isExamFocus": true,
           "examYears": ["109年司法特考"],
           "examHint": "常考如何採用最少營建（Lean Construction），應用高效能材料（高強度/高耐久性）、自然材料（植物、塊石、卵石）、再生材料（水淬高爐石粉、飛灰、再生混凝土、CLSM）達成節能減碳目的",
-          "neverTested": true,
           "quiz": [
             {
               "question": "太陽光電的材質與發電原理，下列何者正確？",

@@ -487,7 +487,6 @@ export default {
           "isExamFocus": true,
           "examYears": [],
           "examHint": "",
-          "neverTested": true,
           "quiz": [
             {
               "question": "植筋鑽孔深度的規定，下列何者正確？",
@@ -534,7 +533,6 @@ export default {
           "isExamFocus": true,
           "examYears": ["102年土木技師"],
           "examHint": "常考耐震設計三水準目標（小震不壞、中震可修、大震不倒）及隔震建築優點",
-          "neverTested": true,
           "quiz": [
             {
               "question": "建築物耐震設計的三個水準目標，下列何者正確？",

@@ -59,7 +59,6 @@ export default {
           "isExamFocus": true,
           "examYears": ["101年土木高考"],
           "examHint": "常考營建工地常見施工機具名稱與功能",
-          "neverTested": true,
           "quiz": [
             {
               "question": "行人安全走廊的設置條件及規格，下列何者正確？",
@@ -336,7 +335,6 @@ export default {
           "isExamFocus": true,
           "examYears": [],
           "examHint": "",
-          "neverTested": true,
           "quiz": [
             {
               "question": "合板模板的優點，下列何者正確？",
@@ -619,7 +617,6 @@ export default {
           "isExamFocus": true,
           "examYears": [],
           "examHint": "",
-          "neverTested": true,
           "quiz": [
             {
               "question": "竹節鋼筋的使用規定，下列何者正確？",
@@ -994,7 +991,6 @@ export default {
           "isExamFocus": true,
           "examYears": ["102年土木技師"],
           "examHint": "常考混凝土澆置前應敘明之洗置計畫項目與內容",
-          "neverTested": true,
           "quiz": [
             {
               "question": "混凝土強度品質合格的規定，下列何者正確？",

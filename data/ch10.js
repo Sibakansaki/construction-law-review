@@ -151,7 +151,6 @@ export default {
           "isExamFocus": true,
           "examYears": [],
           "examHint": "",
-          "neverTested": true,
           "quiz": [
             {
               "question": "巨臂式自由斷面挖掘機工法最適合應用於何種場合？",
@@ -529,7 +528,6 @@ export default {
           "isExamFocus": true,
           "examYears": ["102年土木技師", "107年土木技師"],
           "examHint": "常考先撐管幕工法之施作位置（隧道頂拱外圍傘狀佈設）與施工流程",
-          "neverTested": true,
           "quiz": [
             {
               "question": "管幕工法的施工步驟正確順序為何？",
@@ -622,7 +620,6 @@ export default {
           "isExamFocus": true,
           "examYears": [],
           "examHint": "",
-          "neverTested": true,
           "quiz": [
             {
               "question": "沉埋管式隧道工法的施工順序，下列何者正確？",

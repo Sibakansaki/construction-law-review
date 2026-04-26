@@ -307,7 +307,6 @@ export default {
           "isExamFocus": true,
           "examYears": [],
           "examHint": "",
-          "neverTested": true,
           "quiz": [
             {
               "question": "重力式擋土牆的特點與適用高度，下列何者正確？",

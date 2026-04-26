@@ -345,7 +345,6 @@ export default {
           "isExamFocus": true,
           "examYears": [],
           "examHint": "",
-          "neverTested": true,
           "quiz": [
             {
               "question": "反循環基樁孔壁崩坍的原因，下列何者正確？",
@@ -438,7 +437,6 @@ export default {
           "isExamFocus": true,
           "examYears": [],
           "examHint": "",
-          "neverTested": true,
           "quiz": [
             {
               "question": "預壘樁的施工原理，下列何者正確？",
@@ -531,7 +529,6 @@ export default {
           "isExamFocus": true,
           "examYears": [],
           "examHint": "",
-          "neverTested": true,
           "quiz": [
             {
               "question": "鎚擊式樁鎚的適用地層及特性，下列何者正確？",
@@ -671,7 +668,6 @@ export default {
           "isExamFocus": true,
           "examYears": [],
           "examHint": "",
-          "neverTested": true,
           "quiz": [
             {
               "question": "植入樁工法的定義，下列何者正確？",
@@ -955,7 +951,6 @@ export default {
           "isExamFocus": true,
           "examYears": [],
           "examHint": "",
-          "neverTested": true,
           "quiz": [
             {
               "question": "地錨的構造組成，下列何者正確？",
@@ -1002,7 +997,6 @@ export default {
           "isExamFocus": true,
           "examYears": [],
           "examHint": "",
-          "neverTested": true,
           "quiz": [
             {
               "question": "冰凍法的適用地層及改良效果，下列何者正確？",
