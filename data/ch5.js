@@ -59,6 +59,7 @@ export default {
           "isExamFocus": true,
           "examYears": ["101年土木高考"],
           "examHint": "常考營建工地常見施工機具名稱與功能",
+          "neverTested": true,
           "quiz": [
             {
               "question": "行人安全走廊的設置條件及規格，下列何者正確？",
@@ -332,9 +333,10 @@ export default {
           "id": "ch5-5.1.3a",
           "name": "5.1.3 模板工程 — 定義與材質",
           "content": "<strong>定義：</strong>塑造混凝土形狀之模板及其支撐系統，屬臨時性假設工程，對施工安全、品質、工期、成本影響至鉅。<br><br><strong>木模板材料（覆板種類）：</strong><ul><li><strong>框式模板：</strong>木板長條釘成框，四周用角材</li><li><strong>散板：</strong>厚2.5~5.0cm、寬20cm長條木板鋪放</li><li><strong>合板優點：</strong>面積大裝配輕便、材質均勻耐用、接合良好緊密漿少、表面光滑拆模容易、拆模後鑄面光滑可做清水模板</li></ul><strong>金屬模板（鋼模）優點：</strong>剛度大精度良、可澆灌平滑表面、水密性佳、強度大、<strong>轉用率極高</strong>、韌性較高安全可靠<br><strong>鋼模缺點：</strong>混凝土有被鐵鏽污染之虞、笨重不易搬動、初期成本較高、易受溫度影響",
-          "isExamFocus": true,
+          "isExamFocus": false,
           "examYears": [],
           "examHint": "",
+          "neverTested": true,
           "quiz": [
             {
               "question": "合板模板的優點，下列何者正確？",
@@ -614,9 +616,10 @@ export default {
           "id": "ch5-5.2.1a",
           "name": "5.2.1 鋼筋材料與檢驗 — 材質與規格",
           "content": "<strong>鋼筋材質：</strong><ul><li>竹節鋼筋需符合 <strong>CNS560 A2006</strong>；銲接用鋼筋採SD420W或SD280W</li><li>光面鋼筋需符合 <strong>CNS8279 G1019</strong></li><li>一般用鋼筋強度：中拉（fy=2800 kgf/cm²）或高拉（fy=4200 kgf/cm²）</li><li><strong>#3含以上</strong>→竹節鋼筋（凸起節紋增加握裹力）</li><li>#3以下→光面鋼筋（握裹力較小，供螺栓螺線使用）</li></ul><strong>標稱習慣：</strong>「□分」，如#3鋼筋稱3分鋼筋，直徑3/8吋=9.53mm，公制取整數稱D10。<br><br><strong>鐵絲規格：</strong>D16(#5)以上用#18，D16以下用#20（編號愈大直徑愈細）",
-          "isExamFocus": true,
+          "isExamFocus": false,
           "examYears": [],
           "examHint": "",
+          "neverTested": true,
           "quiz": [
             {
               "question": "竹節鋼筋的使用規定，下列何者正確？",
@@ -991,6 +994,7 @@ export default {
           "isExamFocus": true,
           "examYears": ["102年土木技師"],
           "examHint": "常考混凝土澆置前應敘明之洗置計畫項目與內容",
+          "neverTested": true,
           "quiz": [
             {
               "question": "混凝土強度品質合格的規定，下列何者正確？",

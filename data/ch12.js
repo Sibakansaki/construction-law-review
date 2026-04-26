@@ -56,9 +56,10 @@ export default {
           "id": "ch12-12.1.3",
           "name": "12.1.3 生態檢核 — 制度、作業原則與生態保育措施",
           "content": "<strong>制度沿革：</strong>工程會自91年推動生態工程，106年建立生態檢核機制，108年修正為「公共工程生態檢核注意事項」。<br><br><strong>適用範圍：</strong>新建公共工程、需辦理環評工程。<br><strong>得免辦理生態檢核之工程：</strong><ul><li>災後緊急處理、搶修、搶險、災後原地復建</li><li>原構造物範圍內之整建或改善</li><li>已開發場所（既有學校、園區、監獄等範圍內）且無涉生態環境保育議題者</li><li>規劃取得綠建築標章</li><li>維護管理</li></ul><strong>生態保育四項策略（優先順序）：</strong><ol><li><strong>迴避：</strong>回避負面影響，保留不可回復之棲地環境（取消不施作、選擇替代方案、避開生態敏感區、工期安排避開動物大量遷徙或繁殖時間等；減少夜間照明）</li><li><strong>縮小：</strong>縮小工程規模，減少臨時設施物對環境之影響（施工便道盡量減少開發或利用既有施工便道）</li><li><strong>減輕：</strong>採對環境生態傷害較小之工法或材料（保護施工範圍內之既有植被及水域環境、設置臨時動物通道等）</li><li><strong>補償：</strong>以人工營造方式補償棲地損失（修復現地受損環境，或於現地或異地營造棲地環境）</li></ol>",
-          "isExamFocus": true,
+          "isExamFocus": false,
           "examYears": [],
           "examHint": "",
+          "neverTested": true,
           "quiz": [
             {
               "question": "生態保育四項策略的優先順序，下列何者正確？",
@@ -295,6 +296,7 @@ export default {
           "isExamFocus": true,
           "examYears": ["109年司法特考"],
           "examHint": "常考如何採用最少營建（Lean Construction），應用高效能材料（高強度/高耐久性）、自然材料（植物、塊石、卵石）、再生材料（水淬高爐石粉、飛灰、再生混凝土、CLSM）達成節能減碳目的",
+          "neverTested": true,
           "quiz": [
             {
               "question": "太陽光電的材質與發電原理，下列何者正確？",

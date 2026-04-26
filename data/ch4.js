@@ -345,6 +345,7 @@ export default {
           "isExamFocus": true,
           "examYears": [],
           "examHint": "",
+          "neverTested": true,
           "quiz": [
             {
               "question": "反循環基樁孔壁崩坍的原因，下列何者正確？",
@@ -437,6 +438,7 @@ export default {
           "isExamFocus": true,
           "examYears": [],
           "examHint": "",
+          "neverTested": true,
           "quiz": [
             {
               "question": "預壘樁的施工原理，下列何者正確？",
@@ -529,6 +531,7 @@ export default {
           "isExamFocus": true,
           "examYears": [],
           "examHint": "",
+          "neverTested": true,
           "quiz": [
             {
               "question": "鎚擊式樁鎚的適用地層及特性，下列何者正確？",
@@ -668,6 +671,7 @@ export default {
           "isExamFocus": true,
           "examYears": [],
           "examHint": "",
+          "neverTested": true,
           "quiz": [
             {
               "question": "植入樁工法的定義，下列何者正確？",
@@ -948,9 +952,10 @@ export default {
           "id": "ch4-4.3.1d",
           "name": "4.3.1 加勁法 — 七種工法",
           "content": "<strong>加勁法七種（背標題）：</strong><ol><li><strong>地錨：</strong>土錨與岩錨之統稱，為可將拉力傳遞至特定地層之裝置，包含錨頭、自由段及錨碇三部份構造</li><li><strong>岩栓：</strong>較常應用於隧道開挖時之臨時支撐，或山坡岩壁永久穩定之用，係利用鋼筋或鋼棒垂直插入鑽孔中以增加岩體穩定度</li><li><strong>土釘：</strong>係在邊坡土體表面裝設水忉向或具角度之長金屬桿件（釘體），藉其抗拉力、抗剪力及抗彎矩能力增加土體穩定度；土釘完成後通常加預力或施加少量預力，以被動方式加固土體</li><li><strong>微型樁（僅適用表層）：</strong>樁徑10cm至30cm之樁，其抗張鋼材可分為水泥漿、水泥砂漿及混凝土漿等；多角度配合，類似植物之根系時，亦稱為「根樁」</li><li><strong>加勁土：</strong>在回填材料中，分層加入條狀加勁片，並外繫面版之柔性重力式擋土牆；回填材料採用砂質土壤，加勁片為鍍鋅鋼片或格網</li><li><strong>地工合成物：</strong>利用地工聚合物或地工織物之高強度韌性等力學性能結合回填土構築成複合土工結構物增大土體之強度</li><li><strong>短樁：</strong>當地面淺層軟弱土層之支承力不足或沉陷量過大時，以短樁群貫入軟弱土層將構造物載重傳至較深層中</li></ol>",
-          "isExamFocus": true,
+          "isExamFocus": false,
           "examYears": [],
           "examHint": "",
+          "neverTested": true,
           "quiz": [
             {
               "question": "地錨的構造組成，下列何者正確？",
@@ -994,9 +999,10 @@ export default {
           "id": "ch4-4.3.1e",
           "name": "4.3.1 溫度處理法",
           "content": "<strong>冰凍法（較常見）：</strong>利用通過冷媒使土層孔隙水溫度降至冰點下而凍結，減低土層之透水性，並提高其強度。<strong>此法適用於飽和砂土及軟弱粘土</strong>。須於欲改良土體中預先設置循環冷凍管，以大型之冷凍設備將冷凍液媒注入冷凍管中，使鄰近土壤凍結而達改良目的。此法非常昂貴，將地盤長期維持在低溫需很高的成本，<strong>通常僅適用於為施工需要而採取之臨時性局部地層改良工法。</strong><br><br><strong>加熱法：</strong>於鑽孔中加熱，使土層含水量及壓縮性減少，提高其強度（適用黏土）。",
-          "isExamFocus": true,
+          "isExamFocus": false,
           "examYears": [],
           "examHint": "",
+          "neverTested": true,
           "quiz": [
             {
               "question": "冰凍法的適用地層及改良效果，下列何者正確？",

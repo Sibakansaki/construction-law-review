@@ -484,9 +484,10 @@ export default {
           "id": "ch8-8.3.3",
           "name": "8.3.3 植筋工程",
           "content": "<strong>植筋施工流程：</strong>施工前準備→植筋膠進場→植筋膠種類檢查（合格/不合格）→鑽孔植筋→拉拔試驗→完成<br><br><strong>鑽孔規定：</strong><ul><li>按照設計圖說或經核定之施工計畫書規定之施工順序及位置，依規定孔徑、間距鑽孔</li><li>鑽孔深度至少為10倍鋼筋直徑（fy=2800kgf/cm²）或16倍鋼筋直徑（fy=4200kgf/cm²）</li><li>鑽孔過程中，未達設計孔深而遇鋼筋時，則此鑽孔應予廢棄不用，廢孔以無收縮水泥砂漿填實</li><li>鑽孔完畢後，應依說明書規定之刷具、吹氣筒或其他空壓設備自孔底吹氣，並緩緩朝孔洞外移動，以帶出碎屑</li></ul><strong>拉拔試驗規定：</strong><ul><li>植筋前廠商應先植2支作初次拉拔試驗，全部合格始能進行後續植筋作業</li><li>植筋數量超過200支，每200支為一批檢驗1支，餘數達100支以上加驗1支</li><li>施工前設計拉力為1.25Fy；施工後為1.0Fy</li></ul>",
-          "isExamFocus": true,
+          "isExamFocus": false,
           "examYears": [],
           "examHint": "",
+          "neverTested": true,
           "quiz": [
             {
               "question": "植筋鑽孔深度的規定，下列何者正確？",
@@ -533,6 +534,7 @@ export default {
           "isExamFocus": true,
           "examYears": ["102年土木技師"],
           "examHint": "常考耐震設計三水準目標（小震不壞、中震可修、大震不倒）及隔震建築優點",
+          "neverTested": true,
           "quiz": [
             {
               "question": "建築物耐震設計的三個水準目標，下列何者正確？",

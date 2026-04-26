@@ -103,9 +103,10 @@ export default {
           "id": "ch3-3.1.2b",
           "name": "3.1.2.2 支撐開挖工法（地錨工法—背撐）",
           "content": "<strong>定義：</strong>在開挖周圍地盤設置地錨（Anchor）承受側向土壓力，取代水平支撐。<br>原理：鑽孔打入側壁硬質地盤，埋設高拉力鋼鍵，灌注水泥砂漿形成<strong>球根</strong>，利用摩擦錨碇效果達成支撐。<br><br><strong>適用：</strong>開挖面積特大、平面形狀不整、傾斜地開挖、高程計劃複雜<br><br><strong>優點：</strong>無水平支撐、施工空間大、縮短工期；可防止邊坡滑動、抗浮<br><br><strong>缺點：</strong>土地使用範圍大（易有產權問題，可用<strong>可回收式地錨</strong>）、錨碇層深成本高<br><br><strong>地錨三要素：</strong>錨體、抗張材、錨頭<br><strong>地錨試驗：</strong>證明試驗→適用性試驗（現場 <strong>1/10</strong> 數量）→驗收試驗（現場 <strong>9/10</strong> 數量）",
-          "isExamFocus": true,
+          "isExamFocus": false,
           "examYears": [],
           "examHint": "",
+          "neverTested": true,
           "quiz": [
             {
               "question": "地錨工法的三要素為何？",
@@ -435,6 +436,7 @@ export default {
           "isExamFocus": true,
           "examYears": ["108年司法特考"],
           "examHint": "SMW工法施工步驟及特性為考題重點",
+          "neverTested": true,
           "quiz": [
             {
               "question": "PIP工法（預壘樁）的正確施工步驟為何？",
@@ -760,9 +762,10 @@ export default {
           "id": "ch3-3.3.2b",
           "name": "3.3.2 逆打工法 — 工作縫處理",
           "content": "<strong>逆打工法工作縫三種處理方式：</strong><ol><li><strong>直接法：</strong>先施工上下層樓版，後澆灌柱、壁之豎立混凝土，澆置時在頂端差之側面設置漏斗狀注入口</li><li><strong>填充法：</strong>先施工上下層樓版，後澆灌柱、壁，澆灌到工作縫部分以下停止，打設填充材料到接縫</li><li><strong>灌注法：</strong>先施工上下層樓版，後澆灌柱、壁，有計劃的設置注入路或間隙，再由此灌注材料（①②做完若還有縫再用③補充）</li></ol>",
-          "isExamFocus": true,
+          "isExamFocus": false,
           "examYears": [],
           "examHint": "",
+          "neverTested": true,
           "quiz": [
             {
               "question": "逆打工法工作縫直接法的特徵，下列何者正確？",

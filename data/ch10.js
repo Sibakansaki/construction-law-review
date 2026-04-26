@@ -148,9 +148,10 @@ export default {
           "id": "ch10-10.1.3",
           "name": "10.1.3 巨臂式自由斷面挖掘機工法",
           "content": "<strong>適用：</strong>鄰近市區、無法使用鑽炸法之隧道。<br><br><strong>機具：</strong>巨臂型掘削機（Roadheader）或破碎機（Breaker）。<br><br><strong>優點：</strong><ul><li>可調整開挖斷面形狀、尺寸（故稱「自由斷面掘削機」）</li><li>幾乎不超挖、不損及隧道外圍岩體，支撐拱圈效果最佳</li><li>無爆震及噪音，對鄰近建築物及環境影響降至最低</li><li>適用於接近市區之隧道工程</li></ul>",
-          "isExamFocus": true,
+          "isExamFocus": false,
           "examYears": [],
           "examHint": "",
+          "neverTested": true,
           "quiz": [
             {
               "question": "巨臂式自由斷面挖掘機工法最適合應用於何種場合？",
@@ -528,6 +529,7 @@ export default {
           "isExamFocus": true,
           "examYears": ["102年土木技師", "107年土木技師"],
           "examHint": "常考先撐管幕工法之施作位置（隧道頂拱外圍傘狀佈設）與施工流程",
+          "neverTested": true,
           "quiz": [
             {
               "question": "管幕工法的施工步驟正確順序為何？",
@@ -617,9 +619,10 @@ export default {
           "id": "ch10-10.2.5",
           "name": "10.2.5 沉埋管式隧道工法（參考）",
           "content": "<strong>定義：</strong>沉埋管式隧道（immersed tube tunnels）採分節預鑄鋼殼混凝土圓管或鋼筋混凝土箱形管，兩端以臨時端牆密封使其如浮船，水中拖航至預定位置後加壓下沉，相互接合至完全防水，上部回填後打通端牆形成連續隧道。<br><br><strong>施工順序：</strong><ol><li>乾船塢中預鑄</li><li>下水</li><li>水中拖航</li><li>加壓下沉</li><li>沉放接合</li><li>打通端牆</li></ol><strong>適用：</strong>河道、港灣航道下方穿越隧道（如高雄港過港隧道）。一般採潛盾機、TBM等密閉性開挖機具施工，或採預鑄管涵置水上再予下沉致合。",
-          "isExamFocus": true,
+          "isExamFocus": false,
           "examYears": [],
           "examHint": "",
+          "neverTested": true,
           "quiz": [
             {
               "question": "沉埋管式隧道工法的施工順序，下列何者正確？",
