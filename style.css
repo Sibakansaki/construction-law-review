@@ -145,12 +145,16 @@ html, body {
 }
 
 #chapter-header-actions {
+  flex-shrink: 0;
+  white-space: nowrap;
   display: flex;
   gap: 10px;
   align-items: center;
 }
 
 #chapter-title {
+  flex: 1;
+  min-width: 0;
   font-size: 22px;
   font-weight: 700;
   color: var(--text-primary);
