@@ -110,7 +110,7 @@ export default {
           "name": "12.2.1 綠建材 — 定義、分類與認證",
           "content": "<strong>定義（1992年學術界）：</strong>在原料採取、產品製造、應用過程和使用以後的再生利用循環中，對地球環境負荷最小、對人類身體健康無害的材料。<br><br><strong>四大特性：</strong>再使用（Reuse）、再循環（Recycle）、廢棄物減量（Reduce）、低污染（Low emission materials）<br><br><table style='width:100%;border-collapse:collapse;font-size:0.9em'><tr style='background:#dbeafe'><th style='border:1px solid #93c5fd;padding:6px;color:#1e40af'>類型</th><th style='border:1px solid #93c5fd;padding:6px;color:#1e40af'>性能要求</th></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>健康綠建材</td><td style='border:1px solid #93c5fd;padding:6px'>低逸散、低污染、低臭氣</td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>生態綠建材</td><td style='border:1px solid #93c5fd;padding:6px'>抑制溫室效應、抑制臭氧層破壞、使用本土建築材料、省資源/省能源</td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>再生綠建材</td><td style='border:1px solid #93c5fd;padding:6px'>再循環、再利用、廢棄物減量</td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>高性能綠建材</td><td style='border:1px solid #93c5fd;padding:6px'>耐久性佳、不需（低）維護、高隔熱/高防音</td></tr></table><br><strong>認證：</strong>內政部建築研究所認定四大方向（健康、生態、再生、高性能），發給<strong>綠建材標章</strong>。評估手冊目前為2015年版。",
           "isExamFocus": true,
-          "examYears": ["104年土木技師","112年司法三等"],
+          "examYears": ["104年土木技師", "112年司法三等", "105年土木技師"],
           "examHint": "綠建材、高性能透水、評定項目、定義",
           "quiz": [
             {
@@ -296,7 +296,7 @@ export default {
           "isExamFocus": true,
           "examYears": ["109年司法特考"],
           "examHint": "常考如何採用最少營建（Lean Construction），應用高效能材料（高強度/高耐久性）、自然材料（植物、塊石、卵石）、再生材料（水淬高爐石粉、飛灰、再生混凝土、CLSM）達成節能減碳目的",
-          "neverTested": true,
+          "neverTested": false,
           "quiz": [
             {
               "question": "太陽光電的材質與發電原理，下列何者正確？",
@@ -346,7 +346,7 @@ export default {
           "id": "ch12-12.3.1",
           "name": "12.3.1 耐震標章 — 設計標章與施工標章",
           "content": "<strong>背景：</strong>臺灣位處地震頻繁的環太平洋地震帶，參考美國、日本等國制度，採用「特別監造制度」及「中間檢查」制度，藉由公會中立第三方機構之檢查機制確保工程品質。<br><br><strong>耐震標章概分為二：</strong><br><br><strong>1. 耐震設計標章（看設計）：</strong>依據相關公會所制定之「耐震設計標章作業流程」查證機構辦理建築物結構施工前之設計品質查證。<ul><li>主要著重在建築物之結構設計如何確實達到符合「耐震規劃設計品質」之要求標準</li><li>申請流程：申請單位→臺中市土木技師公會→耐震標章（設計）審查委員會→核發耐震設計標章</li></ul><strong>2. 耐震標章（看施工，需記5點）：</strong>由查證機構辦理建築物結構體於施工中現場之施工品質查證及書面資料審查等工作，對建築物在各施工階段之品質進行把關。<ul><li>主要查證目的在確保建築物結構體之「現場施工品質」</li><li>申請流程：申請單位→臺中市土木技師公會→耐震標章（施工）審查委員會→施工結案會議→核發耐震標章</li><li>由特別監督人（事業技師）委任，進行現場登覆、依據樣核監督計畫進行現場查證、並提送特別監督報告</li></ul>",
-          "isExamFocus": false,
+          "isExamFocus": true,
           "examYears": [],
           "examHint": "",
           "neverTested": true,
@@ -393,7 +393,7 @@ export default {
           "id": "ch12-12.3.2",
           "name": "12.3.2 拆除工程管理（需記5點以上）",
           "content": "<strong>特點：</strong>人員流動性大、作業人員素質要求低、潛在危險大、制定拆除方案及前置評估困難、造成環境污染、施工工期短及公害問題（損鄰、噪音、震動）等。<br><br><strong>拆除工程作業注意事項（重點15條）：</strong><ol><li>開工前調查周遭工作環境、構造情況，<strong>擬訂拆除施工計畫</strong>，訂定程序、方法、使用機具及安全維護事項</li><li>調查可能存在之石綿、可燃氣液體、有毒等有害物質及危險物品，供未來施作防護措施參考</li><li>拆除後之地下室或坑洞應以符合規定之填築材料填築並壓實</li><li>檢查預定拆除各部份構件，<strong>對不穩定處加以支撐</strong></li><li>應切斷電源並配合拆除電氣設備及可燃性氣體管</li><li>具有危險之拆除作業區應設置圍欄或標示，<strong>禁止非作業人員進入</strong></li><li><strong>拆除施工應從上至下、逐層拆除分段進行</strong>，應先拆除非承重構件，再拆除承重構件，作業面的孔洞應封閉</li><li>人工拆除建築牆體時，嚴禁採用掏掘或推倒的方法</li><li>拆除建築物的欄杆、樓梯、模板等構件，應與建築結構整體拆除進度相配合，不得先行拆除；承重梁、柱應在其所承載的全部構件拆除後，在進行拆除</li><li>拆除梁或懸挑構件時，應採取有效的下落控制措施，方可切斷兩端的支撐</li><li>拆除管道及容器時，必須在查清殘留物的性質，並採用相應措施確保安全後，方可進行拆除施工</li><li>施工中必須由<strong>專人負責監測</strong>被拆除建築的結構狀態，當發現有不穩定狀態的趨勢時，必須停止作業，採取有效措施</li><li>嚴禁立體交叉作業。水平作業各工位間應有一定的安全距離</li><li>進行高處作業拆除時，以較大尺寸的構件或沉重的材料，必須採用起重機及時吊下</li><li>拆除鋼屋架時，必須採用繩索將其拴牢，待起重機吊穩後，方可進行氣焊切割作業</li></ol>",
-          "isExamFocus": false,
+          "isExamFocus": true,
           "examYears": [],
           "examHint": "",
           "neverTested": true,
@@ -447,7 +447,7 @@ export default {
           "name": "12.4.1 在建工程火害預防",
           "content": "<strong>施工中建築物火災特點：</strong>消防安全設備尚未設置完成；建築結構尚未完整；高樓工地消防水線佈線搶救困難，需仰賴雲梯車高空佈線或高空射水撲滅火災。<br><br><strong>在建工程火害預防注意事項：</strong><ol><li><strong>實施施工風險評估：</strong>於設計或施工規劃階段實施風險評估，致力防止工程施工發生火災</li><li><strong>規劃安全儲藏區：</strong>儲存易燃物品時，隔離儲存、設置禁止煙火警告標誌及滅火器材</li><li><strong>動火作業管理：</strong>動火作業前向管理單位申請，從事電銲、乙炔或金屬研磨等容易產生火花之焊接或切割施工，應將附近之可燃物移除或採用不燃材料或防焰帆布披覆或區劃</li><li><strong>強化緊急應變及教育訓練：</strong>辦理防災演練與應變及教育訓練</li><li><strong>加強設備之定期檢查及作業檢點：</strong>對氧乙炔熔接設備每年就損傷、變形、腐蝕及性能定期實施檢查</li><li><strong>設置滅火設備及簡易滅火設備</strong></li><li><strong>實施門禁管制：</strong>工地應實施門禁管制，並派員確實巡視及裝設監視器設備</li><li><strong>設置休息區、指定勞工吸菸區：</strong>工地設置吸菸區，於指定之吸菸區吸菸，菸蒂丟棄於菸灰缸或裝水之金屬容器內</li></ol>",
           "isExamFocus": true,
-          "examYears": ["111年高考二級"],
+          "examYears": ["111年高考二級", "112年高考二級"],
           "examHint": "工地火災預防、火害防止、安全管理",
           "quiz": [
             {
@@ -493,7 +493,7 @@ export default {
           "name": "12.4.2 & 12.4.3 自動化、預鑄化與營造四化技術",
           "content": "<strong>名詞定義：</strong><ul><li><strong>自動化：</strong>指於工程生命週期中，就規劃設計、施工技術、施工機具、營建管理、營建材料等面向，採用代替、減輕人力或簡化程序之方式、技術或產品，以增進效率、效能，進而提升生產力</li><li><strong>預鑄化：</strong>指透過事前規劃設計，將整體或部分構造拆分為個別構件，於工廠製作生產後運送至工地現場進行組裝</li></ul><strong>營造四化技術（勞動部職業安全衛生署推廣）：</strong><br><em>設計標準化、構件預鑄化、施工機械化、人員專業化</em><br><br><table style='width:100%;border-collapse:collapse;font-size:0.9em'><tr style='background:#dbeafe'><th style='border:1px solid #93c5fd;padding:6px;color:#1e40af'>四化</th><th style='border:1px solid #93c5fd;padding:6px;color:#1e40af'>說明</th><th style='border:1px solid #93c5fd;padding:6px;color:#1e40af'>目的</th></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>設計標準化</td><td style='border:1px solid #93c5fd;padding:6px'>可採全預鑄方式施工，透過單一形式預鑄塊堆疊（如水保工程護岸）</td><td style='border:1px solid #93c5fd;padding:6px'>克服缺工問題、加速施工效率、降低職災發生機率</td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>構件預鑄化</td><td style='border:1px solid #93c5fd;padding:6px'>如混凝土結構採用鋼製模板進行組裝</td><td style='border:1px solid #93c5fd;padding:6px'>減少傳統模板採用大量人力機會，降低作業危害</td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>施工機械化</td><td style='border:1px solid #93c5fd;padding:6px'>以機械代替人力，減少人工現場作業</td><td style='border:1px solid #93c5fd;padding:6px'>整體施工風險可降低，如預鑄工法確實可達到減險效益</td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>人員專業化</td><td style='border:1px solid #93c5fd;padding:6px'>透過教育訓練安排，強化執行團隊之職安知能，專業證照齊全</td><td style='border:1px solid #93c5fd;padding:6px'>督促全體勞工落實工地安全衛生，減少職業災害發生</td></tr></table><br><em>（補充）營造五化（NEW）：另有「管理科技化」（AIoT，人工智慧/物聯網），目的：①補足人力不足；②確認人力盲測死角。</em>",
           "isExamFocus": true,
-          "examYears": ["112年土木技師","110年高考二級"],
+          "examYears": ["112年土木技師", "110年高考二級", "112年高考二級"],
           "examHint": "營造四化、預鑄化、自動化、職安",
           "quiz": [
             {

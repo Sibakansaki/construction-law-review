@@ -101,7 +101,7 @@ export default {
         {
           "id": "ch10-10.1.2b",
           "name": "10.1.2 新奧工法（NATM）— 施工流程與施工特點",
-          "content": "<strong>施工流程（一個輪進）：</strong><ol><li>放樣定位</li><li>點孔位、鑽孔</li><li>裝藥、結線</li><li>爆破、通風</li><li>清浮石、出渣</li><li>支保組立</li><li>掛網噴凝土</li><li>施打岩栓</li></ol><em>待隧道變形趨於收斂後，再分階段打設混凝土襯砌。</em><br><br><strong>施工特點：</strong><ul><li>隧道支撐由四周岩體承擔</li><li>利用噴凝土或岩釘保持岩體三軸應力</li><li>支堡/襯砌施工時機須恰當</li><li>襯砌採可撓性薄層，以免彎曲破壞</li><li>靜水壓與滲流壓應以排水系統消除</li><li>開挖採台階法，避免岩石應力產生突變</li><li>仰拱必須閉合（如同大型厚壁圓管）</li></ul>",
+          "content": "<strong>施工流程（一個輪進）：</strong><ol><li>放樣定位</li><li>點孔位、鑽孔</li><li>裝藥、結線</li><li>爆破、通風</li><li>清浮石、出渣</li><li>支保組立</li><li>掛網噴凝土</li><li>施打岩栓</li></ol><em>待隧道變形趨於收斂後，再分階段打設混凝土襯砌。</em><br><br><strong>施工特點：</strong><ul><li>隧道支撐由四周岩體承擔</li><li>利用噴凝土或岩釘保持岩體三軸應力</li><li>支堡或襯砌施工時機須恰當</li><li>襯砌採可撓性薄層，以免彎曲破壞</li><li>襯砌方式與時機，應由岩體變位狀況決定</li><li>隧道如同大型厚壁圓管，仰拱必須閉合</li><li>隧道之開挖，應採用台階法，以免岩石應力產生變化</li><li>岩盤、主要襯砌（噴凝土、岩釘、鋼支堡）與次要襯砌（混凝土）應密切接合，以傳遞徑向應力</li><li>襯砌所受之靜水壓力與岩體所受之滲流壓力，應以排水系統消除</li></ul>",
           "isExamFocus": true,
           "examYears": ["110年普考"],
           "examHint": "山岳隧道、進洞前、洞口開挖準備",
@@ -340,7 +340,7 @@ export default {
         {
           "id": "ch10-10.2.0",
           "name": "10.2 管道工程分類概述",
-          "content": "<strong>管徑分類：</strong><ul><li>小管徑：直徑 &lt; 30cm</li><li>中管徑：直徑 30~100cm</li><li>大管徑：直徑 &gt; 100cm</li></ul><strong>免開挖工法兩大類：</strong><ul><li>水平導向鑽掘工法（Φ=5-45cm，l=150-200m）</li><li>推進工法（Φ=30-240cm，l&lt;300m）</li><li>潛盾工法（Φ&gt;300cm）</li></ul>",
+          "content": "<strong>管徑分類：</strong><ul><li>小管徑：直徑 &lt; 30cm</li><li>中管徑：直徑 30~100cm</li><li>大管徑：直徑 &gt; 100cm</li></ul><strong>免開挖工法兩大類：</strong><ul><li>水平導向鑽掘工法（Φ=5-45cm，l=150-200m）</li><li>推進工法（Φ=30-240cm，l&lt;300m）</li></ul><strong>另：潛盾工法（Φ&gt;300cm，大管徑）</strong>亦屬免開挖工法，與上述兩類並列於免開挖工法體系中。",
           "isExamFocus": false,
           "examYears": [],
           "examHint": "",
@@ -529,7 +529,7 @@ export default {
           "isExamFocus": true,
           "examYears": ["102年土木技師", "107年土木技師"],
           "examHint": "常考先撐管幕工法之施作位置（隧道頂拱外圍傘狀佈設）與施工流程",
-          "neverTested": true,
+          "neverTested": false,
           "quiz": [
             {
               "question": "管幕工法的施工步驟正確順序為何？",
@@ -619,7 +619,7 @@ export default {
           "id": "ch10-10.2.5",
           "name": "10.2.5 沉埋管式隧道工法（參考）",
           "content": "<strong>定義：</strong>沉埋管式隧道（immersed tube tunnels）採分節預鑄鋼殼混凝土圓管或鋼筋混凝土箱形管，兩端以臨時端牆密封使其如浮船，水中拖航至預定位置後加壓下沉，相互接合至完全防水，上部回填後打通端牆形成連續隧道。<br><br><strong>施工順序：</strong><ol><li>乾船塢中預鑄</li><li>下水</li><li>水中拖航</li><li>加壓下沉</li><li>沉放接合</li><li>打通端牆</li></ol><strong>適用：</strong>河道、港灣航道下方穿越隧道（如高雄港過港隧道）。一般採潛盾機、TBM等密閉性開挖機具施工，或採預鑄管涵置水上再予下沉致合。",
-          "isExamFocus": false,
+          "isExamFocus": true,
           "examYears": [],
           "examHint": "",
           "neverTested": true,

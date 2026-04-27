@@ -103,7 +103,7 @@ export default {
           "name": "11.1.2 瀝青混凝土施工 — 鋪築與滾壓注意事項",
           "content": "<strong>鋪築注意事項（重點）：</strong><ul><li>鋪築機速度、振動及自動厚度調整裝置須妥為控制，鋪築時不得有析離現象</li><li>瀝青混合料倒入鋪築機時之溫度，<strong>不得低於120℃</strong></li><li>分層鋪築時，各層縱橫接縫不得架在同一垂直面上；縱向接縫至少相距<strong>15cm</strong>，橫向接縫至少相距<strong>60cm</strong></li><li>鋪築前兩小時內，先將前一層之表面清理潔淨，並均勻噴灑黏層</li></ul><strong>滾壓注意事項（重點）：</strong><ul><li><strong>初壓：</strong>溫度約110℃~125℃，8~10t二軸三輪鐵輪壓路機；初壓速度≤3km/hr</li><li><strong>主壓：</strong>緊隨初壓之後（距離約60m），溫度82℃~100℃，膠輪壓路機；至少四遍</li><li><strong>終壓：</strong>主壓後，溫度≥65℃，6~8噸二輪壓路機；速度≤5km/hr；至路面平整及無輪痕為止</li><li>滾壓應自車道外側邊緣開始，再逐漸移向路中心；每次重疊後輪之半</li><li>曲線超高處，滾壓應自低側開始，逐漸移向高側</li><li>壓路機鐵輪應以水保持濕潤（水分不得過多）</li><li>滾壓後路面應禁止交通至少<strong>6小時</strong>或至溫度降至50℃以下</li></ul>",
           "isExamFocus": true,
-          "examYears": ["110年地方四等","100年土木技師","104年土木技師","113年土木技師","108年普考","106年地方三等","112年司法三等"],
+          "examYears": ["110年地方四等", "100年土木技師", "104年土木技師", "113年土木技師", "108年普考", "106年地方三等", "112年司法三等", "104年地方三等"],
           "examHint": "熱拌瀝青混凝土、施工溫度、壓實度、瀝青混凝土",
           "quiz": [
             {
@@ -207,7 +207,7 @@ export default {
           "name": "11.1.4 瀝青混凝土維護方法",
           "content": "<strong>常見維護方法：</strong><br><br><strong>1. 填縫：</strong>路面出現較寬裂縫，用空壓機吹出裂縫中沙土，再清理裂縫周圍，以壓力機或大型油壺將熱瀝青灌入裂縫，表面再撒上乾細粒料以免黏輪胎。<br><br><strong>2. 加封：</strong>龜裂面積較大但尚無嚴重變形，先清理乾淨，撒佈粘層，加封一層瀝青混凝土或其他瀝青材料。若有局部車轍或凹陷，應先由下往上逐層補平，才行全面加封。<br><br><strong>3. 局部挖除重鋪（步驟）：</strong><ol><li>以切割機切割路面（各邊至少超出可見破壞範圍30cm）</li><li>噴灑瀝青黏層</li><li>鋪上AC料</li><li>刮平AC料</li><li>以振動夯實機夯實</li><li>以直規檢測平坦度</li></ol><strong>4. 刨除重鋪：</strong>大面積嚴重損壞，以冷刨式刨除機刨除適當厚度，清掃乾淨，撒佈粘層，再鋪上瀝青混凝土。<br><br><strong>路平計畫四步驟：</strong>管線汰換更新→路基改善及孔蓋調降→路面刨除鋪新→維生孔蓋提升。",
           "isExamFocus": true,
-          "examYears": ["112年高考二級","113年司法三等"],
+          "examYears": ["112年高考二級", "113年司法三等"],
           "examHint": "路基不良、道路坑洞、改善措施、道路不平整",
           "quiz": [
             {
@@ -304,7 +304,7 @@ export default {
           "id": "ch11-11.2.2",
           "name": "11.2.2 山坡地擋土牆工法 — 各類型擋土牆",
           "content": "<strong>擋土牆定義：</strong>用以攔阻天然或填築之土石、砂礫等類似粒狀物質所構築之構造物。<br><br><table style='width:100%;border-collapse:collapse;font-size:0.85em'><tr style='background:#dbeafe'><th style='border:1px solid #93c5fd;padding:6px;color:#1e40af'>類型</th><th style='border:1px solid #93c5fd;padding:6px;color:#1e40af'>特徵</th><th style='border:1px solid #93c5fd;padding:6px;color:#1e40af'>適用高度</th></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>重力式</td><td style='border:1px solid #93c5fd;padding:6px'>利用自身自重抵抗土壓力；可用石砌或純混凝土</td><td style='border:1px solid #93c5fd;padding:6px'>≤6m</td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>半重力式</td><td style='border:1px solid #93c5fd;padding:6px'>牆身加少許鋼筋抵抗拉應力</td><td style='border:1px solid #93c5fd;padding:6px'>3~8m</td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>懸臂式</td><td style='border:1px solid #93c5fd;padding:6px'>利用懸臂梁原理，鋼筋混凝土共同抵抗；牆身幾乎垂直，可增加道路使用面積；鋼筋甚多、施工成本高</td><td style='border:1px solid #93c5fd;padding:6px'>5~8m</td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>後拉式</td><td style='border:1px solid #93c5fd;padding:6px'>懸臂式牆背每隔一段距離加建一道拉牆，比懸臂式穩定；施工較複雜</td><td style='border:1px solid #93c5fd;padding:6px'>5~10m</td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>前撐式</td><td style='border:1px solid #93c5fd;padding:6px'>懸臂式牆面每隔一短距離加建一道撐牆；比懸臂式穩定；增加撐牆用地</td><td style='border:1px solid #93c5fd;padding:6px'>5~10m</td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>固定式</td><td style='border:1px solid #93c5fd;padding:6px'>頂端以梁或版固定，如橋台擋土牆</td><td style='border:1px solid #93c5fd;padding:6px'>—</td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>框架式</td><td style='border:1px solid #93c5fd;padding:6px'>重力式一種，預鑄混凝土或木材/金屬構材疊砌，牆背填土壤或卵石；無須裝設排水管；適用地下水位較高邊坡</td><td style='border:1px solid #93c5fd;padding:6px'>—</td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>三明治式</td><td style='border:1px solid #93c5fd;padding:6px'>面層卵石或駁坎磚，中層混凝土，底層碎石填塞；適用開挖高度6m或填方4m以下</td><td style='border:1px solid #93c5fd;padding:6px'>≤6m</td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>錨拉式</td><td style='border:1px solid #93c5fd;padding:6px'>於擋土牆、排樁、格梁上加設地錨；常使用於地下室或道路邊坡；施工成本較高</td><td style='border:1px solid #93c5fd;padding:6px'>—</td></tr></table>",
-          "isExamFocus": false,
+          "isExamFocus": true,
           "examYears": [],
           "examHint": "",
           "neverTested": true,

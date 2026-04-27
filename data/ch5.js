@@ -9,7 +9,7 @@ export default {
         {
           "id": "ch5-5.1.1a",
           "name": "5.1.1 工地安全設施 — 安全圍籬",
-          "content": "<strong>定義：</strong>臨時性、短暫性或簡易性措施，為完成主體構造物施工所必須配合之假設工程。<br><br><strong>安全圍籬材料與規格：</strong><ul><li>鋼鐵或金屬板（≥1.2公分厚）、木板（≥1.5公分）、夾板（≥0.9公分）</li><li>設置高度 <strong>≥2.4公尺</strong></li><li>五層以上建築物或行人安全走廊地區兩旁施工→採用鋼鐵或金屬圍籬</li></ul><strong>告示牌：</strong>尺寸約1.5×1公尺；開挖面積≥3000平方公尺且多面臨路者，每50公尺增設一告示牌",
+          "content": "<strong>定義：</strong>臨時性、短暫性或簡易性措施，為完成主體構造物施工所必須配合之假設工程。<br><br><strong>安全圍籬材料與規格：</strong><ul><li>鋼鐵或金屬板（≥1.2公分厚）、木板（≥1.5公分）、夾板（≥0.9公分）</li><li>設置高度 <strong>≥2.4公尺</strong></li><li>五層以上建築物或行人安全走廊地區兩旁施工→採用鋼鐵或金屬圍籬</li></ul><strong>底座：</strong>安全圍籬底部和地表間空隙，須設金屬板或混凝土防溢座，使基地用水不致溢到基地外。<br><br><strong>施工大門：</strong>車輛出入設置鐵捲門或軌道式活動密閉門，除車輛出入外應隨時封閉，並不得任意遷移。<br><br><strong>告示牌：</strong>尺寸約1.5×1公尺；開挖面積≥3000平方公尺且多面臨路者，每50公尺增設一告示牌；僅對向雙面鄰路者，應於各面增設一告示牌。<br><br><strong>顏色：</strong>以整齊劃一之顏色為原則。如需設置廣告者，應經主管建築機關核准。<br><br><strong>警示標誌：</strong>於圍籬突出轉角處張貼警示標誌圖樣，工區內部圍籬張貼安全標示或標語。<br><br><strong>警示燈：</strong>於圍籬突出、轉角、施工大門處設立警示燈，以利夜間人車注意。",
           "isExamFocus": true,
           "examYears": ["109年普考","110年地方三等"],
           "examHint": "假設工程、定義、重要性、範圍",
@@ -55,11 +55,11 @@ export default {
         {
           "id": "ch5-5.1.1b",
           "name": "5.1.1 工地安全設施 — 安全走廊與起重機具",
-          "content": "<strong>安全走廊規格：</strong><ul><li>臨接長度≥15公尺之重要道路或行人擁擠地區→應設有頂蓋之行人安全走廊</li><li>淨寬≥1.2公尺，淨高≥2.4公尺</li><li>頂面鋼板≥1.5公分厚，頂側緣設≥20公分寬封板</li></ul><strong>起重機具分類：</strong><ul><li>吊升荷重<strong>≥3T</strong>→危險性機械，需勞動檢查機構合格</li><li>0.5T～3T→荷重試驗（1.25倍額定荷重）＋安定性試驗（1.27倍）</li><li>操作≥3T起重機→需中央主管機關認可之技能檢定合格人員</li><li>固定式起重機→需土木、結構、機械技師結構安全簽證</li></ul>",
+          "content": "<strong>安全走廊規格：</strong><ul><li>凡建築基地臨接重要道路或行人擁擠地區或重要名勝地區，其臨接長度在15公尺以上者→應設有頂蓋之行人安全走廊</li><li>淨寬≥1.2公尺，淨高≥2.4公尺</li><li>頂面鋼板≥1.5公分厚，頂側緣設≥20公分寬封板，以防止物料墜落</li></ul><strong>起重機具安全注意事項：</strong><ul><li><strong>A. 吊升荷重≥3T</strong>→危險性機械，非經勞動檢查機構或中央主管機關指定之代行檢查機構檢查合格，不得使用</li><li><strong>B. 0.5T以上不到3T</strong>→應實施荷重試驗（1.25倍額定荷重，實施吊升、直行、旋轉及吊運車橫行等動作）及安定性試驗（逸走防止裝置等停止作用狀態中，最不利安定性條件下，1.27倍額定荷重）</li><li><strong>E. 操作≥3T起重機</strong>→需中央主管機關認可之訓練或技能檢定合格人員</li><li><strong>F. 操作0.5T以上不到3T</strong>→需中央主管機關認可之訓練</li><li><strong>H. 固定式起重機</strong>→需土木、結構、機械技師結構安全簽證</li></ul>",
           "isExamFocus": true,
-          "examYears": ["101年土木高考"],
+          "examYears": ["101年地方三等"],
           "examHint": "常考營建工地常見施工機具名稱與功能",
-          "neverTested": true,
+          "neverTested": false,
           "quiz": [
             {
               "question": "行人安全走廊的設置條件及規格，下列何者正確？",
@@ -148,7 +148,7 @@ export default {
         {
           "id": "ch5-5.1.1d",
           "name": "5.1.1 工地安全設施 — 施工電梯",
-          "content": "<strong>定義：</strong>固定於構造物外側之塔架，以捲揚機帶動車廂上下，搭載人員、材料、小型機具至上方樓層。<br><br><strong>使用管理重點：</strong><ul><li>需經結構計算書結構檢討，依原廠手冊操作維修</li><li>每日作業前依原廠規定檢查各項安全裝置確認正常</li><li>搭載人數、重量等限制應明顯標示</li><li>強風、豪雨、地震來襲時應停止使用，事後確認安全無虞再開放</li><li>下工前車廂降至最底層，關閉所有電源並上鎖</li><li><strong>簽證：</strong>土木、結構、機械技師可簽</li></ul>",
+          "content": "<strong>定義：</strong>固定於構造物外側之塔架作為車廂上下移動之承及導軌，以設於塔架上方之捲揚機捲動揚起車廂，搭載人員、材料、小型機具設備運搬至上方樓層。<br><br><strong>施工電梯使用管理（11項）：</strong><ol><li>需經結構計算書進行結構檢討，並依據原廠操作手冊操作、維修，以確保安全</li><li>指定操作人員，事先經過教育訓練，以熟悉各項操作控制設備</li><li>具備基本日常維修檢點、簡易故障排除等知識</li><li>每日作業前必須依原廠規定先經過檢查各項安全裝置，確認正常後，方可使用</li><li>依規定進行定期保養檢修</li><li>搭載人數、重量等限制應明顯標示於車廂及各樓層入口處，嚴格管制</li><li>搭載人員、機械、材料之載重位置應平均，避免集中某一角落</li><li>車廂移動過程搭載物品可能滾、滑動者必須確實固定</li><li>強風、豪雨、地震來襲時應停止使用。過後應實施檢查確認安全無虞後，方可再行開放</li><li>下工前，應將車廂降至最底層，關閉所有電源並上鎖</li><li><strong>簽證：土木、結構、機械技師可簽</strong></li></ol>",
           "isExamFocus": true,
           "examYears": ["110年地方三等"],
           "examHint": "施工電梯、安全管理、組裝拆除、安全準則",
@@ -333,7 +333,7 @@ export default {
           "id": "ch5-5.1.3a",
           "name": "5.1.3 模板工程 — 定義與材質",
           "content": "<strong>定義：</strong>塑造混凝土形狀之模板及其支撐系統，屬臨時性假設工程，對施工安全、品質、工期、成本影響至鉅。<br><br><strong>木模板材料（覆板種類）：</strong><ul><li><strong>框式模板：</strong>木板長條釘成框，四周用角材</li><li><strong>散板：</strong>厚2.5~5.0cm、寬20cm長條木板鋪放</li><li><strong>合板優點：</strong>面積大裝配輕便、材質均勻耐用、接合良好緊密漿少、表面光滑拆模容易、拆模後鑄面光滑可做清水模板</li></ul><strong>金屬模板（鋼模）優點：</strong>剛度大精度良、可澆灌平滑表面、水密性佳、強度大、<strong>轉用率極高</strong>、韌性較高安全可靠<br><strong>鋼模缺點：</strong>混凝土有被鐵鏽污染之虞、笨重不易搬動、初期成本較高、易受溫度影響",
-          "isExamFocus": false,
+          "isExamFocus": true,
           "examYears": [],
           "examHint": "",
           "neverTested": true,
@@ -379,7 +379,7 @@ export default {
         {
           "id": "ch5-5.1.3b",
           "name": "5.1.3 模板工程 — 模板構造名詞",
-          "content": "<strong>模板構造各部位名詞（記5個）：</strong><table style='width:100%;border-collapse:collapse;font-size:0.9em'><tr style='background:#dbeafe'><th style='border:1px solid #93c5fd;padding:6px;color:#1e40af;font-weight:700'>名稱</th><th style='border:1px solid #93c5fd;padding:6px;color:#1e40af;font-weight:700'>功能</th></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>板模（覆板）</td><td style='border:1px solid #93c5fd;padding:6px'>直接與混凝土相接，防止混凝土流出並固定結構外型</td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>格柵</td><td style='border:1px solid #93c5fd;padding:6px'>直接置於樓版板模或梁底板模下之水平構材</td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>貫材</td><td style='border:1px solid #93c5fd;padding:6px'>置於格柵下，與格柵垂直方向配列之水平構件</td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>支撐</td><td style='border:1px solid #93c5fd;padding:6px'>置於貫材下之垂直構材，將混凝土等載重傳遞至地面</td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>隔件</td><td style='border:1px solid #93c5fd;padding:6px'>保持柱、梁側、牆模板等兩側模板間距固定</td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>模板緊結器</td><td style='border:1px solid #93c5fd;padding:6px'>固定背撐材，防止混凝土側壓造成模板變形</td></tr></table>",
+          "content": "<strong>模板構造各部位名詞（記5個）：</strong><table style='width:100%;border-collapse:collapse;font-size:0.9em'><tr style='background:#dbeafe'><th style='border:1px solid #93c5fd;padding:6px;color:#1e40af;font-weight:700'>名稱</th><th style='border:1px solid #93c5fd;padding:6px;color:#1e40af;font-weight:700'>功能</th></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>板模（覆板）</td><td style='border:1px solid #93c5fd;padding:6px'>直接與混凝土相接，防止混凝土流出並固定結構外型；板模材料以散板及合板兩類為主</td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>格柵</td><td style='border:1px solid #93c5fd;padding:6px'>直接置於樓版板模或梁底板模下之水平構材</td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>貫材</td><td style='border:1px solid #93c5fd;padding:6px'>直接置於樓版模板及梁模板之格柵下的水平構件，其與格柵呈垂直方向配列</td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>支撐</td><td style='border:1px solid #93c5fd;padding:6px'>直接置於樓版模板或梁模板之貫材下的垂直構材，主要將混凝土等營建載重傳遞至地面；分為角材及鋼管支撐兩種</td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>內背撐材</td><td style='border:1px solid #93c5fd;padding:6px'>用於柱模板、梁側模板、牆模板等之中，為防止板模變形及破壞之構材</td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>外背撐材</td><td style='border:1px solid #93c5fd;padding:6px'>使用於柱模板、梁側模板、牆模板等之中，為防止內背撐材破壞及變形之構材</td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>隔件</td><td style='border:1px solid #93c5fd;padding:6px'>為保持柱模板、梁側模板、牆模板等之兩側模板間距固定所使用之構材</td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>模板緊結器</td><td style='border:1px solid #93c5fd;padding:6px'>在柱模板、梁側模板、牆模板等之中，作為固定背撐材用之構件；此構材亦可同時防止因混凝土側壓而使模板向外側之變形</td></tr></table>",
           "isExamFocus": true,
           "examYears": ["106年普考"],
           "examHint": "模板工程、主要構造、功用",
@@ -517,7 +517,7 @@ export default {
         {
           "id": "ch5-5.1.3e",
           "name": "5.1.3 模板工程 — 拆模時間表與再撐",
-          "content": "<strong>拆模應注意事項（留意3點）：</strong><ul><li>先後順序：柱、牆→梁側板→樓板→梁底板</li><li>凸出部份附近拆模→由邊緣開始漸近中心</li><li>拆除模板之支撐時，須注意荷重分擔均勻，並須緩慢進行</li></ul><strong>最少拆模時間表（取最大值）：</strong><table style='width:100%;border-collapse:collapse;font-size:0.9em'><tr style='background:#dbeafe'><th style='border:1px solid #93c5fd;padding:6px;color:#1e40af;font-weight:700'>構件</th><th style='border:1px solid #93c5fd;padding:6px;color:#1e40af;font-weight:700'>最少時間</th></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>柱、牆及梁之不做支撐側模</td><td style='border:1px solid #93c5fd;padding:6px'>12小時</td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>雙向版（75cm以下）</td><td style='border:1px solid #93c5fd;padding:6px'>3天</td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>單向版（淨跨距3~6m，活載重＜靜載重）</td><td style='border:1px solid #93c5fd;padding:6px'>7天</td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>單向版（淨跨距＞6m，活載重＜靜載重）</td><td style='border:1px solid #93c5fd;padding:6px'><strong>10天</strong></td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>柵肋梁（淨跨距＞6m）</td><td style='border:1px solid #93c5fd;padding:6px'><strong>21天</strong></td></tr></table><br><strong>模板再撐（回撐）：</strong>拆除模板支撐後再加上支撐，以保護結構體避免超過應力，並預防樓版下塌及裂縫產生。回撐應於拆模後儘速進行，<strong>並應在當日完成</strong>。",
+          "content": "<strong>拆模應注意事項（留意3點）：</strong><ul><li>先後順序：柱、牆→梁側板→樓板→梁底板</li><li>凸出部份附近拆模→由邊緣開始漸近中心，四入部份模板可任其留於原來位置待其自行脫落</li><li>拆除模板之支撐時，須注意使混凝土之受力及荷重之分擔均勻，並須緩慢進行</li></ul><strong>最少拆模時間表（取最大值）：</strong><table style='width:100%;border-collapse:collapse;font-size:0.9em'><tr style='background:#dbeafe'><th style='border:1px solid #93c5fd;padding:6px;color:#1e40af;font-weight:700'>構件名稱</th><th style='border:1px solid #93c5fd;padding:6px;color:#1e40af;font-weight:700'>最少拆模時間</th></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>柱、牆及梁之不做支撐側模</td><td style='border:1px solid #93c5fd;padding:6px'>12小時</td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>雙向版不影響支撐之盤模（75cm以下）</td><td style='border:1px solid #93c5fd;padding:6px'>3天</td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>雙向版不影響支撐之盤模（大於75cm）</td><td style='border:1px solid #93c5fd;padding:6px'>4天</td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>單向版（淨跨距小於3m，活載重不大於靜載重）</td><td style='border:1px solid #93c5fd;padding:6px'>4天</td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>單向版（淨跨距3m至6m，活載重不大於靜載重）</td><td style='border:1px solid #93c5fd;padding:6px'>7天</td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>單向版（淨跨距大於6m，活載重不大於靜載重）</td><td style='border:1px solid #93c5fd;padding:6px'><strong>10天</strong></td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>單向版（淨跨距小於3m，活載重大於靜載重）</td><td style='border:1px solid #93c5fd;padding:6px'>3天</td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>單向版（淨跨距3m至6m，活載重大於靜載重）</td><td style='border:1px solid #93c5fd;padding:6px'>4天</td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>單向版（淨跨距大於6m，活載重大於靜載重）</td><td style='border:1px solid #93c5fd;padding:6px'>7天</td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>拱模</td><td style='border:1px solid #93c5fd;padding:6px'>14天（活載重≤靜載重）／7天（活載重＞靜載重）</td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>柵肋梁、小梁及大梁底模（淨跨距小於3m）</td><td style='border:1px solid #93c5fd;padding:6px'>7天（活載重≤靜載重）／4天（活載重＞靜載重）</td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>柵肋梁、小梁及大梁底模（淨跨距3m至6m）</td><td style='border:1px solid #93c5fd;padding:6px'>14天（活載重≤靜載重）／7天（活載重＞靜載重）</td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>柵肋梁、小梁及大梁底模（淨跨距大於6m）</td><td style='border:1px solid #93c5fd;padding:6px'><strong>21天</strong>（活載重≤靜載重）／14天（活載重＞靜載重）</td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>後拉預力版系統</td><td style='border:1px solid #93c5fd;padding:6px'>全部預力施加完成後</td></tr></table><br><strong>模板再撐（回撐）：</strong>拆除模板支撐後再加上支撐，以保護結構體避免承受超過之應力，並預防樓版下塌及裂縫產生。回撐應於拆模後儘速進行，<strong>並應在當日完成</strong>。",
           "isExamFocus": true,
           "examYears": ["114年土木技師"],
           "examHint": "模板再撐、系統模板、特點注意事項",
@@ -990,11 +990,11 @@ export default {
         {
           "id": "ch5-5.3.1",
           "name": "5.3.1 混凝土施工計畫",
-          "content": "<strong>施工計劃管理項目（9項）：</strong>施作流程描述、前置作業項目、人力與機具、物料、施工進度、施工計劃、責任歸屬、安全衛生措施、廢棄物及垃圾清運。<br><br><strong>施工圖面檢討：</strong><ul><li>圖面尺寸核對：交叉核對結構圖、建築圖、水電設備圖</li><li>合法性檢討：樓層高度、版厚、坡度等</li><li>合理性檢討：構件尺寸、接縫位置、配筋密度等</li></ul><strong>澆置前必須確立之前置作業：</strong>臨時水電、澆置計畫、施作期間聯絡事項、與模板鋼筋水電搭配、送審項目、數量計算、品質標準、查驗項目、特殊注意事項<br><br><strong>混凝土強度品質合格規定：</strong><ul><li>任何連續三組強度平均值高於規定強度 f'c</li><li>且無任何一組強度低於規定壓力強度<strong>35kgf/cm²</strong></li></ul>",
+          "content": "<strong>施工計劃管理項目（9項）：</strong>施作流程描述、前置作業項目、人力與機具、物料、施工進度、施工計劃、責任歸屬、安全衛生措施、廢棄物及垃圾清運。<br><br><strong>施工圖面檢討：</strong><ul><li>圖面尺寸核對：交叉核對結構圖、建築圖、水電設備圖</li><li>合法性檢討：樓層高度、版厚、坡度等</li><li>合理性檢討：構件尺寸、接縫位置、配筋密度等</li></ul><strong>澆置前必須確立之前置作業：</strong>臨時水電、澆置計畫、施作期間聯絡事項、與模板鋼筋水電搭配、送審項目、數量計算、品質標準、查驗項目、特殊注意事項<br><br><strong>混凝土強度品質合格規定：</strong><ul><li>任何連續三組強度平均值高於規定強度 f'c</li><li>且無任何一組強度低於規定壓力強度<strong>35kgf/cm²</strong>（即不得低於 f'c－35 kgf/cm²）</li></ul>",
           "isExamFocus": true,
-          "examYears": ["102年土木技師"],
+          "examYears": ["102年土木技師", "107年地方三等"],
           "examHint": "常考混凝土澆置前應敘明之洗置計畫項目與內容",
-          "neverTested": true,
+          "neverTested": false,
           "quiz": [
             {
               "question": "混凝土強度品質合格的規定，下列何者正確？",
@@ -1039,7 +1039,7 @@ export default {
           "name": "5.3.2 混凝土澆置作業 — 澆置計畫與出料管理",
           "content": "<strong>混凝土澆置計畫內容（建議與模板合併回答）：</strong>澆置位置範圍、澆置範圍劃分、澆置時間、澆置順序與輸送配管路線、預定澆置強度及各劃分區之數量、出料管理、工地澆置位置圖動線及交通維持、夜間照明、預定取樣方式及數量、施工縫留設位置及處理方式、使用機具與數量、澆置搗實方法、施工檢查計劃、養護方法、混凝土表面修補、工地人員編制。<br><br><strong>出料管理—交貨憑單（CNS3090）必載事項（單車/累積）：</strong>預拌廠名、憑單序號、日期、車輛號碼、承購人姓名、工程名稱及地點、混凝土種類或名稱、混凝土數量（m³）、<strong>裝車時刻</strong>（或水泥與粒料開始拌和時刻）、<strong>收貨人在工地所加之水量及其簽名</strong>",
           "isExamFocus": true,
-          "examYears": ["101年地方四等","102年土木技師","109年土木技師","102年普考","112年地方三等","107年司法三等"],
+          "examYears": ["101年地方四等", "102年土木技師", "109年土木技師", "102年普考", "112年地方三等", "107年司法三等", "104年地方三等"],
           "examHint": "場鑄混凝土、澆置、搗實、品質",
           "quiz": [
             {
@@ -1085,7 +1085,7 @@ export default {
           "name": "5.3.2 混凝土澆置作業 — 取樣與澆置順序",
           "content": "<strong>預定取樣規定：</strong><ul><li>試體於工程司監督下在卸料口取樣製作</li><li>同一日澆置之混凝土，每種配比以<strong>120m³</strong>或每<strong>450m²</strong>澆置面積為一批，每批至少進行一組強度試驗；若有餘數超過<strong>30m³或100m²</strong>時應增加一組試體</li><li>總數量在<strong>40m³以下</strong>，得事先徵得書面同意下免作強度試驗</li><li>混凝土抗壓強度（f'c）為混凝土<strong>28日齡期</strong>之抗壓試驗強度</li></ul><strong>澆置順序：</strong><ol><li>由遠而近，輸送管需以輪胎墊高，以防止扯拉鋼筋（避免應力集中）</li><li>保持平衡，避免集中一處澆置，導致模板面過度集中應力</li><li>牆面澆置應在同區域內保持各部份高度相同</li><li>柱部份應視高度分層澆置（柱與牆不同，S型延時澆置）</li><li>混凝土分次澆置時，新置混凝土應在舊置混凝土<strong>未終凝前</strong>澆置</li><li>牆柱澆置應先卸於模板面再流入，<strong>嚴禁直接於柱牆上方卸料</strong></li></ol>",
           "isExamFocus": true,
-          "examYears": ["101年地方四等","112年地方四等","111年土木技師","107年高考二級","102年普考","108年地方三等"],
+          "examYears": ["101年地方四等", "112年地方四等", "111年土木技師", "107年高考二級", "102年普考", "108年地方三等", "104年地方三等", "110年地方四等"],
           "examHint": "場鑄混凝土、澆置、搗實、品質",
           "quiz": [
             {
@@ -1131,7 +1131,7 @@ export default {
           "name": "5.3.2 混凝土澆置作業 — 搗實注意事項",
           "content": "<strong>搗實之重要性：</strong>搗實不足→表面多氣泡、蜂窩、內部空洞、鋼筋握裹力降低、強度不均；搗實過度→模板變形、材料分離嚴重、鋼筋及埋設物移位。<br><br><strong>振動棒搗實方法（正確操作）：</strong><ul><li>振動棒應盡量<strong>垂直緩慢插入</strong>混凝土中，不得以接觸鋼筋或模板作振動</li><li>振動棒插入點之間距應約為 <strong>45cm</strong></li><li>每一插入點之振動時間應在 <strong>5~15秒</strong>之間</li><li>振動棒插入前次澆注混凝土層內，進入深度應約為 <strong>10cm</strong></li><li><strong>禁止過度振動</strong>或以振動棒移動混凝土</li></ul><strong>搗實足夠的判定：</strong>無氣泡繼續冒出、聲音頻率變高且未繼續變化、模板鋼筋與振動器周圍滿漿。",
           "isExamFocus": true,
-          "examYears": ["101年地方四等","101年土木技師","102年司法三等"],
+          "examYears": ["101年地方四等", "101年土木技師", "102年司法三等", "109年地方四等"],
           "examHint": "場鑄混凝土、澆置、搗實、品質",
           "quiz": [
             {
@@ -1177,7 +1177,7 @@ export default {
           "name": "5.3.2 混凝土澆置作業 — 施工注意事項（各記5點）",
           "content": "<strong>施工前：</strong><ul><li>澆置前一天應將板面澆水濕潤，達到面乾內飽和</li><li>高程確認：由現場人員告知施工人員澆置面高程點</li><li>鋼筋保護層墊塊應完整足夠</li><li>施工架及鷹架詳加檢查，支撐、墊木、橫向拉桿、繫條是否固定確實</li><li>通知預拌廠施工日期及混凝土數量、設計強度配比及坍度</li></ul><strong>施工中：</strong><ul><li>柱或牆之混凝土若與梁版同時澆置，梁版混凝土應延後至少<strong>2小時</strong>，俟先期澆置之混凝土穩定後方可澆置</li><li>牆、柱等結構體之混凝土，應分層澆築，每層高度約<strong>45公分</strong>，上下兩層相隔時間不可超過<strong>1小時</strong>以免形成冷縫</li><li>混凝土蜂窩最容易發生的地方在新、舊混凝土接縫，防止之方法是澆置混凝土之前先鋪墊同水灰比之水泥砂漿<strong>3~5公分</strong>厚</li><li>遇大雨時，應即決定施工縫位置，並中止澆置，已完成部份立即以塑膠帆布等遮蓋</li></ul>",
           "isExamFocus": true,
-          "examYears": ["101年地方四等","114年地方四等","107年土木技師","111年土木技師","113年土木技師","100年地方三等","112年地方三等","102年司法三等"],
+          "examYears": ["101年地方四等", "114年地方四等", "107年土木技師", "111年土木技師", "113年土木技師", "100年地方三等", "112年地方三等", "102年司法三等", "107年地方三等"],
           "examHint": "場鑄混凝土、澆置、搗實、品質",
           "quiz": [
             {
@@ -1223,7 +1223,7 @@ export default {
           "name": "5.3.2 混凝土澆置作業 — 品質管控（預拌車到場）",
           "content": "<strong>預拌車到達工地澆灌前之品質管控（109年鐵路特考）：</strong><br><strong>一、運輸時間查核：</strong>由出貨單上混凝土<strong>出車時刻</strong>，查核運輸時間是否超過規定（持續攪動者不得超過<strong>1小時</strong>，途中未攪動者不得超過<strong>30分鐘</strong>），超過時間者應拒收不得使用。<br><strong>二、卸料檢查：</strong>觀察泵浦車卸料處是否加水殘跡，檢查混凝土外觀（粒料分離、嚴重泌水等），並配合圓柱抗壓試驗防止偷加水。<br><strong>三、工作性量測：</strong>依規定檢測坍度（目視坍度有疑慮亦可施測）；拌和後於澆置前之混凝土溫度不得低於<strong>13℃</strong>，亦不得高於<strong>32℃</strong>。<br><strong>四、混凝土溫度檢測：</strong>通常與混凝土圓柱抗壓試體製作同時實施。<br><strong>五、氯離子含量檢測：</strong>澆置作業前（第1車）、每100m³至少施測一次；氯離子含量＜<strong>0.15 kg/m³</strong>。<br><strong>六、圓柱抗壓試體製作：</strong>每100m³、每450m²、每天至少一組。",
           "isExamFocus": true,
-          "examYears": ["100年土木技師","107年高考二級","102年地方三等","108年地方三等","110年司法三等"],
+          "examYears": ["100年土木技師", "107年高考二級", "102年地方三等", "108年地方三等", "110年司法三等", "105年土木技師"],
           "examHint": "預拌混凝土、品質控制、混凝土強度、混凝土施工試驗",
           "quiz": [
             {
@@ -1269,7 +1269,7 @@ export default {
           "name": "5.3.3 混凝土養護",
           "content": "<strong>養護目的：</strong>確保水化作用進行，產生強度，達到耐久性、水密性與鋼材保護，並防止混凝土表面乾縮龜裂或凍傷。<br><br><strong>養護作業重點：</strong><ul><li>確保水化硬固期間有充足水分供應</li><li>保持適當溫度</li><li>避免暴露面因陽光直射與風吹等氣象作用造成損傷</li><li>減少外力與振動之影響</li></ul><strong>養護方式（養護期間≥7天）：</strong><ul><li><strong>濕治法：</strong>布袋、草墊、毛毯、棉褥等覆蓋並經常灑水；最佳方式</li><li><strong>化學劑養治法：</strong>符合CNS2178或AASHTO M148第二類白色化學劑，噴灑一層化學劑；效果不如濕治法</li><li><strong>蒸汽養治法：</strong>在密閉設備施作；少見，預鑄構件使用；工地無法做</li></ul><strong>寒冷天氣養護：</strong>混凝土溫度維持10~20℃之間<br><strong>炎熱天氣養護：</strong>遮陽、遮陰、噴霧、灑水或覆以淺色保濕覆蓋物",
           "isExamFocus": true,
-          "examYears": ["114年普考","107年司法三等"],
+          "examYears": ["114年普考", "107年司法三等", "105年土木技師"],
           "examHint": "脫模後養護、養護不良、混凝土性質影響、高性能混凝土",
           "quiz": [
             {
@@ -1361,7 +1361,7 @@ export default {
           "name": "5.3.4 混凝土接縫",
           "content": "<strong>混凝土構造物常用接縫種類：</strong><table style='width:100%;border-collapse:collapse;font-size:0.9em'><tr style='background:#dbeafe'><th style='border:1px solid #93c5fd;padding:6px;color:#1e40af;font-weight:700'>種類</th><th style='border:1px solid #93c5fd;padding:6px;color:#1e40af;font-weight:700'>定義與用途</th></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>施工縫（construction joints）</td><td style='border:1px solid #93c5fd;padding:6px'>配合施工計畫，為施工之需要而設置；其接縫間為容許剪力及其他力連續存在，又稱<strong>粘結縫</strong></td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>伸縮縫（expansion joints）</td><td style='border:1px solid #93c5fd;padding:6px'>將相鄰混凝土斷面完全隔離，允許相鄰部份可自由移動；主要用於溫度變化為水平移動之主控因素處</td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>收縮縫（contraction joints）</td><td style='border:1px solid #93c5fd;padding:6px'>將特定混凝土斷面弱化，使乾縮裂紋能吸收於該弱化接縫；又稱<strong>控制縫、假縫或弱面縫</strong></td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>隔離縫（isolation joints）</td><td style='border:1px solid #93c5fd;padding:6px'>避免混凝土版與剛性物間因體積變化造成裂紋而全深度隔離設置</td></tr></table><br><strong>施工縫設置規定：</strong>施工縫宜與主鋼筋垂直；板或梁之施工縫應設置於跨度中央三分之一範圍內；梁、托架、柱冠、托肩及柱頭版須與樓版同時澆置。",
           "isExamFocus": true,
-          "examYears": ["104年普考","109年普考","108年司法三等"],
+          "examYears": ["104年普考", "109年普考", "108年司法三等", "109年地方四等"],
           "examHint": "混凝土接縫、接縫種類、種類、施作時機",
           "quiz": [
             {
@@ -1407,7 +1407,7 @@ export default {
           "name": "5.3.4 混凝土接縫 — 冷縫",
           "content": "<strong>冷縫定義：</strong><ul><li>氣溫低於25℃時若澆置混凝土間停頓<strong>120分鐘</strong>以上</li><li>或氣溫高於25℃時停頓<strong>100分鐘</strong>以上</li></ul>則前後澆置混凝土間會發生連接不良之接縫，稱為冷縫。<br><br><strong>冷縫兩個缺點：</strong>一是漏水；二是混凝土剪應力傳遞不良。<br><br><strong>防止冷縫措施（再澆置前）：</strong><ul><li>加鋪水泥砂漿層</li><li>添加益膠泥增強黏結性</li></ul><strong>若混凝土會產生冷縫之處應規畫為施工縫，</strong>可設置防水施工縫（止水帶等措施）來防止漏水問題。",
           "isExamFocus": true,
-          "examYears": ["100年地方四等","107年土木技師","108年司法三等"],
+          "examYears": ["100年地方四等", "107年土木技師", "108年司法三等", "109年地方四等"],
           "examHint": "冷縫、蜂窩、改善對策、混凝土缺失",
           "quiz": [
             {
@@ -1453,7 +1453,7 @@ export default {
           "name": "5.3.5 特殊混凝土施工 — 高性能混凝土",
           "content": "<strong>高性能混凝土：</strong>調整混凝土配比，使用矽灰、強塑劑等添加材料，達到下列功能：<ul><li><strong>高強度：</strong>篩選骨材及添加劑調整配比；用於橋梁、隧道支撐環片及其他預鑄構件</li><li><strong>高水密性：</strong>使用飛灰、強塑劑等提高稠度，形成密實結構體；用於水中、地下、屋頂層等需較高防水性構造物</li><li><strong>高流動性（自充填）：</strong>使用強塑劑、流動化劑或增黏劑等化學摻料，使混凝土呈現幾近無坍度之流體；「自充填效能」品管項目：<strong>坍流度、V形漏斗流下及鋼筋間隙通過性（U形箱試驗）</strong>三項試驗</li></ul>",
           "isExamFocus": true,
-          "examYears": ["111年地方四等","111年土木技師","101年高考二級","105年高考二級","106年高考二級","107年司法三等","110年司法三等"],
+          "examYears": ["111年地方四等", "111年土木技師", "101年高考二級", "105年高考二級", "106年高考二級", "107年司法三等", "110年司法三等", "102年高考二級"],
           "examHint": "自充填混凝土、SCC、與傳統混凝土比較、高性能混凝土",
           "quiz": [
             {
@@ -1497,22 +1497,28 @@ export default {
         {
           "id": "ch5-5.3.5b",
           "name": "5.3.5 特殊混凝土施工 — 輕質、巨積、水中、噴凝土",
-          "content": "<strong>輕質混凝土：</strong>使用輕質粒料（符合CNS3691 A2046）為骨材，乾鬆單位重一般不超過<strong>1120 kg/m³</strong>，28天抗壓強度最低應為<strong>175 kgf/cm²</strong>，混凝土之氣乾單位重應小於<strong>2000 kg/m³</strong>。<br><br><strong>巨積混凝土（養護21天）：</strong>廣場、池牆、筏式基礎版等，容易因溫度收縮應力引致隆裂。施工時主要控制發熱量與構件內測溫度，通常採用氮氣、冰削或低溫水，降低混凝土初始溫度，減少水泥用量、增加飛灰用量等措施。<br><br><strong>水中混凝土：</strong>用於基樁、連續壁、堤岸等鄰近水域。澆置採<strong>特密管</strong>（漏斗法）自底端循序流出，管底埋置於混凝土中，防止被水稀釋。澆置過程：流速＜3m/sec，平穩澆置，水溫＞2℃，應連續不可中斷。<br><br><strong>噴凝土：</strong>用於坡面及隧道壁面支撐，採噴塗方式施工，須使用<strong>速凝劑及減水劑</strong>，須考量其性質相容之因素。",
+          "content": "<strong>輕質混凝土：</strong>使用輕質粒料（符合CNS3691 A2046）為骨材，乾鬆單位重一般不超過<strong>1120 kg/m³</strong>，28天抗壓強度最低應為<strong>175 kgf/cm²</strong>，混凝土之氣乾單位重應小於<strong>2000 kg/m³</strong>。<br><br><strong>巨積混凝土（養護21天）：</strong>廣場、池牆、筏式基礎版等，容易因溫度收縮應力引致隆裂。施工時主要控制發熱量與構件內測溫度，通常採用氮氣、冰削或低溫水，以降低混凝土初始溫度，減少水泥用量、增加飛灰用量等措施。<br><br><strong>水中混凝土：</strong>用於基樁、連續壁、堤岸等鄰近水域或（泥）水下作業之環境。<br><strong>澆置方式（四種）：</strong><ol><li><strong>漏斗法（特密管法）：</strong>利用可組拆鋼管，上設漏斗，下設底閥，沉降入水中適當位置，開底閥澆注混凝土，並維持適當埋深（1.5~2m），持續澆注</li><li><strong>吊斗法（開底吊桶法）：</strong>混凝土裝於吊斗中，沉降入水中適當位置，開底門，卸出混凝土，緩速提升吊斗</li><li><strong>沉袋法（開底袋法）：</strong>以帆布袋裝滿混凝土，下口打活結，沉降入適當位置，拉開活結，卸出混凝土，緩速提升帆布袋</li><li><strong>唧筒法（泵送法）：</strong>以固定長度鋼管（1.5~2m），下設底閥，管內滿漿，澆注混凝土，並維持適當埋深（50cm），持續澆注</li></ol><strong>應注意事項：</strong><ul><li>材料與配比：水泥至少375 kg/m³、水膠比小於0.55、標稱最大粒徑≤1/2鋼筋淨間距且＜25mm、坍度15～21cm</li><li>流速＜3m/sec；平穩澆置，維持水平；水溫＞2℃；應連續，不可中斷</li><li>薄層混凝土禁用；施工縫妥善處理，清除乳沫；避免在污濁有害物含量高之水中施作</li></ul><br><strong>噴凝土：</strong>用於坡面及隧道壁面支撐，採噴塗方式施工，須使用<strong>速凝劑及減水劑</strong>，須考量其性質相容之因素。",
           "isExamFocus": true,
-          "examYears": ["105年高考二級","105年普考","107年司法三等","112年司法三等"],
+          "examYears": ["105年高考二級", "105年普考", "107年司法三等", "112年司法三等", "102年高考二級"],
           "examHint": "特殊混凝土、材料特性、使用時機、水中混凝土",
           "quiz": [
             {
-              "question": "水中混凝土的澆置方式，下列何者正確？",
-              "options": ["A. 採特密管（漏斗法）自底端循序流出", "B. 管底需埋置於混凝土中", "C. 澆置過程應連續不可中斷", "D. 可從水面直接澆置"],
-              "answer": ["A", "B", "C"],
-              "explanation": "水中混凝土採特密管從底端流出，管底埋於混凝土中，需連續澆置不中斷。從水面直接澆置會被水稀釋，是錯誤做法。"
+              "question": "水中混凝土的四種澆置方式，下列何者正確？",
+              "options": ["A. 漏斗法（特密管法）", "B. 吊斗法（開底吊桶法）", "C. 沉袋法（開底袋法）", "D. 唧筒法（泵送法）"],
+              "answer": ["A", "B", "C", "D"],
+              "explanation": "水中混凝土四種澆置方式：漏斗法（特密管法）、吊斗法（開底吊桶法）、沉袋法（開底袋法）、唧筒法（泵送法）。四項全部正確。"
             },
             {
               "question": "水中混凝土澆置的限制條件，下列何者正確？",
               "options": ["A. 流速需小於3m/sec", "B. 水溫需高於2℃", "C. 中途停止再繼續澆置不影響品質", "D. 需平穩緩慢澆置"],
               "answer": ["A", "B", "D"],
               "explanation": "水中混凝土流速<3m/sec、水溫>2℃、需平穩連續澆置。中途停止會造成冷縫，是不允許的做法。"
+            },
+            {
+              "question": "水中混凝土漏斗法（特密管法）的施工要點，下列何者正確？",
+              "options": ["A. 管底需埋置於混凝土中", "B. 維持適當埋深1.5~2m", "C. 澆置過程應連續不可中斷", "D. 可從水面直接澆置"],
+              "answer": ["A", "B", "C"],
+              "explanation": "漏斗法管底埋於混凝土中（埋深1.5~2m），需連續澆置不中斷。從水面直接澆置會被水稀釋，是錯誤做法。"
             },
             {
               "question": "巨積混凝土的施工控制重點，下列何者正確？",
@@ -1527,16 +1533,10 @@ export default {
               "explanation": "輕質混凝土：乾鬆單位重≤1120 kg/m³、28天強度≥175 kgf/cm²、氣乾單位重<2000 kg/m³。2400是一般混凝土的密度。"
             },
             {
-              "question": "噴凝土的使用場合及必要添加劑，下列何者正確？",
-              "options": ["A. 用於坡面及隧道壁面支撐", "B. 須使用速凝劑", "C. 須使用減水劑", "D. 不需任何添加劑可直接噴塗"],
+              "question": "關於水中混凝土材料與配比規定，下列何者正確？",
+              "options": ["A. 水泥至少375 kg/m³", "B. 水膠比小於0.55", "C. 坍度15～21cm", "D. 標稱最大粒徑可超過鋼筋淨間距的1/2"],
               "answer": ["A", "B", "C"],
-              "explanation": "噴凝土用於坡面及隧道支撐，需使用速凝劑（快速凝結固定）及減水劑（維持流動性），且兩者性質需相容。"
-            },
-            {
-              "question": "巨積混凝土溫度裂縫的產生機制，下列何者正確？",
-              "options": ["A. 水泥水化產生大量熱量", "B. 構件內外溫差過大產生收縮應力", "C. 溫度應力超過混凝土抗拉強度導致隆裂", "D. 降低水泥用量會增加水化熱"],
-              "answer": ["A", "B", "C"],
-              "explanation": "巨積混凝土水化熱大，內外溫差造成收縮應力，超過抗拉強度即隆裂。降低水泥用量可減少水化熱（非增加）。"
+              "explanation": "水中混凝土材料規定：水泥≥375 kg/m³、水膠比<0.55、坍度15~21cm。標稱最大粒徑需≤1/2鋼筋淨間距且<25mm（不可超過）。"
             }
           ]
         }

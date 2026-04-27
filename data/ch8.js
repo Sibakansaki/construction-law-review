@@ -9,7 +9,7 @@ export default {
         {
           "id": "ch8-8.1.1",
           "name": "8.1.1 泥作工程",
-          "content": "<strong>水泥砂漿各添加材料作用：</strong><ul><li><strong>貝殼灰：</strong>防止龜裂</li><li><strong>石膏：</strong>產生緩凝、膨脹並防止由收縮引起之龜裂</li><li><strong>石灰：</strong>產生收縮</li><li><strong>海菜粉：</strong>增加稠度，產生緩凝</li></ul><strong>防止龜裂的措施：</strong><ul><li>大面積埋設物（如配電盤）粉刷前須裝鐵絲網</li><li>每一次粉刷厚度不要超過9mm</li><li>適當配比；不可催乾</li></ul><strong>地坪磁磚鋪貼工法：</strong><ul><li><strong>軟底乾拌式（大理石工法）：</strong>適用地磚尺寸大於40cm，常用室內外大尺寸地磚</li><li><strong>軟底濕式：</strong>適用地磚尺寸15~40cm，常用於陽台、露台、屋頂平台、室外地坪</li><li><strong>硬底鋪設：</strong>適用地磚尺寸小於15cm，常用於車道、小陽台、中庭花園</li></ul>",
+          "content": "<strong>水泥砂漿各添加材料作用：</strong><ul><li><strong>貝殼灰：</strong>防止龜裂</li><li><strong>石膏：</strong>產生緩凝、膨脹並防止由收縮引起之龜裂</li><li><strong>石灰：</strong>產生收縮</li><li><strong>海菜粉：</strong>增加稠度，產生緩凝</li></ul><strong>龜裂之防止：</strong><br>A. 混凝土龜裂之排除與追查（5種成因）：<ul><li>因外力（如地震、振動，不均勻載重）引起結構物沉陷之龜裂</li><li>水泥不正常之凝結所引起之龜裂</li><li>乾燥收縮之凝結所引起之龜裂</li><li>溫度變化所引起之龜裂</li><li>施工不良（如模板下陷等）所引起之龜裂</li></ul>B. 大面積埋設物（如配電盤）粉刷前須裝鐵絲網<br>C. 每一次粉刷厚度不要超過9mm<br>D. 適當配比<br>E. 不可催乾<br><br><strong>地坪磁磚鋪貼工法：</strong><ul><li><strong>軟底乾拌式（大理石工法）：</strong>適用地磚尺寸大於40cm，常用室內外大尺寸地磚</li><li><strong>軟底濕式：</strong>適用地磚尺寸15~40cm，常用於陽台、露台、屋頂平台、室外地坪</li><li><strong>硬底鋪設：</strong>適用地磚尺寸小於15cm，常用於車道、小陽台、中庭花園</li></ul>",
           "isExamFocus": true,
           "examYears": ["105年地方四等"],
           "examHint": "泥作工程、裝修材料、檢測程序",
@@ -55,7 +55,7 @@ export default {
         {
           "id": "ch8-8.1.2",
           "name": "8.1.2 隔間工程",
-          "content": "<strong>隔間牆比較：</strong><table style='width:100%;border-collapse:collapse;font-size:0.9em'><tr style='background:#dbeafe'><th style='border:1px solid #93c5fd;padding:6px;color:#1e40af;font-weight:700'>類型</th><th style='border:1px solid #93c5fd;padding:6px;color:#1e40af;font-weight:700'>優點</th><th style='border:1px solid #93c5fd;padding:6px;color:#1e40af;font-weight:700'>缺點</th><th style='border:1px solid #93c5fd;padding:6px;color:#1e40af;font-weight:700'>用途</th></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>RC牆</td><td style='border:1px solid #93c5fd;padding:6px'>抗震強、防火佳、隔音佳、使用壽命長</td><td style='border:1px solid #93c5fd;padding:6px'>自重重、延展性低、易龜裂或壁癌</td><td style='border:1px solid #93c5fd;padding:6px'>外牆、剪力牆、承重牆</td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>輕隔間牆</td><td style='border:1px solid #93c5fd;padding:6px'>施工快速、重量輕、抗震佳、防火佳</td><td style='border:1px solid #93c5fd;padding:6px'>隔音差、不耐碰撞、修補較費事</td><td style='border:1px solid #93c5fd;padding:6px'>室內隔間、管道間</td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>紅磚牆</td><td style='border:1px solid #93c5fd;padding:6px'>防火佳、隔音佳、層間變位發生率低</td><td style='border:1px solid #93c5fd;padding:6px'>抗震性差、重量大、施工時污染性大</td><td style='border:1px solid #93c5fd;padding:6px'>室內隔間、管道間、圍牆</td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>白磚牆（ALC）</td><td style='border:1px solid #93c5fd;padding:6px'>可切割成須用尺寸、精準度高、重量輕</td><td style='border:1px solid #93c5fd;padding:6px'>隔音差、吸水性強、耐震性差</td><td style='border:1px solid #93c5fd;padding:6px'>室內隔間、管道間</td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>水泥空心磚牆</td><td style='border:1px solid #93c5fd;padding:6px'>規格平整、重量輕、隔熱防火隔音均佳</td><td style='border:1px solid #93c5fd;padding:6px'>砌磚時需鋪設補強筋、孔隙大防水性差</td><td style='border:1px solid #93c5fd;padding:6px'>庭園、圍牆、地下室隔牆</td></tr></table>",
+          "content": "<strong>隔間牆比較：</strong><table style='width:100%;border-collapse:collapse;font-size:0.9em'><tr style='background:#dbeafe'><th style='border:1px solid #93c5fd;padding:6px;color:#1e40af;font-weight:700'>類型</th><th style='border:1px solid #93c5fd;padding:6px;color:#1e40af;font-weight:700'>優點</th><th style='border:1px solid #93c5fd;padding:6px;color:#1e40af;font-weight:700'>缺點</th><th style='border:1px solid #93c5fd;padding:6px;color:#1e40af;font-weight:700'>用途</th></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>RC牆</td><td style='border:1px solid #93c5fd;padding:6px'>抗震強、防火佳、隔音佳、支撐力及吊掛強度大、使用壽命長</td><td style='border:1px solid #93c5fd;padding:6px'>自重較重、抗張力差、延展性低、因溫差及毛細現象容易龜裂或壁癌、施工配合性繁複成本較高</td><td style='border:1px solid #93c5fd;padding:6px'>外牆、分戶隔牆、剪力牆、承重牆</td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>輕隔間牆</td><td style='border:1px solid #93c5fd;padding:6px'>施工快速、環境污染性低、重量輕、板面油漆裝漬方便、抗震性佳、防火性佳</td><td style='border:1px solid #93c5fd;padding:6px'>隔音性較差、板面不耐碰撞、性質相異建材之交接處易產生層間變位且修補較費事</td><td style='border:1px solid #93c5fd;padding:6px'>室內隔間、管道間、其他必須填炔特殊建材的隔間</td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>紅磚牆</td><td style='border:1px solid #93c5fd;padding:6px'>防火性佳、隔音性佳、層間變位發生率低且修補快速容易</td><td style='border:1px solid #93c5fd;padding:6px'>抗震性差、重量大、表面須經粉刷作業、施工時污染性大且垃圾量增多</td><td style='border:1px solid #93c5fd;padding:6px'>室內隔間、管道間、圍牆</td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>白磚牆（ALC）</td><td style='border:1px solid #93c5fd;padding:6px'>可切割出須用尺寸、精準度高、施工快速便捷、環境污染性低、重量輕、板面裝漬方便、防火性佳</td><td style='border:1px solid #93c5fd;padding:6px'>隔音性差、吸水性強不易乾燥、耐震性較差、易龜裂、牆面須用膨脹螺絲懸掛重物且載重量較低</td><td style='border:1px solid #93c5fd;padding:6px'>室內隔間、管道間</td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>水泥空心磚牆</td><td style='border:1px solid #93c5fd;padding:6px'>規格平整、重量輕、隔熱性、防火性、隔音性均佳</td><td style='border:1px solid #93c5fd;padding:6px'>砌磚時須鋪設補強鋼筋（或剪力網）、灌注混凝土使工序繁複、孔隙大防水性差、表面粗糙使面飾裝漬不易作業</td><td style='border:1px solid #93c5fd;padding:6px'>庭園、圍牆、地下室隔牆</td></tr></table>",
           "isExamFocus": false,
           "examYears": [],
           "examHint": "",
@@ -155,7 +155,7 @@ export default {
         {
           "id": "ch8-8.2.1",
           "name": "8.2.1 防水工程導論",
-          "content": "<strong>防水系統三種類型：</strong><ul><li><strong>軀體防水（body waterproof）：</strong>結構體本身施作前加入防水材添加劑，或於結構體表面塗抹防水砂漿層形成阻絕層。此法需於混凝土施作時即加以處理，非修繕時之方法。</li><li><strong>表面防水（outside waterproof）：</strong>於混凝土面利用塗膜或鋪設薄膜方式，形成防水層。分為瀝青防水工法、薄片防水工法、塗膜防水工法及皂土防水工法四類。</li><li><strong>線防水（filament waterproof）：</strong>又稱接線縫防水，防止水份於結構體中之施工縫或伸縮縫等滲漏。材料有填縫材、止水帶以及水封材（觀墊條）等。</li></ul>",
+          "content": "<strong>防水系統三種類型：</strong><ul><li><strong>軀體防水（body waterproof）：</strong>結構體本身施作前加入防水材添加劑，或於結構體表面塗抹防水砂漿層形成阻絕層。此法需於混凝土施作時即加以處理，非修繕時之方法。</li><li><strong>表面防水（outside waterproof）：</strong>於混凝土面利用塗膜或鋪設薄膜方式，形成防水層。分為瀝青防水工法、薄片防水工法、塗膜防水工法及皂土防水工法四類。</li><li><strong>線防水（filament waterproof）：</strong>又稱接線縫防水，防止水份於結構體中之施工縫或伸縮縫等滲漏。材料有填縫材、止水帶以及水封材（或稱為襯墊條）等。</li></ul>",
           "isExamFocus": true,
           "examYears": ["105年地方四等"],
           "examHint": "防水工程、施工要點",
@@ -391,7 +391,7 @@ export default {
         {
           "id": "ch8-8.3.2a",
           "name": "8.3.2 耐震補強工法 — 擴柱、翼牆、剪力牆",
-          "content": "<strong>既有RC結構物耐震能力不足的原因：</strong>當時耐震設計標準較低、結構系統規劃欠佳、耐震設計不良、施工品質欠佳、結構物老劣化<br><br><strong>1. 擴柱補強工法：</strong>擴大原有RC柱斷面，增加柱軸向強度、撓曲強度、剪力強度，雙向提高柱構件強度，同時提升強度及韌性。空間需求：補強後通行寬度大於1.8m。<br><br><strong>2. 翼牆補強工法：</strong>獨立柱改為附加RC翼牆之柱，屬結構系統改善補強工法，單方向提高耐震強度，強度提升效果較韌性提升效果好。適合強梁弱柱或軟弱底層之結構形式；翼牆尺寸建議大於20cm，採雙層雙向配筋。<br><br><strong>3. 剪力牆補強工法：</strong>RC剪力牆具有高強度及高勁度，用來單向改善結構抗側力系統之平立面勁度及強度分布均勻性。配置原則：足夠量、均佈、對稱、抗扭（配置於外周）。",
+          "content": "<strong>既有RC結構物耐震能力不足的原因：</strong>當時耐震設計標準較低、結構系統規劃欠佳、耐震設計不良、施工品質欠佳、結構物老劣化、其他<br><br><strong>1. 擴柱補強工法：</strong>擴大原有RC柱斷面，增加柱軸向強度、撓曲強度、剪力強度，雙向提高柱構件強度，同時提升強度及韌性。空間需求：補強後通行寬度大於1.8m。<br><br><strong>2. 翼牆補強工法：</strong>獨立柱改為附加RC翼牆之柱，屬結構系統改善補強工法，單方向提高耐震強度，強度提升效果較韌性提升效果好。適合強梁弱柱或軟弱底層之結構形式；翼牆尺寸建議大於20cm，採雙層雙向配筋。<br><br><strong>3. 剪力牆補強工法：</strong>RC剪力牆具有高強度及高勁度，用來單向改善結構抗側力系統之平立面勁度及強度分布均勻性。配置原則：足夠量、均佈、對稱、抗扭（配置於外周）。",
           "isExamFocus": true,
           "examYears": ["109年土木技師","106年司法三等"],
           "examHint": "耐震補強、柱補強方法、地震損壞、建築結構",
@@ -530,11 +530,11 @@ export default {
         {
           "id": "ch8-8.3.4",
           "name": "8.3.4 耐震建築",
-          "content": "<strong>耐震設計基本原則：</strong>規範明定新建建築物，至少要能達到「<strong>小震不壞、中震可修、大震不倒</strong>」的耐震標準。<br><br><strong>耐震建築原理：</strong><ul><li><strong>消能：</strong>利用可變形或可破壞之斜撐桿件或可復原之阻尼器，拉長建築物振動週期及增加阻尼比，期以達到提高建築耐震能力之效果。但仍不能改變建築物在地震時樓層間變位之事實。</li><li><strong>隔震：</strong>在日本稱為「免震構造」，原理是利用隔震器或隔震墊拉長建築物振動週期及增加阻尼比，以降低地震力對建築物的衝擊。用隔震器將地震時建築物的擺動轉換為建築物對地面的橫向位移，地震能量由隔震器來吸收。</li></ul><strong>隔震建築優點：</strong><ul><li>大量降低地震時搖擺程度</li><li>可提高耐震等級1.5倍以上</li><li>大幅降低地震對構造及設備的破壞</li><li>隔震器上部之結構強度可以折減，降低結構造價10%~35%</li><li>大幅減少勁度分配不良之配置問題（如短柱效應、L型配置）</li></ul>",
+          "content": "<strong>耐震設計基本原則：</strong>規範明定新建建築物，至少要能達到「<strong>小震不壞、中震可修、大震不倒</strong>」的耐震標準。<br><br><strong>耐震建築原理：</strong><ul><li><strong>消能：</strong>利用可變形或可破壞之斜撐桿件或可復原之阻尼器，拉長建築物振動週期及增加阻尼比，期以達到提高建築耐震能力之效果。但仍不能改變建築物在地震時樓層間變位之事實。</li><li><strong>隔震：</strong>在日本稱為「免震構造」，原理是利用隔震器或隔震墊拉長建築物振動週期及增加阻尼比，以降低地震力對建築物的衝擊。用隔震器將地震時建築物的擺動轉換為建築物對地面的橫向位移，地震能量由隔震器來吸收。</li></ul><strong>隔震建築優點：</strong><ul><li>大量降低地震時搖擺程度</li><li>可提高耐震等級1.5倍以上</li><li>大幅降低地震對構造及設備的破壞</li><li>隔震器上部之結構強度可以折減，降低結構造價10%~35%</li><li>室內空間因建築物構材尺寸縮減而增大</li><li>大幅減少勁度分配不良之配置問題（如短柱效應、L型配置）</li><li>可增加建築須設伸縮縫之長度</li></ul>",
           "isExamFocus": true,
           "examYears": ["102年土木技師"],
           "examHint": "常考耐震設計三水準目標（小震不壞、中震可修、大震不倒）及隔震建築優點",
-          "neverTested": true,
+          "neverTested": false,
           "quiz": [
             {
               "question": "建築物耐震設計的三個水準目標，下列何者正確？",
