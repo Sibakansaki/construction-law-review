@@ -382,7 +382,7 @@ export default {
           "name": "6.1.5 鋼結構工法",
           "content": "<strong>主要工法比較：</strong><table style='width:100%;border-collapse:collapse;font-size:0.9em'><tr style='background:#dbeafe'><th style='border:1px solid #93c5fd;padding:6px;color:#1e40af;font-weight:700'>工法</th><th style='border:1px solid #93c5fd;padding:6px;color:#1e40af;font-weight:700'>柱</th><th style='border:1px solid #93c5fd;padding:6px;color:#1e40af;font-weight:700'>梁</th><th style='border:1px solid #93c5fd;padding:6px;color:#1e40af;font-weight:700'>特色</th></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>H-C工法</td><td style='border:1px solid #93c5fd;padding:6px'>H型鋼或組合型鋼，外圍組立鋼筋澆置混凝土</td><td style='border:1px solid #93c5fd;padding:6px'>H型鋼，外覆防火板</td><td style='border:1px solid #93c5fd;padding:6px'>防火防蝕佳，為考試常考工法（102年基特四等）</td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>H-T-H工法</td><td style='border:1px solid #93c5fd;padding:6px'>H型鋼</td><td style='border:1px solid #93c5fd;padding:6px'>H型鋼，以T型鋼接合</td><td style='border:1px solid #93c5fd;padding:6px'>無偏心拉力，注意翼鈑接合</td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>G-H工法</td><td style='border:1px solid #93c5fd;padding:6px'>圓形或方形筒鋼</td><td style='border:1px solid #93c5fd;padding:6px'>H型鋼</td><td style='border:1px solid #93c5fd;padding:6px'>節點鋼性高，適複雜造型及載重大構造物</td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>SRC工法</td><td style='border:1px solid #93c5fd;padding:6px' colspan='2'>鋼骨＋鋼筋＋混凝土共同承受外力</td><td style='border:1px solid #93c5fd;padding:6px'>韌度大、防火佳；施工複雜、工期長</td></tr></table><strong>SRC優點：</strong>RC填充增加抗壓強度、勁度大側向變形小、RC圍束降低局部挫屈、混凝土包覆防火性佳。",
           "isExamFocus": true,
-          "examYears": ["102年基特四等"],
+          "examYears": ["102年地方四等"],
           "examHint": "常考H-C工法之構造特色與梁柱材料說明",
           "neverTested": false,
           "quiz": [
@@ -437,7 +437,7 @@ export default {
           "isExamFocus": true,
           "examYears": [],
           "examHint": "",
-          "neverTested": true,
+          "neverTested": false,
           "quiz": [
             {
               "question": "螺栓接合的定義及孔徑規定，下列何者正確？",
@@ -481,7 +481,7 @@ export default {
           "id": "ch6-6.2.1b",
           "name": "6.2.1 螺栓接合 — 鎖緊方法",
           "content": "<strong>螺栓安裝後之鎖緊方法：</strong><ol><li><strong>扭力控制法：</strong>高強度螺栓鎖緊後以扭力板手檢測，容許誤差為設定值之<strong>±10%</strong></li><li><strong>旋轉螺帽法：</strong>螺栓鎖至緊貼狀態後，依螺栓長度大小分別以手動板手旋轉<strong>1/3~2/3圈</strong></li><li><strong>斷尾螺栓法（F10T）：</strong>以螺栓尾端扭力強度控制螺栓拉力，斷尾後應保有<strong>3~5螺紋</strong>之長度，可目視檢查螺栓群是否完成鎖緊</li><li><strong>張力指示法：</strong>利用直接張力指示器量取墊圈的隆起凸塊，縫隙無法置入螺栓頭與墊圈間時，表示墊圈隆起凸塊之變形達到所需之量，即螺栓達到預拉力設定值</li></ol>",
-          "isExamFocus": false,
+          "isExamFocus": true,
           "examYears": [],
           "examHint": "",
           "neverTested": true,
@@ -622,7 +622,7 @@ export default {
           "name": "6.2.3 焊接接合 — 電銲工資格與姿勢",
           "content": "<strong>電銲工資格：</strong><ul><li>停頓電銲工作超過<strong>6個月以上</strong>，則必須再度接受資格檢定</li><li>電銲工資格分<strong>4種等級</strong></li><li>檢定方法：角銲檢定（fillet weld，F）與槽銲檢定（groove weld，G）</li><li>資格包含：1F、1G、2F、2G、3F、3G、4F、4G（阿拉伯數字代表銲工級數）</li></ul><strong>4種電銲姿勢：</strong><ul><li><strong>平銲（1G）：</strong>銲條朝下，水平方向銲接，最簡單常用，品質最容易控制</li><li><strong>橫銲（2G）：</strong>銲道方向為立面的橫方向</li><li><strong>立銲（3G）：</strong>立向銲道從下向上電銲；從上向下俗稱漏銲，正規工作<strong>不允許</strong></li><li><strong>仰銲（4G）：</strong>銲條朝上，又稱頭頂銲，最困難，須經驗豐富電銲工</li></ul>",
           "isExamFocus": true,
-          "examYears": ["107年地方特考"],
+          "examYears": ["107年地方四等"],
           "examHint": "常考良好焊接條件與電銲工資格要求",
           "neverTested": false,
           "quiz": [

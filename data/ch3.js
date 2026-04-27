@@ -572,7 +572,7 @@ export default {
           "name": "3.2.4 排樁工法",
           "content": "<strong>定義：</strong>以場鑄或預鑄混凝土樁連續施工，構成一連串壁體的工法。<br><br><strong>場鑄樁常見工法：</strong><ul><li><strong>PIP工法（預壘樁）</strong>：螺旋鑽旋入→壓入預壘砂漿→拔出鑽桿→插入鋼筋籠或型鋼（最常用）</li><li><strong>MIP工法（滲土樁）</strong>：四片突出刀口射出水泥漿同時旋轉插入，形成土與砂漿混合體</li><li><strong>SMW工法（滲土水泥連續壁）</strong>：三桿連續式鑽壁機就地鑽掘並注入水泥系硬化液，插入H型鋼作為擋土壁體</li></ul><strong>SMW特性：</strong>厚度55~130cm、最大深度65m、垂直精度高（1/150）、止水性高、適合各種地層（過大卵礫石與岩盤除外）",
           "isExamFocus": true,
-          "examYears": ["108年司法特考"],
+          "examYears": ["108年司法三等"],
           "examHint": "SMW工法施工步驟及特性為考題重點",
           "neverTested": false,
           "quiz": [

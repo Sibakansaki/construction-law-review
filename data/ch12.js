@@ -294,7 +294,7 @@ export default {
           "name": "12.2.5 綠能產業 — 太陽光電、LED、風力發電",
           "content": "<strong>目前國內發展重點：</strong>太陽光電、LED照明、風力發電、生質燃料、能源資通訊、氫能與燃料電池、電動車輛等。<br><br><strong>太陽光電：</strong>裝設晶矽（單晶矽或多晶矽）或非晶矽材質之太陽能板，將正負離子分離產生電流。光電板需要有較大之接受陽光面積，因此多設於空曠地區。<br><br><strong>LED照明：</strong>Light Emitting Diode，由半導體材料構成，利用半導體中電子與電洞結合放出光子。可以極低之耗電量產生較高之照度，達到節能之效益。目前LED的取代光源有燈泡型、PAR燈、直管型、MR-16等四種。<br><br><strong>風力發電：</strong>利用取之不竭之風力轉動風車葉片，帶動發電機組產生電力。為完全無污染之乾淨能源。未來應朝向外海設置，以獲得更大設置空間及較大之風力。",
           "isExamFocus": true,
-          "examYears": ["109年司法特考"],
+          "examYears": ["109年司法三等"],
           "examHint": "常考如何採用最少營建（Lean Construction），應用高效能材料（高強度/高耐久性）、自然材料（植物、塊石、卵石）、再生材料（水淬高爐石粉、飛灰、再生混凝土、CLSM）達成節能減碳目的",
           "neverTested": false,
           "quiz": [
@@ -349,7 +349,7 @@ export default {
           "isExamFocus": true,
           "examYears": [],
           "examHint": "",
-          "neverTested": true,
+          "neverTested": false,
           "quiz": [
             {
               "question": "耐震標章分為哪兩大類？",
