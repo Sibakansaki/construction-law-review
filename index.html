@@ -3,13 +3,19 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>施工法複習</title>
+  <title>國考複習</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
   <!-- ===== 導覽列 ===== -->
   <nav id="navbar">
+    <!-- 科目切換 -->
+    <div id="subject-tabs">
+      <button class="subject-btn active" data-subject="construction">🏗 施工法</button>
+      <button class="subject-btn" data-subject="materials">🧱 工程材料</button>
+    </div>
+    <div id="navbar-bottom">
     <div id="chapter-tabs">
       <!-- 章節按鈕由 app.js 動態插入 -->
     </div>
@@ -17,6 +23,7 @@
       <button class="nav-btn" id="btn-records">答題記錄</button>
       <button class="nav-btn" id="btn-settings">⚙️ 設定</button>
     </div>
+    </div><!-- /#navbar-bottom -->
   </nav>
 
   <!-- ===== 主內容區 ===== -->
