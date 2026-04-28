@@ -1,22 +1,38 @@
-// app.js — 主程式邏輯
+// app.js — 主程式邏輯（支援多科目：施工法 / 工程材料）
 import {
   checkApiKey,
   generateMnemonic,
   generateCardQuestion,
   generateChapterQuestion,
-  gradeAnswer
+  gradeAnswer,
+  setSubject          // ← api.js 新增的函式，用來切換 prompt 科目
 } from "./api.js";
 
-// ch2~ch12
-const CHAPTER_MODULES = Array.from({ length: 11 }, (_, i) => {
-  const n = i + 2;
-  return { key: `ch${n}`, path: `./data/ch${n}.js` };
-});
+// ===== 科目定義 =====
+const SUBJECTS = {
+  construction: {
+    label: "施工法",
+    dataPath: "./data/construction/",
+    chapters: Array.from({ length: 11 }, (_, i) => {
+      const n = i + 2; // ch2 ~ ch12
+      return { key: `ch${n}`, path: `./data/construction/ch${n}.js` };
+    })
+  },
+  materials: {
+    label: "工程材料",
+    dataPath: "./data/materials/",
+    chapters: Array.from({ length: 10 }, (_, i) => {
+      const n = i + 2; // ch2 ~ ch11
+      return { key: `ch${n}`, path: `./data/materials/ch${n}.js` };
+    })
+  }
+};
 
 // ===== 全域狀態 =====
-let allChapters = [];
+let currentSubject = "construction"; // "construction" | "materials"
+let allChapters    = [];
 let currentChapter = null;
-let quizContext = null;
+let quizContext    = null;
 
 // ===== DOM 參考 =====
 const chapterTabs      = document.getElementById("chapter-tabs");
@@ -27,15 +43,15 @@ const cardsContainer   = document.getElementById("cards-container");
 const recordsContainer = document.getElementById("records-container");
 const cardTemplate     = document.getElementById("card-template");
 
-const quizModal         = document.getElementById("quiz-modal");
-const quizModalTitle    = document.getElementById("quiz-modal-title");
-const quizQuestionText  = document.getElementById("quiz-question-text");
-const quizLoading       = document.getElementById("quiz-loading");
-const quizAnswerInput   = document.getElementById("quiz-answer-input");
-const btnSubmitQuiz     = document.getElementById("btn-submit-quiz");
-const quizResult        = document.getElementById("quiz-result");
-const quizGradingLoading= document.getElementById("quiz-grading-loading");
-const quizResultContent = document.getElementById("quiz-result-content");
+const quizModal          = document.getElementById("quiz-modal");
+const quizModalTitle     = document.getElementById("quiz-modal-title");
+const quizQuestionText   = document.getElementById("quiz-question-text");
+const quizLoading        = document.getElementById("quiz-loading");
+const quizAnswerInput    = document.getElementById("quiz-answer-input");
+const btnSubmitQuiz      = document.getElementById("btn-submit-quiz");
+const quizResult         = document.getElementById("quiz-result");
+const quizGradingLoading = document.getElementById("quiz-grading-loading");
+const quizResultContent  = document.getElementById("quiz-result-content");
 
 const settingsModal    = document.getElementById("settings-modal");
 const settingEndpoint  = document.getElementById("setting-endpoint");
@@ -47,18 +63,62 @@ let noteModalCard   = null;
 
 // ===== 初始化 =====
 async function init() {
-  await loadChapters();
+  // 讀取上次使用的科目
+  const saved = localStorage.getItem("current_subject");
+  if (saved && SUBJECTS[saved]) currentSubject = saved;
+
+  // 更新科目按鈕狀態
+  document.querySelectorAll(".subject-btn").forEach(btn => {
+    btn.classList.toggle("active", btn.dataset.subject === currentSubject);
+  });
+
+  bindSubjectEvents();
   bindNavEvents();
   bindQuizModalEvents();
   bindReviewModalEvents();
   bindSettingsModalEvents();
   bindNoteModalEvents();
+
+  setSubject(currentSubject); // 告知 api.js 目前科目
+  await loadChapters();
   if (allChapters.length > 0) renderChapter(allChapters[0]);
+}
+
+// ===== 科目切換 =====
+function bindSubjectEvents() {
+  document.querySelectorAll(".subject-btn").forEach(btn => {
+    btn.addEventListener("click", async () => {
+      const newSubject = btn.dataset.subject;
+      if (newSubject === currentSubject) return;
+
+      currentSubject = newSubject;
+      localStorage.setItem("current_subject", currentSubject);
+      setSubject(currentSubject);
+
+      document.querySelectorAll(".subject-btn").forEach(b =>
+        b.classList.toggle("active", b.dataset.subject === currentSubject)
+      );
+
+      // 重置章節狀態，重新載入
+      allChapters = [];
+      currentChapter = null;
+      currentFilter  = "all";
+      chapterTabs.innerHTML = "";
+      cardsContainer.innerHTML = "";
+      chapterTitle.textContent = "";
+      document.getElementById("chapter-progress-bar").innerHTML = "";
+
+      showView("chapter");
+      await loadChapters();
+      if (allChapters.length > 0) renderChapter(allChapters[0]);
+    });
+  });
 }
 
 // ===== 載入章節資料 =====
 async function loadChapters() {
-  for (const mod of CHAPTER_MODULES) {
+  const modules = SUBJECTS[currentSubject].chapters;
+  for (const mod of modules) {
     try {
       const module = await import(mod.path);
       allChapters.push(module.default);
@@ -96,6 +156,11 @@ function showView(name) {
   if (name === "records")  recordsView.classList.add("active");
 }
 
+// ===== localStorage key 加科目前綴（避免兩科衝突）=====
+function storageKey(suffix) {
+  return `${currentSubject}_${suffix}`;
+}
+
 // ===== 章節進度條 =====
 function renderChapterProgress(chapterData) {
   const el = document.getElementById("chapter-progress-bar");
@@ -104,8 +169,6 @@ function renderChapterProgress(chapterData) {
   const sections = chapterData.sections ?? [{ cards: chapterData.cards }];
   const allCards  = sections.flatMap(s => s.cards);
 
-  // 依目前篩選條件過濾（cardMatchesFilter 在此函式之後定義，但 JS hoisting 不適用 let，
-  // 所以用 typeof 保護，初次載入時 currentFilter 尚未定義也能安全執行）
   const visibleCards = (typeof cardMatchesFilter === "function")
     ? allCards.filter(cardMatchesFilter)
     : allCards;
@@ -115,7 +178,7 @@ function renderChapterProgress(chapterData) {
 
   let mastered = 0, review = 0;
   visibleCards.forEach(card => {
-    const status = localStorage.getItem(`card_status_${card.id}`) || "";
+    const status = localStorage.getItem(storageKey(`card_status_${card.id}`)) || "";
     if (status === "熟練")        mastered++;
     else if (status === "待加強") review++;
   });
@@ -145,12 +208,11 @@ function renderChapterProgress(chapterData) {
 // ===== 篩選狀態 =====
 let currentFilter = "all"; // "all" | "important" | "rare"
 
-/** 判斷卡片是否符合目前篩選條件 */
 function cardMatchesFilter(card) {
   if (currentFilter === "all") return true;
   const starred     = isStarred(card.id);
-  const examFocus   = card.isExamFocus === true;   // 曾出現在考古題
-  const neverTested = card.neverTested  === true;  // 從未出現在考古題
+  const examFocus   = card.isExamFocus === true;
+  const neverTested = card.neverTested  === true;
 
   if (currentFilter === "important") return examFocus || starred;
   if (currentFilter === "rare")      return neverTested && !starred;
@@ -163,13 +225,11 @@ function renderChapter(chapterData) {
   chapterTitle.textContent = `${chapterData.chapter} ${chapterData.title}`;
   cardsContainer.innerHTML = "";
   renderChapterProgress(chapterData);
-  renderFilterBar();   // ← 篩選列（建好後不再清除）
+  renderFilterBar();
   renderCards(chapterData);
 }
 
-/** 只重新渲染卡片區（篩選切換時用，不動篩選列） */
 function renderCards(chapterData) {
-  // 移除舊的 section-group 和 filter-empty，保留篩選列
   Array.from(cardsContainer.children).forEach(el => {
     if (!el.matches("#card-filter-bar")) el.remove();
   });
@@ -179,7 +239,7 @@ function renderCards(chapterData) {
 
   sections.forEach(section => {
     const visibleCards = section.cards.filter(cardMatchesFilter);
-    if (visibleCards.length === 0) return; // 整個 section 都被篩掉就跳過
+    if (visibleCards.length === 0) return;
 
     totalVisible += visibleCards.length;
 
@@ -213,14 +273,13 @@ function renderCards(chapterData) {
       starBtn.addEventListener("click", (e) => {
         e.stopPropagation();
         toggleStar(starBtn, card.id);
-        // 若目前在篩選模式，切換星星後重新套用篩選
         if (currentFilter !== "all") renderCards(currentChapter);
       });
       article.appendChild(starBtn);
 
       if (isStarred(card.id)) article.classList.add("card-starred");
 
-      applyCardStatus(article, localStorage.getItem(`card_status_${card.id}`) || "");
+      applyCardStatus(article, localStorage.getItem(storageKey(`card_status_${card.id}`)) || "");
 
       article.querySelector(".btn-mastered").addEventListener("click",    () => toggleStatus(article, card.id, "熟練"));
       article.querySelector(".btn-review").addEventListener("click",      () => toggleStatus(article, card.id, "待加強"));
@@ -236,7 +295,6 @@ function renderCards(chapterData) {
     cardsContainer.appendChild(group);
   });
 
-  // 篩選後沒有卡片時顯示提示
   if (totalVisible === 0) {
     const empty = document.createElement("p");
     empty.className = "filter-empty";
@@ -247,7 +305,6 @@ function renderCards(chapterData) {
   }
 }
 
-/** 渲染篩選列（只建一次，切換章節時重建） */
 function renderFilterBar() {
   const bar = document.createElement("div");
   bar.id = "card-filter-bar";
@@ -269,7 +326,7 @@ function renderFilterBar() {
       currentFilter = key;
       bar.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
       btn.classList.add("active");
-      renderChapterProgress(currentChapter);  // 進度條隨篩選更新
+      renderChapterProgress(currentChapter);
       renderCards(currentChapter);
     });
     bar.appendChild(btn);
@@ -278,19 +335,11 @@ function renderFilterBar() {
   cardsContainer.appendChild(bar);
 }
 
-// ===== 考試標記：虛線框 + 年份 pills =====
+// ===== 考試標記 =====
 function applyExamBadge(article, card) {
-  // neverTested → 虛線邊框
-  if (card.neverTested === true) {
-    article.classList.add("card-never-tested");
-  }
+  if (card.neverTested === true) article.classList.add("card-never-tested");
+  if (card.isExamFocus === true) article.classList.add("card-exam-focus");
 
-  // isExamFocus → 左側紫色強調
-  if (card.isExamFocus === true) {
-    article.classList.add("card-exam-focus");
-  }
-
-  // examYears → 顯示 pills
   if (card.examYears && card.examYears.length > 0) {
     const badgeDiv = document.createElement("div");
     badgeDiv.className = "card-exam-years";
@@ -308,13 +357,11 @@ function applyExamBadge(article, card) {
       badgeDiv.appendChild(pill);
     });
 
-    // 插在 card-content 之後、card-actions 之前
     const actions = article.querySelector(".card-actions");
     article.insertBefore(badgeDiv, actions);
   }
 }
 
-/** 依考試別回傳 pill CSS class */
 function getExamPillClass(yearStr) {
   if (yearStr.includes("高考二級") || yearStr.includes("高考一級")) return "pill-gaokao";
   if (yearStr.includes("地方三等")) return "pill-local3";
@@ -325,34 +372,31 @@ function getExamPillClass(yearStr) {
   return "pill-other";
 }
 
-// ===== 星星功能 =====
+// ===== 星星功能（key 加科目前綴）=====
 function isStarred(cardId) {
-  return localStorage.getItem(`card_star_${cardId}`) === "1";
+  return localStorage.getItem(storageKey(`card_star_${cardId}`)) === "1";
 }
 
 function toggleStar(btn, cardId) {
-  const article   = btn.closest(".card");
+  const article    = btn.closest(".card");
   const nowStarred = !isStarred(cardId);
 
   if (nowStarred) {
-    localStorage.setItem(`card_star_${cardId}`, "1");
+    localStorage.setItem(storageKey(`card_star_${cardId}`), "1");
     btn.classList.add("starred");
     btn.textContent = "★";
     article.classList.add("card-starred");
-    // 如果原本是 neverTested，視覺上退出虛線
     article.classList.remove("card-never-tested");
   } else {
-    localStorage.removeItem(`card_star_${cardId}`);
+    localStorage.removeItem(storageKey(`card_star_${cardId}`));
     btn.classList.remove("starred");
     btn.textContent = "☆";
     article.classList.remove("card-starred");
-    // 取消星星後，若原本是 neverTested 恢復虛線
     const cardData = findCardById(cardId);
     if (cardData?.neverTested) article.classList.add("card-never-tested");
   }
 }
 
-/** 從 allChapters 快速找卡片資料 */
 function findCardById(cardId) {
   for (const ch of allChapters) {
     const sections = ch.sections ?? [{ cards: ch.cards }];
@@ -364,18 +408,17 @@ function findCardById(cardId) {
   return null;
 }
 
-/** 收集目前章節（或全域）有星星的卡片 id Set */
 function getStarredIdsInChapter(chapterData) {
   const sections = chapterData.sections ?? [{ cards: chapterData.cards }];
   const allCards  = sections.flatMap(s => s.cards);
   return new Set(allCards.filter(c => isStarred(c.id)).map(c => c.id));
 }
 
-// ===== 狀態切換 =====
+// ===== 狀態切換（key 加科目前綴）=====
 function toggleStatus(article, cardId, status) {
-  const current = localStorage.getItem(`card_status_${cardId}`) || "";
+  const current = localStorage.getItem(storageKey(`card_status_${cardId}`)) || "";
   const next    = current === status ? "" : status;
-  localStorage.setItem(`card_status_${cardId}`, next);
+  localStorage.setItem(storageKey(`card_status_${cardId}`), next);
   applyCardStatus(article, next);
   if (currentChapter) renderChapterProgress(currentChapter);
 }
@@ -416,11 +459,11 @@ function openNoteModal(card) {
   noteModalCardId = card.id;
   noteModalCard   = card;
   document.getElementById("note-modal-title").textContent = `📝 筆記：${card.name}`;
-  document.getElementById("note-modal-input").value = localStorage.getItem(`card_note_${card.id}`) || "";
+  document.getElementById("note-modal-input").value = localStorage.getItem(storageKey(`card_note_${card.id}`)) || "";
 
   const mnemonicSection = document.getElementById("note-modal-mnemonic");
   const mnemonicContent = document.getElementById("note-modal-mnemonic-content");
-  const cached = localStorage.getItem(`card_mnemonic_${card.id}`);
+  const cached = localStorage.getItem(storageKey(`card_mnemonic_${card.id}`));
   if (cached) {
     mnemonicContent.textContent = cached;
     mnemonicSection.classList.remove("hidden");
@@ -445,7 +488,7 @@ function bindNoteModalEvents() {
   document.getElementById("btn-save-note-modal").addEventListener("click", () => {
     if (!noteModalCardId) return;
     const value = document.getElementById("note-modal-input").value;
-    localStorage.setItem(`card_note_${noteModalCardId}`, value);
+    localStorage.setItem(storageKey(`card_note_${noteModalCardId}`), value);
     const msg = document.getElementById("note-modal-saved-msg");
     msg.classList.remove("hidden");
     setTimeout(() => msg.classList.add("hidden"), 1500);
@@ -469,7 +512,7 @@ async function requestMnemonicModal(card) {
 
   try {
     const text = await generateMnemonic({ ...card, content: stripHtml(card.content) });
-    localStorage.setItem(`card_mnemonic_${card.id}`, text);
+    localStorage.setItem(storageKey(`card_mnemonic_${card.id}`), text);
     mnemonicContent.textContent = text;
   } catch (e) {
     mnemonicContent.textContent = `❌ 發生錯誤：${e.message}`;
@@ -621,7 +664,7 @@ function bindReviewModalEvents() {
   document.getElementById("btn-submit-review").addEventListener("click", submitReview);
   document.getElementById("btn-review-reset").addEventListener("click", () => {
     if (!reviewCard) return;
-    localStorage.removeItem(`card_review_result_${reviewCard.id}`);
+    localStorage.removeItem(storageKey(`card_review_result_${reviewCard.id}`));
     const articleEl = document.querySelector(`.card[data-id="${reviewCard.id}"]`);
     if (articleEl) renderCardProgress(articleEl, reviewCard);
     renderReviewQuestions(reviewCard);
@@ -651,9 +694,9 @@ function bindNavEvents() {
   });
 }
 
-// ===== 答題記錄 =====
+// ===== 答題記錄（key 加科目前綴）=====
 function renderRecordsPage() {
-  const allRecords  = getQuizRecords();
+  const allRecords   = getQuizRecords();
   const essayRecords = allRecords
     .map((r, i) => ({ record: r, origIdx: i }))
     .filter(({ record }) => record.quizType === "essay");
@@ -672,7 +715,7 @@ function renderRecordsPage() {
   clearBtn.textContent = "🗑 清除所有記錄";
   clearBtn.addEventListener("click", () => {
     if (confirm("確定要清除所有申論題記錄嗎？")) {
-      localStorage.setItem("quiz_records", JSON.stringify(
+      localStorage.setItem(storageKey("quiz_records"), JSON.stringify(
         allRecords.filter(r => r.quizType !== "essay")
       ));
       renderRecordsPage();
@@ -720,7 +763,7 @@ function renderRecordCard(r, origIdx) {
     e.stopPropagation();
     const records = getQuizRecords();
     records.splice(origIdx, 1);
-    localStorage.setItem("quiz_records", JSON.stringify(records));
+    localStorage.setItem(storageKey("quiz_records"), JSON.stringify(records));
     renderRecordsPage();
   });
   return div;
@@ -738,7 +781,6 @@ async function openCardQuiz(card) {
   const plainContent = stripHtml(card.content);
 
   try {
-    // 傳入星星狀態
     const starred  = isStarred(card.id);
     const question = await generateCardQuestion(
       { ...card, content: plainContent },
@@ -766,8 +808,6 @@ async function openChapterQuiz(chapterData) {
     : chapterData.cards;
 
   const refContent = allCards.map(c => `【${c.name}】${stripHtml(c.content)}`).join("\n");
-
-  // 收集本章有星星的卡片 id
   const starredIds = getStarredIdsInChapter(chapterData);
 
   try {
@@ -863,25 +903,25 @@ function bindSettingsModalEvents() {
   });
 }
 
-// ===== localStorage =====
+// ===== localStorage（帶科目前綴）=====
 function getQuizRecords() {
-  try { return JSON.parse(localStorage.getItem("quiz_records") || "[]"); }
+  try { return JSON.parse(localStorage.getItem(storageKey("quiz_records")) || "[]"); }
   catch { return []; }
 }
 
 function saveQuizRecord(record) {
   const records = getQuizRecords();
   records.push({ quizType: "essay", ...record });
-  localStorage.setItem("quiz_records", JSON.stringify(records));
+  localStorage.setItem(storageKey("quiz_records"), JSON.stringify(records));
 }
 
 function getReviewResult(cardId) {
-  try { return JSON.parse(localStorage.getItem(`card_review_result_${cardId}`) || "null"); }
+  try { return JSON.parse(localStorage.getItem(storageKey(`card_review_result_${cardId}`)) || "null"); }
   catch { return null; }
 }
 
 function saveReviewResult(cardId, result) {
-  localStorage.setItem(`card_review_result_${cardId}`, JSON.stringify(result));
+  localStorage.setItem(storageKey(`card_review_result_${cardId}`), JSON.stringify(result));
 }
 
 // ===== 工具函式 =====
