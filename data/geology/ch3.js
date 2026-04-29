@@ -10,7 +10,7 @@ export default {
           "id": "ch3-3.1",
           "name": "3.1 弱面分類（原生弱面 vs 次生弱面）",
           "content": "<strong>弱面（Weak Planes）= 不連續面（Discontinuities）：</strong>岩石中存在界面將岩石材料斷開，中斷其空間、時間及材料力學性質等的連續性。岩石內如存在弱面，則稱之為岩體（Rock Mass）。<br><br><strong>（1）原生弱面（Primary Weak Planes）：</strong>岩石在成岩過程中產生的弱面型態。<ul><li><strong>沈積岩：</strong>葉理、層面、不整合面</li><li><strong>火成岩：</strong>岩漿冷凝產生之節理（玄武岩之柱狀節理）、侵入岩與周遭岩石的接觸面（即不整合面）</li><li><strong>變質岩：</strong>變質作用過程產生之劈理、片理</li></ul><strong>（2）次生弱面（Secondary Weak Planes）：</strong>岩石形成後，再度受到大地應力或地質作用而發生變形所產生的弱面型態。包括：節理（不含火成岩冷凝節理）、斷層、劈理、片理（不包括變質岩原生之劈理、片理）、葉理、褶皺、各種破裂帶（剪裂帶、張裂縫）等。<br><br><strong>特色：</strong>空間之不連續、地質時間之不連續、力學性質之不連續。",
-          "isExamFocus": false,
+          "isExamFocus": true,
           "examYears": [
             "考古"
           ],
@@ -108,7 +108,7 @@ export default {
               "explanation": "四項全錯：玄武岩柱狀節理屬原生弱面（冷凝產生）；斷層屬次生弱面；火成岩冷凝節理屬原生弱面（故非所有節理都是次生）；層面屬原生弱面（沈積時形成）。"
             }
           ],
-          "neverTested": true
+          "neverTested": false
         },
         {
           "id": "ch3-3.2.1",
@@ -222,7 +222,7 @@ export default {
           "id": "ch3-3.2.2",
           "name": "3.2.2–3.2.3 層面與節理",
           "content": "<strong>層面（Bedding Planes）：</strong>沈積岩的原生構造，沈積當時或沈積後不久形成的界面。特性：<ul><li>較平滑面、地下水集中處、抗剪強度低</li><li>易發生順層面滑動（特別是砂/頁岩互層及砂/泥岩互層）</li><li>注意：層面並不偶限於異質岩石界面，同質岩層中的沈積界面也是層面</li></ul><strong>節理（Joint）：</strong>岩體受大地應力或其他地質作用，進而於岩體中產生裂隙，但沿此破裂面兩側並無明顯的相對位移。節理是地殼中發育最廣的一種地質構造，常成組或成群出現。<br><br><strong>節理分類（依力學性質）：</strong><table style='width:100%;border-collapse:collapse;font-size:0.85em'><tr style='background:#dbeafe'><th style='border:1px solid #93c5fd;padding:5px;color:#1e40af'>類型</th><th style='border:1px solid #93c5fd;padding:5px;color:#1e40af'>張力節理</th><th style='border:1px solid #93c5fd;padding:5px;color:#1e40af'>剪力節理</th></tr><tr><td style='border:1px solid #93c5fd;padding:5px'>形成應力</td><td style='border:1px solid #93c5fd;padding:5px'>拉張應力</td><td style='border:1px solid #93c5fd;padding:5px'>最大剪應力超過抗剪強度</td></tr><tr><td style='border:1px solid #93c5fd;padding:5px'>節理面特徵</td><td style='border:1px solid #93c5fd;padding:5px'>粗糙、不平整、無擦痕、多呈開口狀</td><td style='border:1px solid #93c5fd;padding:5px'>較平滑、可見輕微擦痕與鏡面、通常閉合</td></tr><tr><td style='border:1px solid #93c5fd;padding:5px'>填充物</td><td style='border:1px solid #93c5fd;padding:5px'>常有方解石、石英等填充，形成脈狀分佈</td><td style='border:1px solid #93c5fd;padding:5px'>—</td></tr><tr><td style='border:1px solid #93c5fd;padding:5px'>組合形式</td><td style='border:1px solid #93c5fd;padding:5px'>—</td><td style='border:1px solid #93c5fd;padding:5px'>多呈共軛成對發育，常交叉成X型</td></tr></table><br><strong>節理產生原因：</strong>收縮作用（玄武岩柱狀節理、泥岩龜裂）、解壓作用（板狀解理Sheeting Joints，最常見於花崗岩）、大地應力作用、滑動拖曳作用、岩漿地侵入作用、鹽的侵入作用",
-          "isExamFocus": false,
+          "isExamFocus": true,
           "examYears": [
             "考古"
           ],
@@ -321,13 +321,13 @@ export default {
               "explanation": "四項全錯：節理是「無明顯相對位移」的破裂面（有位移的是斷層）；剪力節理面通常閉合且較平滑（開口狀粗糙是張力節理）；張力節理通常是開口的（非閉合）；節理是地殼中發育「最廣」的地質構造（非少見）。"
             }
           ],
-          "neverTested": true
+          "neverTested": false
         },
         {
           "id": "ch3-3.2.3",
           "name": "3.2.4–3.2.7 劈理、片理、頁理與剪裂帶",
           "content": "<strong>劈理（Cleavage）：</strong>岩石因變質作用與變形所造成岩石規則排列且密集的裂面。岩石受到<strong>輕至中度</strong>變質作用時，礦物重新定向排列（具異向性）。常見於板岩區（板岩劈理，Slaty Cleavage）。特性：易使岩體滑動或成片體剝落，成落石區並堆積成碎石坡。<br><br><strong>片理（Schistosity）：</strong>岩石受<strong>高度</strong>變質作用時，礦物重新作定向排列，形成更密集、更光滑的界面。常見於高變質片岩、片麻岩區。特性：弱面密集、摩擦力低，易使岩體滑動或剝落成片狀物（碎石坡）。<br><br><strong>頁理（Sheeting）：</strong>頁岩中含之片狀雲母、黏土礦物，在沈積時以平行方式定向排列，在黏土變為頁岩時，此薄層狀界面即為頁理面。特性：頁理面平滑、抗剪力低，易發生滑動與剝落；其固結黏土礦物遇水會逐漸崩解成土。<br><br><strong>剪裂帶（Shear Zone）：</strong><ul><li>岩盤受力錯動產生足夠大變形時，應變進入塑性範圍造成岩盤破壞</li><li>剪切面之岩石常因地盤剪動而磨成軟泥並夾碎岩塊，通常含有相當豐沛的地下水</li><li><strong>剪裂帶內弱面發展三階段（Skempton, 1966，以黏土受單剪之模型）：</strong>①李德剪裂面（R）最先出現→②位移剪裂面（D）出現→③主要位移剪裂面（P）出現</li><li>剪裂帶與斷層的差異：斷層兩側岩盤有明顯相對位移；剪裂帶僅有剪動變形</li></ul>",
-          "isExamFocus": false,
+          "isExamFocus": true,
           "examYears": [
             "考古"
           ],
@@ -424,7 +424,7 @@ export default {
               "explanation": "四項全錯：片理比劈理變質程度高（非低）；頁理是沈積原生構造（非變質產物）；劈理弱面密集，易使岩體滑動（非不易）；剪裂帶通常含有豐沛的地下水（非乾燥）。"
             }
           ],
-          "neverTested": true
+          "neverTested": false
         }
       ]
     },
@@ -436,7 +436,7 @@ export default {
           "id": "ch3-3.2.11",
           "name": "3.2.11 褶皺（Fold）",
           "content": "<strong>褶皺（Fold）：</strong>當岩層構造受應力作用形成彎曲的現象。岩層傾向會發生反轉，並形成一系列波浪狀彎曲，但岩層連續性與完整性基本上並無受到破壞。<br><br><strong>褶皺各部位名稱：</strong><ul><li><strong>核心（Core）：</strong>褶皺中心部位的岩層</li><li><strong>樞紐線（Hinge line）：</strong>同一褶皺面上最大彎曲點的連線；背斜的樞紐稱為脊線，向斜的樞紐稱為槽線；樞紐與水平面的夾角稱<strong>傾沒角（Plunge angle）</strong></li><li><strong>軸面（Axial plane）：</strong>許多相鄰褶皺面上的樞紐所連成的面，可為平面或曲面，可直立、傾斜或平臥</li><li><strong>翼（Limb）：</strong>褶皺核心部兩側岩層；一褶皺必有兩翼</li><li><strong>槽線：</strong>橫剖面上任一褶皺面的最低點連線，<strong>通常為地下水蓄聚所在</strong>，常威脅地下工程安全</li></ul><strong>背斜（Anticline）vs 向斜（Syncline）：</strong><table style='width:100%;border-collapse:collapse;font-size:0.85em'><tr style='background:#dbeafe'><th style='border:1px solid #93c5fd;padding:5px;color:#1e40af'>特性</th><th style='border:1px solid #93c5fd;padding:5px;color:#1e40af'>背斜</th><th style='border:1px solid #93c5fd;padding:5px;color:#1e40af'>向斜</th></tr><tr><td style='border:1px solid #93c5fd;padding:5px'>彎曲方向</td><td style='border:1px solid #93c5fd;padding:5px'>岩層向上彎曲（凸）</td><td style='border:1px solid #93c5fd;padding:5px'>岩層向下彎曲（凹）</td></tr><tr><td style='border:1px solid #93c5fd;padding:5px'>核心地層年代</td><td style='border:1px solid #93c5fd;padding:5px'><strong>內老外新</strong>（核心較老）</td><td style='border:1px solid #93c5fd;padding:5px'><strong>內新外老</strong>（核心較新）</td></tr><tr><td style='border:1px solid #93c5fd;padding:5px'>兩翼傾向</td><td style='border:1px solid #93c5fd;padding:5px'>兩翼相背（正八字）</td><td style='border:1px solid #93c5fd;padding:5px'>兩翼相向（倒八字）</td></tr><tr><td style='border:1px solid #93c5fd;padding:5px'>地形俗稱</td><td style='border:1px solid #93c5fd;padding:5px'>背斜成山</td><td style='border:1px solid #93c5fd;padding:5px'>向斜成谷</td></tr></table><br><strong>褶皺對大地工程的影響：</strong><ul><li>褶皺軸部裂隙特別發達，沿軸部開挖地下工程可能造成大量頂盤崩落</li><li>向斜軸部是地下水匯聚處，水壓高，開挖時可能有大量湧水</li><li>隧道軸線應避開褶皺軸部，或改以垂直或較大交角通過</li><li>褶皺翼部砂頁岩互層若邊坡走向與岩層走向近平行且兩者傾向相同，邊坡坡角大於岩層傾角時，易發生順向坡滑動</li></ul>",
-          "isExamFocus": false,
+          "isExamFocus": true,
           "examYears": [
             "考古"
           ],
@@ -534,13 +534,13 @@ export default {
               "explanation": "四項全錯：背斜核心岩層最老（非最新，最新是向斜）；背斜軸部（非向斜）才是石油蓄積的理想地點（向斜是地下水蓄聚）；槽線是最低點（非最高）；褶皺使岩層發生彎曲，但連續性基本上並無受到破壞（不像斷層那樣斷開）。"
             }
           ],
-          "neverTested": true
+          "neverTested": false
         },
         {
           "id": "ch3-3.2.12a",
           "name": "3.2.12 斷層（Fault）— 種類與應力",
           "content": "<strong>斷層（Fault）：</strong>破裂性變形，兩側岩層沿著破裂面（斷層面）發生相對移動。斷層面上部岩體稱為<strong>上盤（Hanging wall）</strong>，下部岩體稱為<strong>下盤（Footwall）</strong>。<br><br><strong>五種斷層類型與主應力關係：</strong><table style='width:100%;border-collapse:collapse;font-size:0.85em'><tr style='background:#dbeafe'><th style='border:1px solid #93c5fd;padding:5px;color:#1e40af'>斷層類型</th><th style='border:1px solid #93c5fd;padding:5px;color:#1e40af'>上盤運動</th><th style='border:1px solid #93c5fd;padding:5px;color:#1e40af'>σ₁（最大）</th><th style='border:1px solid #93c5fd;padding:5px;color:#1e40af'>σ₃（最小）</th><th style='border:1px solid #93c5fd;padding:5px;color:#1e40af'>受力</th></tr><tr><td style='border:1px solid #93c5fd;padding:5px'><strong>正斷層</strong></td><td style='border:1px solid #93c5fd;padding:5px'>對下盤相對下移</td><td style='border:1px solid #93c5fd;padding:5px'>垂直向</td><td style='border:1px solid #93c5fd;padding:5px'>水平向</td><td style='border:1px solid #93c5fd;padding:5px'>張力（又稱重力斷層）</td></tr><tr><td style='border:1px solid #93c5fd;padding:5px'><strong>逆斷層</strong></td><td style='border:1px solid #93c5fd;padding:5px'>對下盤相對上移</td><td style='border:1px solid #93c5fd;padding:5px'>水平向</td><td style='border:1px solid #93c5fd;padding:5px'>垂直向</td><td style='border:1px solid #93c5fd;padding:5px'>壓力（近水平擠壓）</td></tr><tr><td style='border:1px solid #93c5fd;padding:5px'><strong>平移斷層</strong></td><td style='border:1px solid #93c5fd;padding:5px'>水平左右移動</td><td style='border:1px solid #93c5fd;padding:5px'>水平向</td><td style='border:1px solid #93c5fd;padding:5px'>水平向</td><td style='border:1px solid #93c5fd;padding:5px'>剪力</td></tr><tr><td style='border:1px solid #93c5fd;padding:5px'><strong>鉸移斷層</strong></td><td style='border:1px solid #93c5fd;padding:5px'>相對於支點旋轉移動</td><td style='border:1px solid #93c5fd;padding:5px'>—</td><td style='border:1px solid #93c5fd;padding:5px'>—</td><td style='border:1px solid #93c5fd;padding:5px'>—</td></tr><tr><td style='border:1px solid #93c5fd;padding:5px'><strong>斜移斷層</strong></td><td style='border:1px solid #93c5fd;padding:5px'>同時具垂直與水平分量</td><td style='border:1px solid #93c5fd;padding:5px'>—</td><td style='border:1px solid #93c5fd;padding:5px'>—</td><td style='border:1px solid #93c5fd;padding:5px'>複合型</td></tr></table><br><strong>正斷層特徵：</strong>傾角45°~90°，以60°~80°最常見；面粗糙、無擦痕；又稱重力斷層。<br><strong>逆斷層特徵：</strong>傾角小於45°；斷層面常呈波浪狀，上可見與走向大致垂直的擦痕面（Slickenside）；常與褶皺相伴而生；附近岩石常見角礫岩、碎裂岩、糜稜岩或片理化岩。逆掩斷層（Overthrust）：傾角小於30°且規模很大，位移量以km計。<br><strong>平移斷層特徵：</strong>σ₁、σ₃皆為水平，σ₂為垂直；斷層面近乎垂直且較平直；面上常見大量水平擦痕及擦溝、密集剪裂帶。",
-          "isExamFocus": false,
+          "isExamFocus": true,
           "examYears": [
             "考古"
           ],
@@ -640,13 +640,13 @@ export default {
               "explanation": "四項全錯：正斷層由張力造成（非壓力），σ₁垂直向（非水平）；逆斷層上盤相對上移（非下移）；平移斷層σ₂為垂直（非水平）；逆掩斷層傾角小於30°（非大於60°）。"
             }
           ],
-          "neverTested": true
+          "neverTested": false
         },
         {
           "id": "ch3-3.2.12b",
           "name": "3.2.12 斷層工程影響與活動斷層",
           "content": "<strong>斷層的工程影響：</strong><ul><li>破壞岩體完整性，造成裂隙多、壓縮性大，強度與承載力明顯降低</li><li>斷層帶附近岩層易造成建物、壩基與橋基的裂開或傾斜</li><li>斷層破碎帶風化較烈，地下水活躍，剪力強度弱化，坡面穩定性降低，易發育崩塌、滑動或地陷</li><li>地震與斷層互為因果關係</li></ul><strong>工程決策：</strong><ul><li>建築基地應盡可能避開斷層帶，否則需基礎改良或特殊基礎設計，並選擇安置於<strong>下盤</strong>為較佳</li><li>公路選線應盡量避免與斷層的走向平行</li><li>隧道軸線最好正交或以大角度斜交方式通過斷層走向線</li></ul><strong>斷層常見組合型態：</strong><ul><li><strong>地塹（Graben）：</strong>長條型相對下降的斷塊，以相向的正斷層為界</li><li><strong>地壘（Horst）：</strong>長條型相對上升的斷塊，以相背的正斷層為界</li><li><strong>階梯狀斷層：</strong>一組位態相近的正斷層，各自上盤依次下降</li><li><strong>疊（覆）瓦狀斷層（Imbricate Fault）：</strong>一組位態相近的低角度逆斷層，上盤依次上升，剖面上近似屋瓦或鱗片狀；台灣所見斷層系列便常是如此</li></ul><strong>活動斷層（Active Fault）定義：</strong><ul><li><strong>一般定義（Bonilla, 1975）：</strong>在最近的過去曾活動過，於不久的將來仍可能活動的斷層</li><li><strong>我國中央地質調查所（2000）：</strong>更新世晚期（距今約10萬年）以來曾活動過，未來可能再度活動之斷層；或「過去十萬年內有活動證據之斷層」（102年經濟部修正）</li><li><strong>第一類活動斷層：</strong>過去1萬年（全新世）內曾有活動紀錄者，共20條</li><li><strong>第二類活動斷層：</strong>過去10萬年至1萬年內（更新世晚期）曾有活動紀錄者，共13條</li><li><strong>存疑性活動斷層：</strong>有可能為活動斷層，但對存在性、活動年代、再活動性尚無確切證據，共4條</li></ul>",
-          "isExamFocus": false,
+          "isExamFocus": true,
           "examYears": [
             "考古"
           ],
@@ -745,13 +745,13 @@ export default {
               "explanation": "四項全錯：第一類為1萬年（全新世）內（非100萬年）；存疑性斷層是「有可能但尚無確切證據」（非確認）；台灣活動斷層集中東部花東縱谷及西部丘陵（非全部西部平原）；第二類共13條（33條是全部活動斷層總數）。"
             }
           ],
-          "neverTested": true
+          "neverTested": false
         },
         {
           "id": "ch3-3.2.12c",
           "name": "3.2.12 斷層野外辨識特徵",
           "content": "<strong>斷層野外辨識——地形上的證據：</strong><ul><li><strong>線狀槽溝：</strong>斷層帶破碎岩石或土壤易被地表逕流沖蝕形成線狀槽溝，在遙測影像上明顯可辨</li><li><strong>跌水與瀑布：</strong>河谷出現明顯連續高低差</li><li><strong>斷層崖（Fault Scarp）：</strong>上升盤常形成陡崖</li><li><strong>斷層三角面：</strong>斷層崖受地表流水侵蝕切割，形成沿斷層面分布的三角形陡壁</li><li><strong>斷層鞍口（Fault Gap）：</strong>斷層經過山脊或山腹，強度較低易受侵蝕形成明顯較低的鞍部，或形成獨立山丘（Kernbut）</li><li><strong>錯斷的山脊、急轉的河流：</strong>正常延伸的山脊被突然截斷，或河流突然急轉</li></ul><strong>斷層構造特徵：</strong><ul><li>斷層帶內發現<strong>斷層角礫（Fault Breccia）或斷層泥（Fault Gouge）</strong></li><li><strong>擦痕（Slickenside）：</strong>斷層兩盤錯動時，摩擦作用在滑動面上產生平行密集的微小刻槽；與擦痕直交的小台階</li><li><strong>磨擦鏡面：</strong>斷層面上磨光的平面</li><li><strong>牽引褶皺：</strong>斷層兩盤錯動時，緊鄰斷層面兩側地層因摩擦力牽引而彎曲</li><li><strong>伴生節理：</strong>在斷層剪切滑動作用下，發生在斷層面兩側岩層中的節理</li></ul>",
-          "isExamFocus": false,
+          "isExamFocus": true,
           "examYears": [
             "考古"
           ],
@@ -849,7 +849,7 @@ export default {
               "explanation": "四項全錯：線狀槽溝在遙測影像上明顯可辨（非看不出）；牽引褶皺是斷層兩盤錯動摩擦牽引造成（非侵蝕）；擦痕可出現在各種斷層；斷層崖出現在上升盤（非下盤）。"
             }
           ],
-          "neverTested": true
+          "neverTested": false
         }
       ]
     }

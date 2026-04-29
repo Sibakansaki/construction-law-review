@@ -628,7 +628,7 @@ export default {
           "id": "ch1-1.7b",
           "name": "1.7.2 沈積岩 — 特性與種類",
           "content": "<strong>沈積岩（Sedimentary Rocks）：</strong>現有岩石在低溫低壓下風化、侵蝕、搬運、堆積、壓密、固結後形成。以頁岩、砂岩、石灰岩三類分布最廣，約占沈積岩分布面積99%（頁岩最廣、砂岩次之、石灰岩再次之）。<br><br><strong>疊置成層法則（Law of Superposition）：</strong>沈積岩愈下者愈先沈積且年代較老；愈上者年代愈新。<br><br><strong>膠結物種類：</strong>矽質膠結物（SiO₂）、鐵質膠結物（氫氧化鐵或三氧化二鐵）、鈣質膠結物（方解石與白雲石）、泥質膠結物（黏土礦物）。<br><br><strong>重要沈積岩特性：</strong><ul><li><strong>石灰岩：</strong>以方解石為主，滴稀鹽酸劇烈起泡，硬度約3.5，節理普遍，常為地下水通道。大壩及水庫應避免建於石灰岩地區。若下接頁岩或泥岩層易發生沿順層滑動現象。</li><li><strong>頁岩（黏土岩）：</strong>最常見且分布最廣泛，以高嶺石為主。具可裂成薄頁片狀層理（可劈性Fisslity），間常為地表水滲透管道；黏土礦物因吸收水分而膨脹、回彈，若不覆重壓，終致岩盤產生隆起。</li><li><strong>喀斯特地形（Karst Topography）：</strong>又稱溶蝕地形、石灰岩地形。水對可溶性岩石溶蝕所形成的地表和地下形態，地下常存在地下河、溶洞。</li></ul>",
-          "isExamFocus": false,
+          "isExamFocus": true,
           "examYears": [
             "考古"
           ],
@@ -726,13 +726,13 @@ export default {
               "explanation": "四項全錯（選項描述全部對調了）：矽質膠結物=SiO₂；鐵質膠結物=氫氧化鐵/三氧化二鐵；鈣質膠結物=方解石與白雲石；泥質膠結物=黏土礦物。"
             }
           ],
-          "neverTested": true
+          "neverTested": false
         },
         {
           "id": "ch1-1.7c",
           "name": "1.7.3 變質岩 — 特性與工程性質",
           "content": "<strong>變質岩（Metamorphic Rocks）：</strong>已形成之岩石因高壓、高溫與熱液作用，使固體狀況下改變原岩石組織結構，生成新礦物，形成截然不同的新生岩石。變質作用不包括岩石再熔（Remelting）或風化作用。<br><br><strong>常見變質對應關係：</strong><ul><li>花崗岩→片麻岩（葉片狀）</li><li>玄武岩→角閃岩（葉片狀）</li><li>頁岩→板岩（葉片狀）</li><li>頁岩或玄武岩→片岩（葉片狀）</li><li>砂岩→石英岩（非葉片狀）</li><li>石灰岩→大理岩（非葉片狀）</li><li>橄欖岩→蛇紋岩（非葉片狀）</li></ul><strong>葉理構造（Foliation）：</strong>原岩在高溫高壓下重結晶，礦物沿垂直壓力最小方向排列，形成規則平行面。依變質程度由大到小：<strong>片麻狀（Gneissic）→片狀（Schistone）→千枚狀→板狀（Slaty）</strong><br><br><strong>各變質岩工程性質：</strong><ul><li><strong>石英岩：</strong>緻密堅硬，強度極高，抗水性良好，但性脆、易裂隙、容易貯水</li><li><strong>大理岩：</strong>強度高，均一性佳，性脆，需注意岩溶問題</li><li><strong>片麻岩：</strong>力學強度隨黑雲母含量及片麻理發育程度增加而降低</li><li><strong>千枚岩、板岩：</strong>變質程度低，性脆，強度較低，易生滑動；板岩易沿板理軟化並在地表淺層潛移或解壓裂解</li></ul>",
-          "isExamFocus": false,
+          "isExamFocus": true,
           "examYears": [
             "考古"
           ],
@@ -829,7 +829,7 @@ export default {
               "explanation": "四項全錯：變質作用不包括再熔或風化；玄武岩變質後為角閃岩（非大理岩，大理岩來自石灰岩）；石英岩是非葉片狀變質岩（非葉片狀）。"
             }
           ],
-          "neverTested": true
+          "neverTested": false
         }
       ]
     }

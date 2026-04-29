@@ -226,7 +226,7 @@ export default {
           "id": "ch7-7.2",
           "name": "7.2 優良壩址條件與地質構造影響",
           "content": "<strong>水庫工程主要考量：</strong>①壩址的穩定性；②壩址及水庫蓄水周遭範圍的水密性。<br><br><strong>優良壩址應具備的條件：</strong><ol><li>壩基的岩體強度要夠高，以承受壩體本身重量及水的側向壓力</li><li>壩址的水密性要高，避免蓄水效率低及造成壩基下方結構損壞</li><li>地形條件需能提供所需壩址長度較短、上游的蓄水區要夠寬大</li><li>壩址的邊坡地質條件足以穩定，避免開挖後產生滑動影響壩址安全；且邊坡綠覆率要夠高、避免沖刷造成水庫淤積</li><li>避開斷層/活動斷層，以及評估地震的影響</li></ol><strong>層面走向與壩址軸線平行時：</strong><table style='width:100%;border-collapse:collapse;font-size:0.8em'><tr style='background:#dbeafe'><th style='border:1px solid #93c5fd;padding:4px;color:#1e40af'>層面位態</th><th style='border:1px solid #93c5fd;padding:4px;color:#1e40af'>工程評估</th></tr><tr><td style='border:1px solid #93c5fd;padding:4px'>傾向指向上游，高傾角</td><td style='border:1px solid #93c5fd;padding:4px'>穩定性高，形成良好封閉面，水密性高不易滲漏→<strong>良好的壩址</strong></td></tr><tr><td style='border:1px solid #93c5fd;padding:4px'>傾向指向上游，低傾角</td><td style='border:1px solid #93c5fd;padding:4px'>蓄水後壩體承受極大側向壓力，壩基在自重+水平推力雙重作用下，層面可能產生剪力破壞的滑動面</td></tr><tr><td style='border:1px solid #93c5fd;padding:4px'>傾向指向下游，高傾角</td><td style='border:1px solid #93c5fd;padding:4px'>穩定性高，形成良好封閉面，水密性高不易滲漏→<strong>良好的壩址</strong></td></tr><tr><td style='border:1px solid #93c5fd;padding:4px'>傾向指向下游，低傾角</td><td style='border:1px solid #93c5fd;padding:4px'>①蓄水後極大側向壓力，可能產生剪力破壞；②壩基底存在數個弱面時，極易造成水沿著層面滲流而滲漏</td></tr></table><br><strong>層面走向與壩址軸線垂直時：</strong><ul><li>不管層面傾角大小，層面走向貫穿壩基上下游，<strong>滲漏最嚴重</strong></li><li>水庫有一側屬順向坡，容易產生平面滑動；另一側為逆向坡，容易產生翻倒型破壞</li></ul><strong>褶皺對壩址的影響：</strong><ul><li>向斜（壩址位於向斜下游處）：向斜兩翼岩層傾角較高時，其水密性及承載力較佳，是為良好的壩址</li><li>背斜（壩址位於背斜下游處）：背斜兩翼岩層傾角較高時，水密性及承載力佳，是為良好的壩址；傾角較緩時，易漏水</li></ul>",
-          "isExamFocus": false,
+          "isExamFocus": true,
           "examYears": [
             "考古"
           ],
@@ -325,7 +325,7 @@ export default {
               "explanation": "四項全錯：傾向上游+低傾角→蓄水後側向壓力大可能滑動（非最有利，高傾角才有利）；走向平行+高傾角→良好壩址（封閉面，水密性高非容易滲漏）；向斜正下方地下水匯聚→滲漏問題（非理想位置）；走向垂直壩址→滲漏「最嚴重」（非最好）。"
             }
           ],
-          "neverTested": true
+          "neverTested": false
         }
       ]
     },
@@ -337,7 +337,7 @@ export default {
           "id": "ch7-7.3a",
           "name": "7.3.1–7.3.2 土石流與土壤邊坡破壞分類",
           "content": "<strong>土石流（Debris Flow）：</strong>飽含泥、砂、礫及巨石等物質與水之混合物，以重力作用為主，水流作用為輔的一種高濃度且流動快速的兩相流（Two-Phase Flow）。<br><br><strong>土石流三要素（發生的主要原因）：</strong><ol><li><strong>豐富的堆積物：</strong>足夠的鬆散土砂提供固態物質</li><li><strong>充份之水分：</strong>降低土砂間摩擦力（潤滑劑），幫助固態物質流動</li><li><strong>足夠的坡度：</strong>提供流動的動力，克服土石摩擦力後繼續流動</li></ol><strong>土石流的坡度特徵：</strong><ul><li>發生地點坡度：<strong>15°~30°</strong>間為多</li><li>堆積地點坡度：<strong>3°~6°</strong>間為多</li></ul><strong>土石流特徵：</strong><ul><li>流動速度快、泥砂濃度高、沖蝕力強、衝擊力大</li><li>前端隆起、流量大，多為集中的巨大石礫；後續水流多為泥流</li><li>石礫分布多為大石頭在上、小石頭在下</li><li>礫石型土石流流速約3~10m/s；泥流型土石流約2~20m/s</li><li>溪谷出口坡度緩且寬度大→土石流常在此形成扇狀堆積</li></ul><br><strong>土壤邊坡破壞五種基本移動型式：</strong><ol><li><strong>墜落（Fall）：</strong>體積大小不一的岩石或土壤以自由落體方式掉落；常發生在易沖刷土層位於不易沖刷土層之下方者</li><li><strong>翻倒（Topple）：</strong>土壤或岩塊向下坡方向傾斜，重心離開岩塊趾部後翻倒；通常岩層被兩組近垂直節理切割成柱狀最易發生</li><li><strong>滑動（Slide）：</strong><ul><li><strong>平移型滑動（Translational）：</strong>滑動面近乎平面，沿層面、節理面、劈理面、斷層面或崩積土與岩盤界面等弱面滑動；常因地層排水不良觸動，或坡腳被切除引發</li><li><strong>圓弧型滑動（Rotational）：</strong>滑動面成開口向上的曲面（湯匙形狀）；常發生在邊坡、河岸、公路旁及填土的地方，尤其是土層很厚或岩層高度破碎的地方；滑動體及冠部附近常可見到張力裂縫</li></ul></li><li><strong>潰散（Spread）：</strong>近水平方向的崩塌，破裂面之下通常是一軟弱層，因下方之軟弱層產生塑性滑動、液化、流動等，影響了上方土壤或岩層，而發生接近水平的崩塌。包括塊體潰散（Block Spread）、液化潰散（Liquefaction Spread）與側向潰散（Lateral Spread）</li><li><strong>流動（Flow）：</strong>崩塌體在空間中連續的移動；崩塌體內剪裂面（Surfaces of Shear）間隔相當緊密，形成後存在時間很短。台灣最常見者為土石流（Debris Flow），依地形分為渠道型（Channelized）土石流與坡面型土石流</li></ol>",
-          "isExamFocus": false,
+          "isExamFocus": true,
           "examYears": [
             "考古"
           ],
@@ -436,7 +436,7 @@ export default {
               "explanation": "A錯：土石流石礫為大石頭在「上」、小石頭在「下」；B錯：開口向上曲面是圓弧型滑動，平移型是「近乎平面」的滑動面；D錯：台灣最常見的是「渠道型」土石流（非坡面型）。C正確：潰散確實是由下方軟弱層影響上方土體發生近水平的崩塌。"
             }
           ],
-          "neverTested": true
+          "neverTested": false
         },
         {
           "id": "ch7-7.3b",

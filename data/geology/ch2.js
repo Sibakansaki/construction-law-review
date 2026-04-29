@@ -320,7 +320,7 @@ export default {
           "id": "ch2-2.5",
           "name": "2.5 台灣七大地質分區",
           "content": "<strong>台灣七大地質分區（由西至東）：</strong><table style='width:100%;border-collapse:collapse;font-size:0.85em'><tr style='background:#dbeafe'><th style='border:1px solid #93c5fd;padding:5px;color:#1e40af'>地質區</th><th style='border:1px solid #93c5fd;padding:5px;color:#1e40af'>代表岩石</th><th style='border:1px solid #93c5fd;padding:5px;color:#1e40af'>說明</th></tr><tr><td style='border:1px solid #93c5fd;padding:5px'><strong>I. 澎湖群島</strong></td><td style='border:1px solid #93c5fd;padding:5px'>更新世玄武岩</td><td style='border:1px solid #93c5fd;padding:5px'>中新世裂縫式噴發，玄武岩熔岩流覆蓋，形成平頂台地</td></tr><tr><td style='border:1px solid #93c5fd;padding:5px'><strong>II. 西部濱海平原</strong></td><td style='border:1px solid #93c5fd;padding:5px'>第四紀沖積層</td><td style='border:1px solid #93c5fd;padding:5px'>最年輕地層</td></tr><tr><td style='border:1px solid #93c5fd;padding:5px'><strong>III. 西部麓山帶</strong></td><td style='border:1px solid #93c5fd;padding:5px'>新第三紀碎屑岩（砂岩、頁岩）</td><td style='border:1px solid #93c5fd;padding:5px'>常出現單面山（Cuesta）或豬背嶺（Hogback），工程開挖易引起順向坡滑動</td></tr><tr><td style='border:1px solid #93c5fd;padding:5px'><strong>IVa. 雪山山脈帶</strong></td><td style='border:1px solid #93c5fd;padding:5px'>硬頁岩或板岩</td><td style='border:1px solid #93c5fd;padding:5px'>第三紀亞變質岩，四稜砂岩和白冷層（堅硬石英砂岩）著名</td></tr><tr><td style='border:1px solid #93c5fd;padding:5px'><strong>IVb. 脊樑山脈帶</strong></td><td style='border:1px solid #93c5fd;padding:5px'>板岩或千枚岩</td><td style='border:1px solid #93c5fd;padding:5px'>變質程度較強，板岩多已變質為板岩及千枚岩</td></tr><tr><td style='border:1px solid #93c5fd;padding:5px'><strong>Va. 太魯閣帶</strong></td><td style='border:1px solid #93c5fd;padding:5px'>片岩、大理岩、花崗岩</td><td style='border:1px solid #93c5fd;padding:5px'>高溫低壓變質（岩漿入侵）；先第三紀變質雜岩</td></tr><tr><td style='border:1px solid #93c5fd;padding:5px'><strong>Vb. 玉里帶</strong></td><td style='border:1px solid #93c5fd;padding:5px'>片岩、蛇紋岩（含藍閃石）</td><td style='border:1px solid #93c5fd;padding:5px'>高壓低溫變質（隱沒帶）；藍閃石片岩是高壓隱沒帶的證明</td></tr><tr><td style='border:1px solid #93c5fd;padding:5px'><strong>VI. 東部縱谷</strong></td><td style='border:1px solid #93c5fd;padding:5px'>板塊縫合帶</td><td style='border:1px solid #93c5fd;padding:5px'>混同層與雙變質帶，代表性地層為利吉層（台東至玉里）</td></tr><tr><td style='border:1px solid #93c5fd;padding:5px'><strong>VII. 海岸山脈</strong></td><td style='border:1px solid #93c5fd;padding:5px'>新第三紀火山岩</td><td style='border:1px solid #93c5fd;padding:5px'>菲律賓海板塊西緣的一個第三紀島弧</td></tr></table>",
-          "isExamFocus": false,
+          "isExamFocus": true,
           "examYears": [
             "考古"
           ],
@@ -417,7 +417,7 @@ export default {
               "explanation": "雪山山脈帶（硬頁岩板岩）和脊樑山脈帶（板岩千枚岩，變質程度更強），兩者以梨山斷層（又稱界限斷層）為界。D錯誤：脊樑山脈帶以板岩千枚岩為主（非砂岩），且變質程度較高（非低）。"
             }
           ],
-          "neverTested": true
+          "neverTested": false
         }
       ]
     },
@@ -530,7 +530,7 @@ export default {
           "id": "ch2-2.6b",
           "name": "2.6 順向坡、逆向坡與地形專有名詞",
           "content": "<strong>順向坡（Dip Slope）：</strong>依水土保持技術規範第31條，凡坡面與層面、劈理面之走向大致平行（走向交角在20°以內），且兩者傾向一致者。<ul><li>形成多在傾斜、互層狀沉積岩區（砂岩與頁岩互層）</li><li>坡面常為砂岩組成，表面分布厚薄不一的風化土層</li><li>若坡面或斜面坡度大於地層傾角，地層面或不連續面會出露在坡面上（<strong>出露=Daylight</strong>），很容易發生平面滑動</li></ul><strong>逆向坡：</strong>坡面與層面、劈理面走向大致平行（走向交角在20°以內），但兩者傾向相反者。<br><br><strong>斜交坡：</strong>坡面與層面、劈理面走向交角大於20°以上者。<br><br><strong>單面山（Cuesta）vs 豬背嶺（Hogback Ridge）：</strong><ul><li>傾斜角&lt;35°→ 單面山（只有一邊傾斜）</li><li>傾斜角&gt;35°→ 豬背嶺（兩邊都傾斜）</li><li>兩者成因都是軟硬互層，差別在傾斜程度</li></ul><strong>地塹（Graben）：</strong>兩斷層形成V字型，夾在中間之岩層或地盤陷落，兩側岩層相對上升。<br><strong>地壘（Horst）：</strong>兩斷層形成八字型，夾在中間之岩層或地盤上升，兩側岩層相對下降（又稱地隆）。<br><br><strong>地質敏感區（依地質法第5條）：</strong>五類包括：①地質遺跡、②地下水補注、③活動斷層、④山崩與地滑、⑤其他經中央主管機關認定者。",
-          "isExamFocus": false,
+          "isExamFocus": true,
           "examYears": [
             "考古"
           ],
@@ -629,7 +629,7 @@ export default {
               "explanation": "四項全錯：順向坡未必發生滑動（需配合坡腳切除、雨水滲入等條件）；逆向坡比順向坡「不容易」發生滑動；斜交坡走向交角>20°（非屬順向坡）；Daylight後若無觸發因素不必然立即滑動。"
             }
           ],
-          "neverTested": true
+          "neverTested": false
         },
         {
           "id": "ch2-2.6c",

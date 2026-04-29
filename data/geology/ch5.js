@@ -10,7 +10,7 @@ export default {
           "id": "ch5-5.1",
           "name": "5.1 ISRM弱面描述十大項目與RQD",
           "content": "<strong>ISRM（國際岩石力學學會）建議描述弱面的十大項目：</strong><ol><li><strong>位置與方位（Orientation）：</strong>走向、傾向、傾角（位態三要素）</li><li><strong>間距（Spacing）：</strong>相鄰兩弱面的垂直距離；間距愈小代表岩塊愈小愈破碎。節理密度（節理頻率）J<sub>d</sub> = 1/s（條/m）</li><li><strong>延續性（Persistence）：</strong>弱面延伸的範圍及長度；延續性愈好代表弱面縱向延伸愈長，橫向節理較少</li><li><strong>粗糙度（Roughness）：</strong>弱面原有的粗糙度及波狀起伏程度。Patton(1966)：τf = σtan(φr + i)，i愈大剪力強度愈大（φr：殘餘摩擦角；i：弱面粗糙角）</li><li><strong>內壁材料強度（Wall Strength）：</strong>弱面兩側岩石的抗壓強度，使用施密特垂（回彈儀）量測</li><li><strong>張開度（Aperture）：</strong>弱面兩壁間的垂直距離，一般張開度小於1mm。受張力者多為開裂；受剪力者為閉合</li><li><strong>填充物（Fillings）：</strong>弱面內填充粉末、風化產物或外來物質。黏土質→軟夾心（Soft Filling）→降低抗剪強度；石英或方解石→提高摩擦阻抗</li><li><strong>滲水（Seepage）狀況：</strong>弱面是地下水在岩體內滲流的重要通道，加速風化並降低抗剪強度</li><li><strong>組數（Number of Sets）：</strong>同一位態弱面成群出現稱為一組（Set）；組數愈多代表岩體愈破碎、強度愈低、滲透性愈高</li><li><strong>岩塊尺度（Block Size）：</strong>ISRM(1981)建議以岩塊規模指數I<sub>B</sub>、單位體積節理數J<sub>v</sub>及RQD表示</li></ol><strong>RQD（Rock Quality Designation，岩石品質指標）：</strong>由Deere(1967)提出，指每次鑽探所取得岩心中，<strong>完整岩心長度超過10公分之各段合計長度佔鑽探岩心總長度之百分比</strong>。<br><br><strong>與RQD常一起出現的名詞：</strong><ul><li><strong>破裂指數（Fracture Index, FI）：</strong>鑽探岩心每公尺的裂面數；存在破碎帶時應分開計算</li><li><strong>岩心回收率（Core Recovery）：</strong>鑽探取得岩心的總長度與鑽進長度之百分比</li></ul>",
-          "isExamFocus": false,
+          "isExamFocus": true,
           "examYears": [
             "考古"
           ],
@@ -108,7 +108,7 @@ export default {
               "explanation": "四項全錯：延續性愈好代表弱面縱向延伸愈「長」（非短）；張開度小於1mm的弱面受張力→開裂（非閉合，閉合是受剪力）；弱面組數愈「多」代表岩體愈破碎（非少）；D描述的是破裂指數FI，RQD是完整岩心>10cm的百分比。"
             }
           ],
-          "neverTested": true
+          "neverTested": false
         }
       ]
     },
@@ -120,7 +120,7 @@ export default {
           "id": "ch5-5.2.1",
           "name": "5.2.1 Q法（Rock Mass Quality Index）",
           "content": "<strong>Q法（Q System / NGI分類法）：</strong>由Barton、Lien、Lunde(1974)於挪威NGI（Norwegian Geotechnical Institute）發展，為隧道開挖支撐設計而生。Q值範圍：<strong>0.001~1000</strong>。<br><br><strong>Q值公式：</strong><br>Q = (RQD/J<sub>n</sub>) × (J<sub>r</sub>/J<sub>a</sub>) × (J<sub>w</sub>/SRF)<br><ul><li><strong>J<sub>n</sub>：</strong>節理（不連續面/弱面）組數的評分</li><li><strong>J<sub>r</sub>：</strong>最不利的節理（弱面）組之粗糙度評分</li><li><strong>J<sub>a</sub>：</strong>最弱的節理（弱面）組之填充物蝕變程度評分</li><li><strong>J<sub>w</sub>：</strong>不連續面滲水的折減因子（或稱評分）</li><li><strong>SRF：</strong>岩體應力狀況的折減因子（或稱評分）</li></ul><strong>三個比值的意義：</strong><ul><li><strong>RQD/J<sub>n</sub>：</strong>代表岩體整體結構狀況（衡量岩塊的尺寸大小）</li><li><strong>J<sub>r</sub>/J<sub>a</sub>：</strong>代表塊體之間的最小剪力強度</li><li><strong>J<sub>w</sub>/SRF：</strong>代表岩石的作用應力</li></ul><strong>Q值與岩體分類：</strong><table style='width:100%;border-collapse:collapse;font-size:0.85em'><tr style='background:#dbeafe'><th style='border:1px solid #93c5fd;padding:5px;color:#1e40af'>Q值</th><th style='border:1px solid #93c5fd;padding:5px;color:#1e40af'>&lt;0.01</th><th style='border:1px solid #93c5fd;padding:5px;color:#1e40af'>0.01~0.1</th><th style='border:1px solid #93c5fd;padding:5px;color:#1e40af'>0.1~1.0</th><th style='border:1px solid #93c5fd;padding:5px;color:#1e40af'>1~4</th><th style='border:1px solid #93c5fd;padding:5px;color:#1e40af'>4~10</th><th style='border:1px solid #93c5fd;padding:5px;color:#1e40af'>10~40</th><th style='border:1px solid #93c5fd;padding:5px;color:#1e40af'>40~100</th><th style='border:1px solid #93c5fd;padding:5px;color:#1e40af'>&gt;400</th></tr><tr><td style='border:1px solid #93c5fd;padding:5px'>岩體分類</td><td style='border:1px solid #93c5fd;padding:5px'>異常差</td><td style='border:1px solid #93c5fd;padding:5px'>極差</td><td style='border:1px solid #93c5fd;padding:5px'>很差</td><td style='border:1px solid #93c5fd;padding:5px'>差</td><td style='border:1px solid #93c5fd;padding:5px'>一般</td><td style='border:1px solid #93c5fd;padding:5px'>好</td><td style='border:1px solid #93c5fd;padding:5px'>很好</td><td style='border:1px solid #93c5fd;padding:5px'>異常好</td></tr></table><br><strong>Q法的應用：</strong>決定臨時性或永久性隧道支撐種類及數量、岩體分類及強度評估、岩體變形量（變形模數）推估、支撐壓力推估、無支撐之最大跨距推估、推估受擠壓變形之隧道臨界深度。特別適用於<strong>挪威隧道工法（NTM）</strong>與<strong>新奧工法（NATM）</strong>。",
-          "isExamFocus": false,
+          "isExamFocus": true,
           "examYears": [
             "考古"
           ],
@@ -218,13 +218,13 @@ export default {
               "explanation": "四項全錯：Q法由挪威NGI的Barton等人在1974年提出（南非CSIR是RMR法）；Q值愈大代表岩體品質愈好（非愈差）；Jr/Ja代表塊體間的最小剪力強度（岩體整體結構是RQD/Jn）；SRF是岩體應力狀況的折減因子（滲水折減是Jw）。"
             }
           ],
-          "neverTested": true
+          "neverTested": false
         },
         {
           "id": "ch5-5.2.2",
           "name": "5.2.2 RMR法（Rock Mass Rating System）",
           "content": "<strong>RMR法：</strong>Bieniawski(1976)於南非CSIR建立，滿分100分，歷經4次修正（最近1989年修正）。<br><br><strong>RMR法六項考量因子：</strong><table style='width:100%;border-collapse:collapse;font-size:0.85em'><tr style='background:#dbeafe'><th style='border:1px solid #93c5fd;padding:5px;color:#1e40af'>考量因子</th><th style='border:1px solid #93c5fd;padding:5px;color:#1e40af'>類別</th><th style='border:1px solid #93c5fd;padding:5px;color:#1e40af'>評分範圍</th><th style='border:1px solid #93c5fd;padding:5px;color:#1e40af'>小計</th></tr><tr><td style='border:1px solid #93c5fd;padding:5px'>岩石單壓強度</td><td style='border:1px solid #93c5fd;padding:5px'>地質材料</td><td style='border:1px solid #93c5fd;padding:5px'>0~15分</td><td style='border:1px solid #93c5fd;padding:5px'>15分</td></tr><tr><td style='border:1px solid #93c5fd;padding:5px'>岩心品質指標（RQD）</td><td style='border:1px solid #93c5fd;padding:5px'>地質構造</td><td style='border:1px solid #93c5fd;padding:5px'>3~20分</td><td style='border:1px solid #93c5fd;padding:5px' rowspan='3'>70分</td></tr><tr><td style='border:1px solid #93c5fd;padding:5px'>不連續面的間距</td><td style='border:1px solid #93c5fd;padding:5px'>地質構造</td><td style='border:1px solid #93c5fd;padding:5px'>5~20分</td></tr><tr><td style='border:1px solid #93c5fd;padding:5px'>不連續面的狀況</td><td style='border:1px solid #93c5fd;padding:5px'>地質構造</td><td style='border:1px solid #93c5fd;padding:5px'>0~30分</td></tr><tr><td style='border:1px solid #93c5fd;padding:5px'>地下水狀況</td><td style='border:1px solid #93c5fd;padding:5px'>環境因素</td><td style='border:1px solid #93c5fd;padding:5px'>0~15分</td><td style='border:1px solid #93c5fd;padding:5px'>15分</td></tr><tr><td style='border:1px solid #93c5fd;padding:5px'>不連續面的位態</td><td style='border:1px solid #93c5fd;padding:5px'>工程因素</td><td style='border:1px solid #93c5fd;padding:5px'>-12~0分</td><td style='border:1px solid #93c5fd;padding:5px'>（扣分項）</td></tr></table><br><strong>RMR法岩體分類等級（Bieniawski, 2004）：</strong><table style='width:100%;border-collapse:collapse;font-size:0.85em'><tr style='background:#dbeafe'><th style='border:1px solid #93c5fd;padding:4px;color:#1e40af'>評分</th><th style='border:1px solid #93c5fd;padding:4px;color:#1e40af'>等級</th><th style='border:1px solid #93c5fd;padding:4px;color:#1e40af'>岩體優劣</th><th style='border:1px solid #93c5fd;padding:4px;color:#1e40af'>免支撐跨距</th><th style='border:1px solid #93c5fd;padding:4px;color:#1e40af'>免支撐時間</th></tr><tr><td style='border:1px solid #93c5fd;padding:4px'>81~100</td><td style='border:1px solid #93c5fd;padding:4px'>I</td><td style='border:1px solid #93c5fd;padding:4px'>極優</td><td style='border:1px solid #93c5fd;padding:4px'>15m</td><td style='border:1px solid #93c5fd;padding:4px'>20年</td></tr><tr><td style='border:1px solid #93c5fd;padding:4px'>61~80</td><td style='border:1px solid #93c5fd;padding:4px'>II</td><td style='border:1px solid #93c5fd;padding:4px'>優良</td><td style='border:1px solid #93c5fd;padding:4px'>10m</td><td style='border:1px solid #93c5fd;padding:4px'>1年</td></tr><tr><td style='border:1px solid #93c5fd;padding:4px'>41~60</td><td style='border:1px solid #93c5fd;padding:4px'>III</td><td style='border:1px solid #93c5fd;padding:4px'>尚可</td><td style='border:1px solid #93c5fd;padding:4px'>5m</td><td style='border:1px solid #93c5fd;padding:4px'>1週</td></tr><tr><td style='border:1px solid #93c5fd;padding:4px'>21~40</td><td style='border:1px solid #93c5fd;padding:4px'>IV</td><td style='border:1px solid #93c5fd;padding:4px'>劣</td><td style='border:1px solid #93c5fd;padding:4px'>2.5m</td><td style='border:1px solid #93c5fd;padding:4px'>10小時</td></tr><tr><td style='border:1px solid #93c5fd;padding:4px'>0~20</td><td style='border:1px solid #93c5fd;padding:4px'>V</td><td style='border:1px solid #93c5fd;padding:4px'>極劣</td><td style='border:1px solid #93c5fd;padding:4px'>1m</td><td style='border:1px solid #93c5fd;padding:4px'>30分鐘</td></tr></table><br><strong>RMR重要公式：</strong><ul><li>岩體變形模數（RMR&gt;50）：E<sub>m</sub> = 2×RMR − 100（GPa）</li><li>岩體變形模數（RMR&lt;50）：E<sub>m</sub> = 10<sup>(RMR-10)/40</sup>（GPa）</li><li>隧道支撐載重：P(kN) = [(100-RMR)/100] × γ × B（隧道寬度m）</li><li>Q與RMR換算：RMR = 9 log<sub>e</sub>Q + 44</li></ul>",
-          "isExamFocus": false,
+          "isExamFocus": true,
           "examYears": [
             "考古"
           ],
@@ -322,13 +322,13 @@ export default {
               "explanation": "四項全錯：不連續面狀況最高30分（非20分，間距才是最高20分）；RMR=50時Em=0（邊界值，此時應改用RMR<50的公式）；等級V（0~20）免支撐跨距為1m（非5m，5m是等級III）；RMR法滿分100分（非150分）。"
             }
           ],
-          "neverTested": true
+          "neverTested": false
         },
         {
           "id": "ch5-5.2.3",
           "name": "5.2.3 RSR法與三種分類法比較",
           "content": "<strong>RSR法（Rock Structure Rating）：</strong>由美國Wickham(1972)提出，滿分100分。主要應用在<strong>隧道工程鋼支保支撐方式的選擇</strong>，但<strong>不適用於岩栓及噴漿支撐的選擇</strong>。<br><br><strong>RSR法四個考量因子：</strong><ol><li>地質參數：岩石種類、軟硬度、斷層、剪裂帶、褶皺等</li><li>不連續面參數：不連續面之間距、位態、開口程度及風化程度</li><li>地下水參數：滲流量</li><li>施工參數：隧道挖掘前進方向</li></ol><strong>RSR法評分方式（簡化）：</strong>RSR = A + B + C = 30 + 45 + 25 = 100<br><ul><li>A：與岩石種類及地質構造有關（最高30分）</li><li>B：弱面方位（最高45分）</li><li>C：(A+B)弱面品質（最高25分）</li></ul><strong>岩體分類定性vs定量比較：</strong><table style='width:100%;border-collapse:collapse;font-size:0.85em'><tr style='background:#dbeafe'><th style='border:1px solid #93c5fd;padding:5px;color:#1e40af'>分類</th><th style='border:1px solid #93c5fd;padding:5px;color:#1e40af'>類型</th><th style='border:1px solid #93c5fd;padding:5px;color:#1e40af'>代表方法</th></tr><tr><td style='border:1px solid #93c5fd;padding:5px'>定性分類</td><td style='border:1px solid #93c5fd;padding:5px'>Terzaghi岩盤荷重分類法、奧地利岩體分類法</td><td style='border:1px solid #93c5fd;padding:5px'>描述為主</td></tr><tr><td style='border:1px solid #93c5fd;padding:5px'>定量分類</td><td style='border:1px solid #93c5fd;padding:5px'>RMR法、RSR法、Q法</td><td style='border:1px solid #93c5fd;padding:5px'>評分為主</td></tr></table><br><strong>台灣使用Q法與RMR法的限制：</strong><ul><li>台灣地質年代較年輕，位處板塊衝撞帶，岩石種類、強度及地質構造特性均異於這些分類系統起源地區</li><li>台灣西部麓山帶卵礫石層及砂泥岩等，強度偏低、遇水容易軟化，Q法與RMR明顯無法一體適用</li><li>目前台灣針對這些地區，較常採用定性岩體分類系統；岩盤隧道則普遍採用Q法與RMR</li><li>RSR法因不適用於岩栓及噴漿支撐，現今工程較少採用；目前主要常用岩體分類法為Q法與RMR法</li></ul>",
-          "isExamFocus": false,
+          "isExamFocus": true,
           "examYears": [
             "考古"
           ],
@@ -426,7 +426,7 @@ export default {
               "explanation": "四項全錯：RSR法「不適用」岩栓噴漿；RSR滿分100分（非150）；A項最高30分（B弱面方位才是最高45分）；RSR由美國Wickham在1972年提出（非英國1980年）。"
             }
           ],
-          "neverTested": true
+          "neverTested": false
         }
       ]
     },
@@ -438,7 +438,7 @@ export default {
           "id": "ch5-5.4",
           "name": "5.4 GSI系統（Geological Strength Index）",
           "content": "<strong>GSI（Geological Strength Index）系統：</strong>由Hoek & Brown(1980)持續發展，是目前唯一同時可描述完整岩石及具裂隙岩體強度能力的破壞準則（Hoek-Brown破壞準則）。<br><br><strong>Hoek-Brown廣義破壞準則（2002，General Hoek-Brown Criterion）：</strong><br>σ'₁ = σ'₃ + σci(mb σ'₃/σci + s)<sup>a</sup><br><ul><li>σci：完整岩石的單壓強度</li><li>m<sub>b</sub>：受擾動岩體的岩性參數（0.007~25，破碎~完整）</li><li>s：岩性參數（0~1，破碎~完整）</li><li>a：岩體參數</li><li><strong>D：岩體擾動因子（0~1，D=0無擾動，D=1嚴重擾動）</strong></li><li>m<sub>b</sub> = m<sub>i</sub> × exp[(GSI-100)/(28-14D)]</li><li>s = exp[(GSI-100)/(9-3D)]</li><li>a = 1/2 + (1/6)(e<sup>-GSI/15</sup> - e<sup>-20/3</sup>)</li></ul><strong>GSI評分表的兩個軸：</strong><ul><li><strong>橫軸：</strong>不連續面之表面狀況（風化程度、粗糙度與填充物），由Very Good → Very Poor</li><li><strong>縱軸：</strong>岩體構造（Structure）之完整性或破碎程度，由Intact/Massive → Laminated/Sheared</li></ul><strong>GSI值範圍0~100</strong>，為一界定範圍（如GSI = 33~37）而非單一精確值。<br><br><strong>GSI的主要特點：</strong><ul><li>經由現地觀察判別岩體構造及弱面情況即可進行分類</li><li>GSI = 100時，a = 1/2</li><li>因具有規模效應，造成難以評估其力學參數</li><li>RMR與GSI換算：RMR = 9 log<sub>e</sub>Q + 44（RMR可間接轉換為GSI）</li></ul>",
-          "isExamFocus": false,
+          "isExamFocus": true,
           "examYears": [
             "考古"
           ],
@@ -536,7 +536,7 @@ export default {
               "explanation": "A錯：D=1代表「嚴重擾動」（D=0才是無擾動）；B錯：GSI=100時a=1/2（非1）；C錯：s值愈大（0~1）代表岩體愈完整（s=1為完整岩石，s=0最破碎）。D正確：1980年原始準則確實不適用於軟弱岩體。"
             }
           ],
-          "neverTested": true
+          "neverTested": false
         },
         {
           "id": "ch5-5.5",

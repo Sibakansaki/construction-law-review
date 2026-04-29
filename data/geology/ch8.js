@@ -117,7 +117,7 @@ export default {
           "id": "ch8-8.2.1",
           "name": "8.2.1 遙測與衛星影像",
           "content": "<strong>遙測（Remote Sensing）：</strong>採用不接觸方式利用儀器或感測器獲得待測物區域資訊，並加以分析的科學與藝術。<br><br><strong>衛星影像判釋方法：</strong><ol><li>直接判釋</li><li>比對判釋</li><li>推理判釋</li></ol><strong>影像判釋五大要素（Interpretation Elements）：</strong><ul><li><strong>顏色（Color）：</strong>植生在近紅外線影像呈紅色，水體呈黑色，對比強烈</li><li><strong>形狀（Shape）：</strong>鑑別物體最重要索引，可辨認沖積扇、河階台地、三角洲、火山等地形</li><li><strong>型態（Pattern）：</strong>同一形狀重複出現的規律；線型型態指互相平行直線，如斷裂、節理</li><li><strong>共存：</strong>自然界共生現象，如火山與熔岩流、河口與三角洲</li><li><strong>位置：</strong>先蒐集調查區現有調查報告及天然環境條件</li></ul>",
-          "isExamFocus": false,
+          "isExamFocus": true,
           "examYears": [
             "考古"
           ],
@@ -213,13 +213,13 @@ export default {
               "explanation": "位置要素強調事先蒐集資料（A、B、C均正確）。D錯誤：應先做好前置資料蒐集工作，才能提高判釋效率。"
             }
           ],
-          "neverTested": true
+          "neverTested": false
         },
         {
           "id": "ch8-8.2.2",
           "name": "8.2.2 光達（LiDAR）應用於工址調查",
           "content": "<strong>LiDAR（Light Detection And Ranging）：</strong>三維雷射掃描技術，高精度、高解析度、高度自動化的量測技術。<br><br><strong>空載光達（Airborne LiDAR）三個部分：</strong><ul><li>定位定向系統（POS）：整合GPS與精密慣性儀（IMU），提供精密航跡定位</li><li>雷射掃描儀（Laser Scanner）：記錄脈衝發射角度與時間差及回波，轉換為測距資料</li><li>控制器（System Controller）：推算每個雷射反射點的三維坐標（經度、緯度、高程）</li></ul><strong>空載光達主要特色：</strong><ol><li>高精度：平坦地區可達 <strong>15公分</strong></li><li>高密度：雷射脈衝率最高可達 <strong>500KHz</strong></li><li>氣候狀況影響較低，可於夜間作業</li><li>雷射光束能穿透植被到達地面，可精確測得植被覆蓋區地表高程</li><li>對大範圍測區能快速完成掃瞄，成本較傳統測量方式低</li></ol><strong>產出成果：</strong>數值地表模型（DSM）、數值高程模型（DEM）",
-          "isExamFocus": false,
+          "isExamFocus": true,
           "examYears": [
             "考古"
           ],
@@ -314,13 +314,13 @@ export default {
               "explanation": "A、B、C均正確。DEM可濾除地表建物植被影響、呈現真實地面高程，可應用於地質敏感區調查、土石流判釋、坡地土地利用管理等。D錯誤。"
             }
           ],
-          "neverTested": true
+          "neverTested": false
         },
         {
           "id": "ch8-8.2.3a",
           "name": "8.2.3 地球物理探測—震測法",
           "content": "<strong>物探（地球物理探測）：</strong>利用量測地盤中各物質體的基本物理性質（傳波速度、電阻、密度、重力加速度、磁力等）來研判地層界面、地質構造等。特色為<strong>簡便、迅速</strong>，但結果具多解性，需配合鑽探驗證。<br><br><strong>震測法：</strong>利用敲擊或爆炸等人工震源激發地震波探測地質體，基於地震波在不同岩層交界面時的折射或反射特性來識別。<br><br><strong>（a）折射震測法：</strong><ul><li>藉炸藥爆炸或重錘落下產生人造震波</li><li>震波在地層界面依<strong>斯奈爾定律（Snell's Law）</strong>發生折射，折回地表後由受波器（Geophone）接收</li><li>根據初達波到達時間及受波器與震源距離關係，繪製震波走時曲線（Travel Time Distance Curve），再經逆推（Inversion）獲得地層速度分布</li></ul><strong>（b）反射震測法：</strong><ul><li>高頻震波傳入地下，由地表一系列震波接收器感應折射或反射回地表的震動訊號</li><li>與折射法比較：優點為震源能量小、探測場地限制少、不受地層速度倒轉限制、分層能力強；缺點為易受表面波干擾、資料處理較複雜</li><li>常應用於工程地質、水文地質、地質構造、環境污染等</li></ul>",
-          "isExamFocus": false,
+          "isExamFocus": true,
           "examYears": [
             "考古"
           ],
@@ -418,13 +418,13 @@ export default {
               "explanation": "四項全對。反射震測法是解析度較高的地球物理方法，常應用於工程地質、水文地質、地質構造、環境污染等多方面。"
             }
           ],
-          "neverTested": true
+          "neverTested": false
         },
         {
           "id": "ch8-8.2.3b",
           "name": "8.2.3 地球物理探測—透地雷達與電探法",
           "content": "<strong>透地雷達（Ground Penetrating Radar；GPR）：</strong><ul><li>原理：發射雷達波訊號，利用雷達波碰到物體反射，分析反射波的時間、波型、振幅等特徵來判別反射體性質（管線、地層岩性、空洞等）</li><li>限制：探測深度不超過<strong>30公尺</strong>（受地層衰減及雷達波能量影響）</li><li>優點：屬<strong>非破壞性檢測（NDT）</strong>；應用於地下管線、地下油槽、地下空洞、橋墩沖蝕探測等</li><li>缺點：遭遇含鐵質物體時，判釋較不利</li></ul><strong>電探法（電阻率法）：</strong>利用天然或人工直流或交流電場探測地下地質，廣泛用於工程地質。<br><br><strong>直流地電阻法分為：</strong><ul><li>垂直地電測深法（VES）：適合大區域探測，用1D逆推法</li><li>剖面地電阻法：適合定性地探測地層側向不均</li><li>地電阻影像剖面法（RIP）：適合場址精查，需2D逆推法</li><li>三維地電阻法：需3D微逆推法，耗時最長</li></ul>",
-          "isExamFocus": false,
+          "isExamFocus": true,
           "examYears": [
             "考古"
           ],
@@ -523,7 +523,7 @@ export default {
               "explanation": "四項全對。電探法（地電阻法）成本低廉且工期短，適用於工程地質、探礦、地下水調查、海水入侵調查與地熱及溫泉測勘等多方面。"
             }
           ],
-          "neverTested": true
+          "neverTested": false
         }
       ]
     },
@@ -848,7 +848,7 @@ export default {
           "id": "ch8-8.5.1",
           "name": "8.5.1～8.5.3 孔底法、套鑽法與水力破裂法",
           "content": "<strong>8.5.1 孔底法（Doorstopper Method，門塞法）：</strong>求得垂直於鑽孔平面上之現地應力。<ol><li>鑽孔至預定位置，孔底磨平後，將孔底式應變計（門塞式應變計）黏貼於孔底</li><li>讀取初始值後繼續對孔底岩層進行套鑽，造成應力釋放效果</li><li>套鑽後將岩心取出，讀取應變計最終讀數</li><li>配合取得之岩心求取的彈性模數與包松比，反推現地應力</li></ol><strong>8.5.2 套鑽法（Overcoring Method）：</strong>量測岩體現地應力大小、分佈狀態，以及岩層開挖後應力重新分布情況。<ul><li>先以大孔徑（90mm）鑽孔至預定位置，再以較小同心孔徑（38mm）鑽孔（深度約45cm）</li><li>清孔後裝設三軸應變計，套鑽前後應變變化配合彈性模數與包松比反推現地應力</li></ul><strong>8.5.3 水力破裂法（Hydraulic Fracture Method）：</strong>求得垂直於鑽孔平面上之現地應力。<ul><li>在鑽孔內以栓塞封閉（Double Packer）試驗段，施加水壓使孔壁產生裂隙</li><li>讀取破裂壓力（最大水壓值）及閉合壓力（最小主應力）</li><li>利用鑽孔攝影機或栓塞印痕觀察裂隙方向，以定垂直鑽孔平面方向之主應力方向</li></ul>",
-          "isExamFocus": false,
+          "isExamFocus": true,
           "examYears": [
             "考古"
           ],
@@ -942,13 +942,13 @@ export default {
               "explanation": "套鑽過程造成應力釋放（A），套鑽後取出岩心讀取最終讀數（B），取得的岩心用於求取彈性模數與包松比（D）。C錯誤：套鑽目的是釋放應力，不是進一步加深。"
             }
           ],
-          "neverTested": true
+          "neverTested": false
         },
         {
           "id": "ch8-8.5.4",
           "name": "8.5.4 呂琴（Lugeon）漏水試驗",
           "content": "<strong>呂琴漏水試驗（Lugeon Test）</strong>又稱<strong>栓塞水力試驗（Packer Test）</strong><br>主要目的：於鑽探進行中量測岩層孔內多裂隙面滲漏量及其透水性（Permeability，滲透係數 k）<br><br><strong>應用範疇：</strong>評估隧道的湧水問題、水庫集水區、壩址的水密性、石油天然氣等儲存處之地下圍岩的滲透性<br><br><strong>進行方式：</strong>於試驗段（長度為L）安裝封塞，以水壓貫入鑽孔，依預定壓力梯度順序逐階提高水壓，並記錄流量<br><br><strong>Lugeon值定義：</strong><br>在 <strong>10 kg/cm²</strong> 之水壓力下，每公尺試驗深度之每分鐘鐘滲漏量為 1 公升時稱之，換算約為 <strong>1.0 × 10⁻⁷ m/sec</strong><br><br><table style='width:100%;border-collapse:collapse;font-size:0.9em'><tr style='background:#dbeafe'><th style='border:1px solid #93c5fd;padding:6px;color:#1e40af'>Lugeon值</th><th style='border:1px solid #93c5fd;padding:6px;color:#1e40af'>透水性分類</th><th style='border:1px solid #93c5fd;padding:6px;color:#1e40af'>岩層不連續狀況</th></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>&lt;1</td><td style='border:1px solid #93c5fd;padding:6px'>Very low</td><td style='border:1px solid #93c5fd;padding:6px'>Very tight</td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>1-5</td><td style='border:1px solid #93c5fd;padding:6px'>Low</td><td style='border:1px solid #93c5fd;padding:6px'>Tight</td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>5-15</td><td style='border:1px solid #93c5fd;padding:6px'>Moderate</td><td style='border:1px solid #93c5fd;padding:6px'>Few partly open</td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>15-50</td><td style='border:1px solid #93c5fd;padding:6px'>Medium</td><td style='border:1px solid #93c5fd;padding:6px'>Some open</td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>50-100</td><td style='border:1px solid #93c5fd;padding:6px'>High</td><td style='border:1px solid #93c5fd;padding:6px'>Many open</td></tr><tr><td style='border:1px solid #93c5fd;padding:6px'>&gt;100</td><td style='border:1px solid #93c5fd;padding:6px'>Very high</td><td style='border:1px solid #93c5fd;padding:6px'>Open closely spaced or voids</td></tr></table>",
-          "isExamFocus": false,
+          "isExamFocus": true,
           "examYears": [
             "考古"
           ],
@@ -1043,13 +1043,13 @@ export default {
               "explanation": "A、B、C均正確。D錯誤：Lugeon Test主要量測透水性（滲漏量及滲透係數），不是抗壓強度。"
             }
           ],
-          "neverTested": true
+          "neverTested": false
         },
         {
           "id": "ch8-8.5.5",
           "name": "8.5.5 消散耐久性試驗（Slake Durability）",
           "content": "<strong>定義：</strong>岩石材料經過消散耐久性試驗之後的乾重與試驗前乾重之比值，稱為該岩石材料之消散耐久性。顯示岩石材料<strong>抵抗乾濕循環、輕度攪拌與摩擦的能力</strong>。<br><br><strong>試驗方法（Franklin & Chandra, 1972）：</strong><ul><li>消散耐久儀：以一馬達轉速20rpm轉動二圓鼓，外表為銅網（網目2mm×2mm），圓鼓皆有一半浸在水中</li><li>試體：選取岩石材料試體10塊，每塊重40至60gm，烘乾後稱重置圓鼓中</li><li>開動馬達使圓鼓轉動<strong>10分鐘</strong>，歷經「浸水、被銅網帶離水域進入空氣、落回水中、互相碰撞與摩擦」等循環</li><li>取出試體烘乾再稱重，第一循環完成</li></ul><strong>消散耐久性指數：</strong><ul><li>Id₁（第一循環）、Id₂（第二循環）、Id₃（第三循環）</li><li>通常以<strong>Id₂</strong>（第二循環）為標準</li><li>若消散耐久性小於<strong>10%</strong>，代表岩石必然相當軟弱，需再辦理塑性指數試驗</li></ul>",
-          "isExamFocus": false,
+          "isExamFocus": true,
           "examYears": [
             "考古"
           ],
@@ -1143,7 +1143,7 @@ export default {
               "explanation": "四項全對。試體在圓鼓中歷經「浸水→被銅網帶離水域進入空氣→落回水中→互相碰撞與摩擦」等循環，耐久性不佳的岩石材料會消散成泥漿。"
             }
           ],
-          "neverTested": true
+          "neverTested": false
         }
       ]
     },
@@ -1155,7 +1155,7 @@ export default {
           "id": "ch8-8.6.1",
           "name": "8.6.1 崩塌地調查原則與基本資料蒐集",
           "content": "<strong>崩塌調查目的：</strong>瞭解崩塌現況，包括崩塌範圍、環境特性、地文及水文特性、發生條件及致災影響範圍等相關資訊，並確定發生機制，提供最有效經濟之防治規劃基礎。<br><br><strong>崩塌調查三部分：</strong>基本資料蒐集與判讀、現況調查與機制分析<br><br><strong>基本資料蒐集：</strong><ul><li><strong>地質圖：</strong>岩層位態、斷層、褶皺方位與種類、區域構造型式；參閱1/50,000臺灣地質圖幅</li><li><strong>環境地質災害圖：</strong>坡地環境地質基本圖（落石、淺層崩塌、深層滑動、順向坡、土石流、煤礦坑道等）及坡地環境地質災害敏感區圖（A落石、B淺層崩塌、C深層滑動、D順向坡滑動、E土石流等五類敏感區）</li><li><strong>地形圖：</strong>等高線、方向指示（指北針）、比例尺，常用1/5,000及1/25,000比例尺</li></ul><strong>舊崩塌地地形分類（渡正亮及小橋澄治1987）：</strong><ul><li>凸狀山脊地形（Convex Ridge Type）</li><li>凸狀台地地形（Convex Plateau Type）</li><li>凹狀單丘地形（Concave Hill Type）</li><li>凹狀多丘地形（Concave Poly Hill Type）</li><li>凹狀緩斜面地形（Concave Gentle Slope）</li></ul>",
-          "isExamFocus": false,
+          "isExamFocus": true,
           "examYears": [
             "考古"
           ],
@@ -1250,13 +1250,13 @@ export default {
               "explanation": "四項全對。崩塌調查目的涵蓋了解現況（A、B）、確定機制（C）、提供防治規劃基礎（D）等。"
             }
           ],
-          "neverTested": true
+          "neverTested": false
         },
         {
           "id": "ch8-8.6.2",
           "name": "8.6.2 崩塌地現況調查與遙測影像應用",
           "content": "<strong>遙測影像判釋崩塌地準則：</strong><ol><li><strong>影像色調：</strong>崩塌地呈裸露或植生稀疏型態，利用光譜特性增揚處理；以SPOT影像透過色盤選擇，植生增揚處理成紅色，崩塌處理成藍綠色</li><li><strong>區位準則：</strong>靠近山脊、河谷攻擊坡、道路人為開發等處屬較易發生崩塌之區位</li><li><strong>形狀準則：</strong>長條型、湯匙型、樹枝狀匯集型、河谷旁之三角型或矩型等色調光亮處屬崩塌可能性較大；規則狀裸露地則需審慎（可能是人工田野）</li><li><strong>方向準則：</strong>長軸方向與重力方向或邊坡水流方向一致之色調光亮處，即可能為崩塌</li><li><strong>陰影準則：</strong>利用遙測影像陰影效果分辨河谷與山脊，以判斷疑似崩塌</li></ol><strong>崩塌地現況調查內容：</strong>地形地質、植生、水文、地表移動量與構造物、調查測線配置、地球物理探測、鑽探調查、現地試驗、室內試驗、地下水調查、滑動面與滑動量調查共11項",
-          "isExamFocus": false,
+          "isExamFocus": true,
           "examYears": [
             "考古"
           ],
@@ -1350,7 +1350,7 @@ export default {
               "explanation": "方向準則：若遙測影像上發現長軸方向與重力方向或邊坡水流方向一致之色調光亮處，即可能為崩塌，必須特別確認。C、D均不正確。"
             }
           ],
-          "neverTested": true
+          "neverTested": false
         }
       ]
     }

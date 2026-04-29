@@ -10,7 +10,7 @@ export default {
           "id": "ch4-4.1",
           "name": "4.1–4.2 工程地質圖與不連續面位態",
           "content": "<strong>工程地質圖：</strong>工程設計、施工之依據圖，應記載岩層及不連續面之分布、風化層厚度、地下水文狀況及基岩抗剪性質等。<br><br><strong>地質圖上的線條意義：</strong><ul><li><strong>實線曲線：</strong>表示地層的界線（即弱面），位置確定</li><li><strong>虛線曲線：</strong>表示該地層界線位置不確定，僅為近似位置</li></ul><strong>不連續面位態三要素：</strong><br><table style='width:100%;border-collapse:collapse;font-size:0.85em'><tr style='background:#dbeafe'><th style='border:1px solid #93c5fd;padding:5px;color:#1e40af'>要素</th><th style='border:1px solid #93c5fd;padding:5px;color:#1e40af'>定義</th><th style='border:1px solid #93c5fd;padding:5px;color:#1e40af'>重要關係</th></tr><tr><td style='border:1px solid #93c5fd;padding:5px'><strong>走向（Strike）</strong></td><td style='border:1px solid #93c5fd;padding:5px'>傾斜地層的不連續面曝露於地表（露頭，Outcrop），與水平面相交成一直線，該直線所指之方向</td><td style='border:1px solid #93c5fd;padding:5px'>走向必與傾向垂直</td></tr><tr><td style='border:1px solid #93c5fd;padding:5px'><strong>傾向（Dip Direction）</strong></td><td style='border:1px solid #93c5fd;padding:5px'>不連續面傾斜的方向；在走向所在的水平面上，劃一條與走向垂直之線，該線所指方向</td><td style='border:1px solid #93c5fd;padding:5px'>走向與傾向必為垂直</td></tr><tr><td style='border:1px solid #93c5fd;padding:5px'><strong>傾角（Dip Angle）</strong></td><td style='border:1px solid #93c5fd;padding:5px'>傾向與不連續面之夾角，又稱俯角，且必為銳角。β = tan⁻¹(Δh/Δs)</td><td style='border:1px solid #93c5fd;padding:5px'>傾角必為銳角（0°~90°）</td></tr></table><br><strong>真傾角α vs 視傾角β的關係：</strong><ul><li><strong>真傾角α：</strong>觀察者的視線沿著坡面延伸正好垂直走向時，EB與水平線EC的夾角</li><li><strong>視傾角β：</strong>觀察者的視線與走向交角為θ（非垂直走向）時，FB與水平線FC的夾角</li><li><strong>換算公式：tanβ = tanα × sinθ</strong>（θ為視線與走向的夾角；真傾角α ≥ 視傾角β）</li></ul><strong>位態求傾角步驟：</strong>在地質圖上找同一地層界線上兩條不同高程（相差Δh）的走向（兩走向必平行），量測兩平行走向之水平距離Δs，則傾角β = tan⁻¹(Δh/Δs)。",
-          "isExamFocus": false,
+          "isExamFocus": true,
           "examYears": [
             "考古"
           ],
@@ -108,13 +108,13 @@ export default {
               "explanation": "四項全錯：走向與傾向必垂直（非平行）；傾角必為銳角（0°~90°，不可為鈍角）；真傾角恆大於或等於視傾角（不可能小於）；只有水平地層走向才平行等高線（非永遠平行）。"
             }
           ],
-          "neverTested": true
+          "neverTested": false
         },
         {
           "id": "ch4-4.2",
           "name": "4.2 位態表示方式與地質圖符號",
           "content": "<strong>位態兩種表示方式：</strong><br><br><strong>A. 用傾向/傾角表示：</strong><br>例如「傾向120°、傾角40°SE」或「120°/40°SE」：<ul><li>傾向120°：由北向右數120°（測量學方位角概念）</li><li>走向 = 傾向 ± 90°，故此時走向為30°或210°（即N30°E）</li><li>傾向120°代表傾斜方向在南與東之間（SE方向），故用SE標示</li><li>完整表示：傾向120°、傾角40°，完整寫法40°SE；改以走向/傾角表示：N30°E/40°SE</li></ul><strong>B. 用走向/傾角表示：</strong><br>例如「N30°E/40°SE」：<ul><li>走向N30°E（北偏東30°）</li><li>傾向垂直走向方向：120°（方位角）或300°</li><li>題目給「40°SE」，代表傾向在SE方向（南與東之間），傾角自水平面下傾40°</li><li>改以傾向/傾角表示：正確應為120°/40°SE</li></ul><strong>地質圖常見符號：</strong><table style='width:100%;border-collapse:collapse;font-size:0.85em'><tr style='background:#dbeafe'><th style='border:1px solid #93c5fd;padding:5px;color:#1e40af'>符號</th><th style='border:1px solid #93c5fd;padding:5px;color:#1e40af'>代表意義</th></tr><tr><td style='border:1px solid #93c5fd;padding:5px'>層面位態（短線+數字）</td><td style='border:1px solid #93c5fd;padding:5px'>長線為走向，傾向符號與數字標示傾角</td></tr><tr><td style='border:1px solid #93c5fd;padding:5px'>節理（短線+點）</td><td style='border:1px solid #93c5fd;padding:5px'>節理位態</td></tr><tr><td style='border:1px solid #93c5fd;padding:5px'>劈理（斜短線）</td><td style='border:1px solid #93c5fd;padding:5px'>劈理位態</td></tr><tr><td style='border:1px solid #93c5fd;padding:5px'>正斷層</td><td style='border:1px solid #93c5fd;padding:5px'>短線所在位置=上盤所在位置；上盤向下陷落</td></tr><tr><td style='border:1px solid #93c5fd;padding:5px'>逆斷層</td><td style='border:1px solid #93c5fd;padding:5px'>鋸齒所在位置=逆斷層上盤所在位置；上盤向上推擠</td></tr><tr><td style='border:1px solid #93c5fd;padding:5px'>向斜褶皺</td><td style='border:1px solid #93c5fd;padding:5px'>箭頭向中間相向（倒八字）</td></tr><tr><td style='border:1px solid #93c5fd;padding:5px'>背斜褶皺</td><td style='border:1px solid #93c5fd;padding:5px'>箭頭向兩側相背（正八字）</td></tr></table>",
-          "isExamFocus": false,
+          "isExamFocus": true,
           "examYears": [
             "考古"
           ],
@@ -213,7 +213,7 @@ export default {
               "explanation": "四項全錯：N30°E代表北偏「東」30°（非偏西）；傾向120°的走向為30°或210°（B說「走向為210°」只說一半，但30°也是走向，嚴格說走向有兩個方向）；N30°E的傾向為120°（非30°）；走向與傾向夾角固定為90°（非45°）。"
             }
           ],
-          "neverTested": true
+          "neverTested": false
         }
       ]
     },
@@ -225,7 +225,7 @@ export default {
           "id": "ch4-4.3",
           "name": "4.3 V字法則與地層傾向判斷",
           "content": "<strong>V字法則（V' Rule）：</strong>當地層經過河谷或山谷時，露頭線（outcrop line）會在地質圖上呈現V字形。利用V字形所指方向與形狀作為研判地層傾向與坡度等之依據。<br><br><strong>六種情況總結表：</strong><table style='width:100%;border-collapse:collapse;font-size:0.85em'><tr style='background:#dbeafe'><th style='border:1px solid #93c5fd;padding:5px;color:#1e40af'>情況</th><th style='border:1px solid #93c5fd;padding:5px;color:#1e40af'>V字尖端</th><th style='border:1px solid #93c5fd;padding:5px;color:#1e40af'>V字開口 vs 等高線</th><th style='border:1px solid #93c5fd;padding:5px;color:#1e40af'>地層傾向</th></tr><tr><td style='border:1px solid #93c5fd;padding:5px'>(a)水平地層</td><td style='border:1px solid #93c5fd;padding:5px'>指向上游（倒V）</td><td style='border:1px solid #93c5fd;padding:5px'>V字平行等高線（開口相等）</td><td style='border:1px solid #93c5fd;padding:5px'>水平（無傾斜）</td></tr><tr><td style='border:1px solid #93c5fd;padding:5px'>(b)逆向坡（傾角較大）</td><td style='border:1px solid #93c5fd;padding:5px'>指向上游（倒V）</td><td style='border:1px solid #93c5fd;padding:5px'>V字開口＞等高線開口（較寬）</td><td style='border:1px solid #93c5fd;padding:5px'>向上游傾斜（逆向坡）</td></tr><tr><td style='border:1px solid #93c5fd;padding:5px'>(c)直立地層</td><td style='border:1px solid #93c5fd;padding:5px'>不出現V字形</td><td style='border:1px solid #93c5fd;padding:5px'>露頭軌跡呈直線狀，不受地形影響</td><td style='border:1px solid #93c5fd;padding:5px'>垂直（傾角90°）</td></tr><tr><td style='border:1px solid #93c5fd;padding:5px'>(d)順向陡坡（傾角＞河谷坡度）</td><td style='border:1px solid #93c5fd;padding:5px'>指向下游（正V）</td><td style='border:1px solid #93c5fd;padding:5px'>—</td><td style='border:1px solid #93c5fd;padding:5px'>與河谷一致，傾角大於河谷坡度</td></tr><tr><td style='border:1px solid #93c5fd;padding:5px'>(e)等坡度地層（傾角=河谷坡度）</td><td style='border:1px solid #93c5fd;padding:5px'>不出現V字形</td><td style='border:1px solid #93c5fd;padding:5px'>兩個露頭帶不相交（各自獨立帶狀）</td><td style='border:1px solid #93c5fd;padding:5px'>與河谷一致，傾角等於河谷坡度</td></tr><tr><td style='border:1px solid #93c5fd;padding:5px'>(f)順向緩坡（傾角＜河谷坡度）</td><td style='border:1px solid #93c5fd;padding:5px'>指向上游（倒V）</td><td style='border:1px solid #93c5fd;padding:5px'>V字開口＜等高線開口（較窄）</td><td style='border:1px solid #93c5fd;padding:5px'>與河谷一致，傾角小於河谷坡度</td></tr></table><br><strong>V字法則判斷邏輯：</strong><ol><li>V字尖端指向<strong>下游</strong>（正V）→ 地層傾向與河谷一致，且傾角大於河谷坡度（順向陡坡）</li><li>V字尖端指向<strong>上游</strong>（倒V）→ 進一步比較V字開口與等高線開口的大小：<ul><li>開口相等 → 水平地層</li><li>開口較寬（V＞等高線）→ 逆向坡（向上游傾斜）</li><li>開口較窄（V＜等高線）→ 順向緩坡（向下游傾斜，傾角小於河谷坡度）</li></ul></li><li>不出現V字形（直線狀）→ 直立地層（傾角90°）或等坡度地層</li></ol>",
-          "isExamFocus": false,
+          "isExamFocus": true,
           "examYears": [
             "考古"
           ],
@@ -323,7 +323,7 @@ export default {
               "explanation": "四項全錯：水平地層V字尖端指上游（非下游）；逆向坡V字開口大於等高線（非小於）；直立地層不出現V字形（非尖端指上游）；順向緩坡V字尖端指上游且開口小於等高線（非指下游）。"
             }
           ],
-          "neverTested": true
+          "neverTested": false
         }
       ]
     }
