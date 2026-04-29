@@ -29,8 +29,8 @@ const SUBJECTS = {
   geology: {
     label: "工程地質",
     dataPath: "./data/geology/",
-    chapters: Array.from({ length: 7 }, (_, i) => {
-      const n = i + 1; // ch1 ~ ch7
+    chapters: Array.from({ length: 8 }, (_, i) => {
+      const n = i + 1; // ch1 ~ ch8
       return { key: `ch${n}`, path: `./data/geology/ch${n}.js` };
     })
   }
