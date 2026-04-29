@@ -2,12 +2,13 @@
 const MODEL = "claude-sonnet-4-6";
 
 // 目前科目（由 app.js 透過 setSubject() 設定）
-let _subject = "construction"; // "construction" | "materials"
+let _subject = "construction"; // "construction" | "materials" | "geology"
 
 // 各科目的顯示名稱（用於 prompt）
 const SUBJECT_NAMES = {
   construction: "施工法",
-  materials:    "工程材料學"
+  materials:    "工程材料學",
+  geology:      "工程地質"
 };
 
 /**

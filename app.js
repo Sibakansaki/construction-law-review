@@ -25,11 +25,19 @@ const SUBJECTS = {
       const n = i + 2; // ch2 ~ ch11
       return { key: `ch${n}`, path: `./data/materials/ch${n}.js` };
     })
+  },
+  geology: {
+    label: "工程地質",
+    dataPath: "./data/geology/",
+    chapters: Array.from({ length: 7 }, (_, i) => {
+      const n = i + 1; // ch1 ~ ch7
+      return { key: `ch${n}`, path: `./data/geology/ch${n}.js` };
+    })
   }
 };
 
 // ===== 全域狀態 =====
-let currentSubject = "construction"; // "construction" | "materials"
+let currentSubject = "construction"; // "construction" | "materials" | "geology"
 let allChapters    = [];
 let currentChapter = null;
 let quizContext    = null;
